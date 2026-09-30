@@ -37,7 +37,14 @@ const keywordStyles = {
 const keywordPattern = new RegExp(Object.keys(keywordStyles).sort((a,b)=>b.length-a.length).join('|'),'g');
 let statIcons = {};
 function richItemText(text) {
-  return esc(text).replace(keywordPattern,word=>{
+  const value=esc(text);
+  const protectedRanges=[];
+  for(const name of new Set([...itemDescriptions.values()].map(item=>item.name).filter(Boolean))){
+    const literal=esc(name);let index=value.indexOf(literal);
+    while(index!==-1){protectedRanges.push([index,index+literal.length]);index=value.indexOf(literal,index+literal.length);}
+  }
+  return value.replace(keywordPattern,(word,offset)=>{
+    if(protectedRanges.some(([start,end])=>offset>=start&&offset<end) || /[가-힣A-Za-z]/.test(value[offset-1]||''))return word;
     const [color,icon]=keywordStyles[word];
     const key=word.startsWith("치명타 피해")?"critdamage":(icon || color).replace("-placeholder","");
     const filename=statIcons[key];
@@ -53,6 +60,8 @@ function richItemEffects(item) {
     const tag=node.tagName.toLowerCase();
     if(['stats','script','style','iframe','img'].includes(tag))return '';
     if(tag==='br')return '\n';
+    if(tag==='onhit')return `<span class="stat-keyword stat-onhit" style="--keyword-color:var(--stat-onhit,#ede665);color:var(--keyword-color)"><img src="imgs/stats/${esc(statIcons.onhit || 'onhit.svg')}" alt="" aria-hidden="true">${esc(node.textContent)}</span>`;
+    if(tag.startsWith('rarity'))return esc(node.textContent);
     if(['passive','active'].includes(tag))return `<strong class="effect-name">${esc(node.textContent)}</strong>`;
     return [...node.childNodes].map(render).join('');
   };
@@ -139,10 +148,10 @@ function matchesAssetSearch(asset,kind,query){
   if(!q)return true;
   const names=compact([asset.name,asset.nameEn,asset.apiName,asset.id,asset.icon].join(' '));
   if(names.includes(q))return true;
-  if(kind!=='augments')return false;
+  if(!['items','augments'].includes(kind))return false;
   const description=itemDescriptions.get(asset.icon);
-  const text=compact([description?.effects,...(description?.levels||[])].join(' '));
-  if(['적중시','적중시효과','onhit','on-hit'].includes(q))return /적중시효과|on-?hit/.test(text);
+  const text=compact([description?.stats,description?.effects,...(description?.levels||[])].join(' '));
+  if(['적중시','적중시효과','onhit','on-hit'].includes(q))return /적중시효과|on-?hit/.test(text)||/<onhit\b/i.test(description?.descriptionHtml||'');
   if(['자동사용','자동시전','자동발사','autocast','auto-cast'].includes(q))return /자동(?:으로)?(?:사용|시전|발사)/.test(text);
   if(q==='충전')return text.includes('충전');
   return text.includes(q);
@@ -151,7 +160,7 @@ function renderEncyclopedia() {
   clearCarousels();
   document.title='아이템·증강 도감 · 아레나농가';
   let kind='items',grade='all';
-  app.innerHTML=`<h1>아이템·증강 도감</h1><div class="encyclopedia-types"><button type="button" data-kind="items" aria-pressed="true">아이템</button><button type="button" data-kind="augments" aria-pressed="false">증강</button></div><label class="encyclopedia-search">이름 또는 ID 검색<input id="encyclopedia-search" type="search" placeholder="이름 검색 · 증강은 적중시, 자동 사용, 충전 등 설명 검색"></label><div id="encyclopedia-grades" class="item-tabs" aria-label="등급 필터"></div><p id="encyclopedia-count" class="muted" aria-live="polite"></p><div id="encyclopedia-list" class="encyclopedia-grid"></div>`;
+  app.innerHTML=`<h1>아이템·증강 도감</h1><div class="encyclopedia-types"><button type="button" data-kind="items" aria-pressed="true">아이템</button><button type="button" data-kind="augments" aria-pressed="false">증강</button></div><label class="encyclopedia-search">이름 또는 ID 검색<input id="encyclopedia-search" type="search" placeholder="이름·키워드 검색: 적중시, 자동 사용, 충전, 주문력"></label><div id="encyclopedia-grades" class="item-tabs" aria-label="등급 필터"></div><p id="encyclopedia-count" class="muted" aria-live="polite"></p><div id="encyclopedia-list" class="encyclopedia-grid"></div>`;
   const renderList=()=>{
     disposeItemTooltips();
     const q=document.querySelector('#encyclopedia-search').value.trim().toLowerCase();
@@ -185,9 +194,9 @@ function setupItemTooltips() {
   const box=document.createElement('div');
   box.id='item-description-tooltip'; box.className='item-description-tooltip'; box.role='tooltip'; box.hidden=true;
   document.body.append(box);
-  let active=null, timer;
-  const hide=()=>{clearTimeout(timer);active?.removeAttribute('aria-describedby');active=null;box.hidden=true;};
-  const scheduleHide=()=>{clearTimeout(timer);timer=setTimeout(()=>{if(!box.matches(':hover') && !active?.matches(':hover'))hide();},160);};
+  let active=null, timer, pinned=false;
+  const hide=()=>{pinned=false;clearTimeout(timer);active?.removeAttribute('aria-describedby');active=null;box.hidden=true;};
+  const scheduleHide=()=>{if(!pinned)hide();};
   const position=()=>{
     if(!active)return;
     const rect=active.getBoundingClientRect();
@@ -205,7 +214,7 @@ function setupItemTooltips() {
     if(isAugment) box.innerHTML=augmentTooltip(item);
     box.role=isAugment?'dialog':'tooltip';
     box.setAttribute('aria-label',item?`${item.name} 설명`:'아이템 설명');
-    box.hidden=false;button.setAttribute('aria-describedby',box.id);position();
+    box.style.pointerEvents=pinned?'auto':'none';box.hidden=false;button.setAttribute('aria-describedby',box.id);position();
   };
   const changeLevel=step=>{
     const item=active && itemDescriptions.get(active.dataset.itemIcon);
@@ -220,22 +229,29 @@ function setupItemTooltips() {
     return true;
   };
   document.querySelectorAll('.item-info-trigger').forEach(button=>{
-    button.addEventListener('mouseenter',()=>show(button));
-    button.addEventListener('mouseleave',scheduleHide);
-    button.addEventListener('focus',()=>show(button));
+    const hoverTarget=button.closest('.gear') || button;
+    hoverTarget.addEventListener('mouseenter',()=>{if(!pinned)show(button);});
+    hoverTarget.addEventListener('mouseleave',()=>{if(active===button&&!pinned)hide();});
+    button.addEventListener('focus',()=>{if(!pinned)show(button);});
     button.addEventListener('blur',scheduleHide);
-    button.addEventListener('click',()=>show(button));
+    button.addEventListener('click',()=>{if(pinned&&active===button){hide();return;}show(button);pinned=true;box.style.pointerEvents='auto';});
     button.addEventListener('keydown',event=>{if(['ArrowUp','ArrowDown'].includes(event.key)&&changeLevel(event.key==='ArrowUp'?1:-1)){event.preventDefault();event.stopPropagation();}});
   });
   box.addEventListener('click',event=>{const button=event.target.closest('[data-level-step]');if(!button)return;const step=Number(button.dataset.levelStep);changeLevel(step);const next=box.querySelector(`[data-level-step="${step}"]:not(:disabled)`) || box.querySelector('[data-level-step]:not(:disabled)');next?.focus();});
   box.addEventListener('focusin',()=>clearTimeout(timer));box.addEventListener('focusout',scheduleHide);
-  box.addEventListener('mouseenter',()=>clearTimeout(timer));box.addEventListener('mouseleave',scheduleHide);
+  box.addEventListener('pointerenter',()=>{if(!pinned)hide();});
+  const trackPointer=event=>{
+    if(!active||pinned||box.hidden||event.pointerType==='touch')return;
+    const rect=(active.closest('.gear')||active).getBoundingClientRect();
+    if(event.clientX<rect.left||event.clientX>=rect.right||event.clientY<rect.top||event.clientY>=rect.bottom)hide();
+  };
+  document.addEventListener('pointermove',trackPointer,true);
   const escape=event=>{if(event.key==='Escape')hide();};
   const outside=event=>{if(!box.contains(event.target)&&!event.target.closest('.item-info-trigger'))hide();};
   const scroll=event=>{if(!box.contains(event.target))hide();};
   document.addEventListener('keydown',escape);document.addEventListener('pointerdown',outside);
   window.addEventListener('resize',hide);document.addEventListener('scroll',scroll,true);
-  disposeItemTooltips=()=>{hide();box.remove();document.removeEventListener('keydown',escape);document.removeEventListener('pointerdown',outside);window.removeEventListener('resize',hide);document.removeEventListener('scroll',scroll,true);};
+  disposeItemTooltips=()=>{hide();box.remove();document.removeEventListener('pointermove',trackPointer,true);document.removeEventListener('keydown',escape);document.removeEventListener('pointerdown',outside);window.removeEventListener('resize',hide);document.removeEventListener('scroll',scroll,true);};
 }
 function setupCarousels() {
   document.querySelectorAll('.gear-section').forEach(section => {
@@ -358,7 +374,7 @@ function renderRows(){
   });renderRepresentative();
 }
 function renderRepresentative(){const assets=[...draft.items,...draft.augments];document.querySelector('#representative').innerHTML=assets.length?assets.map((a,i)=>`<button type="button" data-rep="${i}" aria-label="${esc(a.name)} 대표 아이콘으로 선택" aria-pressed="${draft.representative?.icon===a.icon}" class="${draft.representative?.icon===a.icon?'selected':''}">${image(a)}</button>`).join(''):'<p class="muted">아이템 또는 증강을 먼저 추가하세요.</p>';document.querySelectorAll('[data-rep]').forEach(btn=>btn.onclick=()=>{draft.representative={...assets[btn.dataset.rep]};renderRepresentative();});}
-function openPicker(kind,core=true){document.querySelector('#asset-search').placeholder=kind==='augments'?'이름 또는 키워드: 적중시, 자동 사용, 충전':'한글·영문 이름 또는 ID 검색';pickKind=kind;pickCore=core;itemTab=kind==='augments'?'2':'prismatic';renderItemTabs();document.querySelector('#asset-search').value='';renderAssets();document.querySelector('#picker').showModal();document.querySelector('#asset-search').focus();}
+function openPicker(kind,core=true){document.querySelector('#asset-search').placeholder=kind==='champions'?'한글·영문 이름 또는 ID 검색':'이름 또는 키워드: 적중시, 자동 사용, 충전, 주문력';pickKind=kind;pickCore=core;itemTab=kind==='augments'?'2':'prismatic';renderItemTabs();document.querySelector('#asset-search').value='';renderAssets();document.querySelector('#picker').showModal();document.querySelector('#asset-search').focus();}
 function renderAssets(){const q=document.querySelector('#asset-search').value.toLowerCase();const list=catalog[pickKind].filter(a=>matchesGrade(a,pickKind,itemTab)).filter(a=>matchesAssetSearch(a,pickKind,q));document.querySelector('#asset-results').innerHTML=list.map(a=>`<button type="button" data-asset="${a.id}">${image(a)}<span>${esc(a.name)}</span></button>`).join('')||'<p>검색 결과가 없습니다.</p>';document.querySelectorAll('[data-asset]').forEach(btn=>btn.onclick=()=>{const a=catalog[pickKind].find(a=>String(a.id)===btn.dataset.asset);const existing=draft[pickKind].find(x=>x.icon===a.icon);if(existing && pickKind!=='champions')existing.core=pickCore;if(!existing)draft[pickKind].push({name:a.name,icon:a.icon,...(pickKind==='champions'?{note:''}:{core:pickCore})});document.querySelector('#picker').close();renderRows();});}
 document.querySelector('#asset-search').oninput=renderAssets;
 document.querySelector('#close-picker').onclick=()=>document.querySelector('#picker').close();

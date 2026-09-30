@@ -101,3 +101,5 @@ input:focus-visible,textarea:focus-visible,select:focus-visible{outline-color:#a
 .encyclopedia-types button:hover,#encyclopedia-grades button:hover,.encyclopedia-entry:hover{background:#30324e;color:#f3f0ff;border-color:#9291d9}
 .encyclopedia-types [aria-pressed=true],#encyclopedia-grades [aria-pressed=true]{background:#484778;color:#fff;border-color:#aaa4ef}
 .encyclopedia-types button:focus-visible,#encyclopedia-grades button:focus-visible,.encyclopedia-entry:focus-visible,.encyclopedia-search input:focus-visible{outline:2px solid #aaa4ef;outline-offset:3px}
+
+::selection{background:#655d9f;color:#fff}

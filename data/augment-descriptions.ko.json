@@ -3344,7 +3344,7 @@
       "icon": "imgs/augments/icons/58-mysticpunch.png",
       "rarity": 2,
       "stats": "",
-      "effects": "기본 공격 적중 시 스킬의 남은 재사용 대기시간이 1.25초 감소합니다.",
+      "effects": "적중 시 효과: 기본 공격으로 스킬의 남은 재사용 대기시간이 1.25초 감소합니다.",
       "descriptionHtml": "{{ Item_Keyword_OnHit }} 스킬의 재사용 대기시간이 @CooldownRefund@초 %i:scaleCooldown% 감소합니다.",
       "tooltipHtml": "{{ Item_Keyword_OnHit }} 스킬의 재사용 대기시간이 @CooldownRefund@초 %i:scaleCooldown% 감소합니다.",
       "dataValues": {
