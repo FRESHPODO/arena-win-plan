@@ -1,4 +1,6 @@
 const app = document.querySelector('#app');
+const assetVersion = '20261001-full-1';
+const versioned = path => `${path}${path.includes('?')?'&':'?'}v=${assetVersion}`;
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let builds = [], catalog = {}, draft, pickKind, pickCore=true;
 let itemTab = 'prismatic';
@@ -89,10 +91,10 @@ function organizeItems(items) {
 async function init() {
   try {
     const urls = ['data/builds/index.json','imgs/items/manifest.json','imgs/augments/manifest.json','imgs/champions/manifest.json','data/item-descriptions.ko.json','data/augment-descriptions.ko.json','data/icon-colors.json','data/stat-icons.json'];
-    const data = await Promise.all(urls.map(async url => {const r = await fetch(url); if (!r.ok) throw Error(url); return r.json();}));
+    const data = await Promise.all(urls.map(async url => {const r = await fetch(versioned(url),{cache:'no-store'}); if (!r.ok) throw Error(url); return r.json();}));
     builds = await Promise.all(data[0].map(async file=>{
       if(typeof file!=='string' || file.includes('/') || file.includes('\\') || !file.endsWith('.json'))throw Error('Invalid build filename');
-      const response=await fetch('data/builds/'+encodeURIComponent(file));
+      const response=await fetch(versioned('data/builds/'+encodeURIComponent(file)),{cache:'no-store'});
       if(!response.ok)throw Error(file);
       return response.json();
     }));
