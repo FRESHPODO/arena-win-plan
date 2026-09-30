@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="아이템과 증강으로 발견하는 아레나의 새로운 승리 플랜.">
+  <title>아레나 추천 빌드 정리 · 아레나농가</title>
+  <link rel="icon" href="imgs/brand/arena-farm.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script src="imgs/vendor/html2canvas.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="#/" aria-label="아레나농가 홈"><img class="brand-mark" src="imgs/brand/arena-farm.png" alt="" width="48" height="48"><span>아레나농가</span></a><nav><a href="#/" class="nav-home">추천 빌드 정리</a><a href="#/encyclopedia" class="nav-encyclopedia">도감</a><a href="#/edit" class="button small">＋ 빌드 작성</a></nav></header>
+  <main id="app"><p class="loading">추천 빌드 정리을 불러오는 중입니다…</p></main>
+  <footer><span>League of Legends fan project · Riot Games와 무관한 팬 사이트</span><span>이 사이트는 ChatGPT를 이용하여 제작되었습니다.</span></footer>
+  <dialog id="picker"><div class="dialog-head"><h2>아이콘 선택</h2><button id="close-picker" aria-label="닫기">✕</button></div><label>이름 또는 ID 검색<input id="asset-search" type="search" placeholder="예: 반향, Reverberation, 447114"></label><div id="item-tabs" class="item-tabs" role="tablist" aria-label="아이템 등급" hidden></div><div id="asset-results" class="asset-results"></div></dialog>
+</body></html>

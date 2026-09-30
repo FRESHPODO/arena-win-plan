@@ -1,0 +1,42 @@
+[
+  {
+    "key": "ap",
+    "source": "https://raw.communitydragon.org/latest/game/assets/perks/statmods/statmodsabilitypowericon.png",
+    "icon": "imgs/stats/ap.png"
+  },
+  {
+    "key": "ad",
+    "source": "https://raw.communitydragon.org/latest/game/assets/perks/statmods/statmodsattackdamageicon.png",
+    "icon": "imgs/stats/ad.png"
+  },
+  {
+    "key": "health",
+    "source": "https://raw.communitydragon.org/latest/game/assets/perks/statmods/statmodshealthplusicon.png",
+    "icon": "imgs/stats/health.png"
+  },
+  {
+    "key": "armor",
+    "source": "https://raw.communitydragon.org/latest/game/assets/perks/statmods/statmodsarmoricon.png",
+    "icon": "imgs/stats/armor.png"
+  },
+  {
+    "key": "mr",
+    "source": "https://raw.communitydragon.org/latest/game/assets/perks/statmods/statmodsmagicresicon.png",
+    "icon": "imgs/stats/mr.png"
+  },
+  {
+    "key": "speed",
+    "source": "https://raw.communitydragon.org/latest/game/assets/perks/statmods/statmodsattackspeedicon.png",
+    "icon": "imgs/stats/speed.png"
+  },
+  {
+    "key": "haste",
+    "source": "https://raw.communitydragon.org/latest/game/assets/perks/statmods/statmodscdrscalingicon.png",
+    "icon": "imgs/stats/haste.png"
+  },
+  {
+    "key": "move",
+    "source": "https://raw.communitydragon.org/latest/game/assets/perks/statmods/statmodsmovementspeedicon.png",
+    "icon": "imgs/stats/move.png"
+  }
+]

@@ -1,0 +1,183 @@
+{
+  "???": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/missingping_large.png"
+  },
+  "Adamant": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/adamant_large.png"
+  },
+  "Bounce of the Poro King": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/poroking_large.png"
+  },
+  "Calculated Risk": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/calculated_risk_large.png"
+  },
+  "Chain Lightning": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/chainlightning_large.png"
+  },
+  "Chroma Flux": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/chroma_flux.png"
+  },
+  "Combination Fried Rice": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/combination_fried_rice.png"
+  },
+  "Crack Open That Egg": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/crackopenthategg_large.png"
+  },
+  "Critical Rhythm": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/criticalrhythm_large.png"
+  },
+  "Demonic Clasp": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/demonic_clasp.png"
+  },
+  "Devil on Your Shoulder": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/littledevil_large.png"
+  },
+  "Donation": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/donation_large.png"
+  },
+  "Dust To Diamonds": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/dust_to_diamonds.png"
+  },
+  "Escape Plan": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/escapeplan_large.png"
+  },
+  "Final Form": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/finalform_large.png"
+  },
+  "Flashbang": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/flashbang_large.png"
+  },
+  "Frozen Foundations": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/frozenfoundations_large.png"
+  },
+  "Get Excited!": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/getexcited_large.png"
+  },
+  "Glass Cannon": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/glasscannon_large.png"
+  },
+  "Growth Spurt": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/growthspurt_large.png"
+  },
+  "Juice Press": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/juicepress_large.png"
+  },
+  "Juiced": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/juiced_large.png"
+  },
+  "Kill Secured": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/killsecure_large.png"
+  },
+  "Mercy": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/mercy.png"
+  },
+  "Multitool": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/multitool_large.png"
+  },
+  "Pinball": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/pinballsnowball_large.png"
+  },
+  "Protein Shake": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/proteinshake_large.png"
+  },
+  "Purist - Caster": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/puristcaster_large.png"
+  },
+  "Quest: Icathia's Fall": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/quest_voidimmolation_large.png"
+  },
+  "Rags to Riches": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/rags_to_riches.png"
+  },
+  "Rice And Chicken": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/rice_and_chicken.png"
+  },
+  "Rice And Fish": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/rice_and_fish.png"
+  },
+  "Rice And Pork": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/rice_and_pork.png"
+  },
+  "Scavenger": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/scavenger.png"
+  },
+  "Scoped Weapons": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/scopedweapons_large.png"
+  },
+  "Scopier Weapons": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/scopierweapons_large.png"
+  },
+  "Shrink Engine": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/shrinkengine_large.png"
+  },
+  "Slow and Steady": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/slowandsteady_large.png"
+  },
+  "Snowball Fight!": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/snowballfight_large.png"
+  },
+  "Speed Demon": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/speeddemon_large.png"
+  },
+  "Spellcraft": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/spell_craft.png"
+  },
+  "Spin Me Right Round": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/youspinmerightround_large.png"
+  },
+  "Spirit Infusion": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/spirit_infusion_large.png"
+  },
+  "Stuck In Here With Me": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/stuckinherewithme_large.png"
+  },
+  "Transmute: Silver": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/transmute_silver.png"
+  },
+  "Trash To Treasure": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/trash_treasure.png"
+  },
+  "Twin Fire": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/twinfire_large.png"
+  },
+  "Unstable Transmutation": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/unstabletransmutation_large.png"
+  },
+  "Upgrade Collector": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/upgradecollector_large.png"
+  },
+  "Upgrade Hubris": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/upgradehubris_large.png"
+  },
+  "Weighted Popoffs": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/weightedpopoffs_large.png"
+  },
+  "Wild Fire": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/wild_fire.png"
+  },
+  "Wind Beneath Blade": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/windbeneathblade_large.png"
+  },
+  "Zealot": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/zealot_large.png"
+  },
+  "Big Dragon Energy": {
+    "url": "https://wiki.leagueoflegends.com/en-us/images/thumb/Big_Dragon_Energy_ar_augment.png/80px-Big_Dragon_Energy_ar_augment.png?a089e"
+  },
+  "Double Tap": {
+    "url": "https://wiki.leagueoflegends.com/en-us/images/thumb/Double_Tap_ar_augment.png/80px-Double_Tap_ar_augment.png?09dbf"
+  },
+  "Hextech Soul": {
+    "url": "https://wiki.leagueoflegends.com/en-us/images/thumb/Hextech_Soul_ar_augment.png/80px-Hextech_Soul_ar_augment.png?b8298"
+  },
+  "Ominous Pact": {
+    "url": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/wisdomofages_large.png",
+    "reference": "https://wiki.leagueoflegends.com/en-us/images/thumb/Wisdom_of_Ages_ar_augment.png/80px-Wisdom_of_Ages_ar_augment.png?531d7"
+  },
+  "Upgrade Sword of Blossoming Dawn": {
+    "url": "https://wiki.leagueoflegends.com/en-us/images/thumb/Upgrade_Sword_of_Blossoming_Dawn_ar_augment.png/80px-Upgrade_Sword_of_Blossoming_Dawn_ar_augment.png?ddfe4"
+  },
+  "Veil of Warding": {
+    "url": "https://wiki.leagueoflegends.com/en-us/images/thumb/Veil_of_Warding_ar_augment.png/80px-Veil_of_Warding_ar_augment.png?12cae"
+  }
+}

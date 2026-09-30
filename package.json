@@ -1,0 +1,10 @@
+{
+  "name": "arena-win-plan",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "check": "node scripts/check.cjs",
+    "index:builds": "node scripts/index-builds.cjs",
+    "prestart": "npm run index:builds"
+  }
+}

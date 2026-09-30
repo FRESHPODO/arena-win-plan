@@ -1,0 +1,2834 @@
+{
+  "source": "https://wiki.leagueoflegends.com/en-us/Arena/Augments",
+  "license": "CC BY-SA 3.0",
+  "retrievedAt": "2026-09-30T03:42:33.435Z",
+  "augments": [
+    {
+      "effect": "Gain 3  hats per round.\n\nERROR: This augment is granted when an effect attempts to grant an invalid or duplicate augment.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/404_Augment_Not_Found_ar_augment.png/80px-404_Augment_Not_Found_ar_augment.png?e7bb2",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "404 Augment Not Found",
+      "tier": "Silver"
+    },
+    {
+      "effect": "YourEnemy Missing pings will cause you to launch a missile at the pinged location, exploding upon arrival to deal 100 – 400 (based on level) (+ 10% of target's missing health) magic damage to enemies struck, and  heal allied champions within for 50 – 200 (based on level) (+ 10% of target's missing health).\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Missing_Pings_ar_augment.png/80px-Missing_Pings_ar_augment.png?cccc3",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "???",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Convert all of your  bonus attack damage into  ability power. Additionally, increase your ability power by a percentage.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/ADAPt_ar_augment.png/80px-ADAPt_ar_augment.png?7a2bb",
+      "levels": [
+        "Conversion rate:  1.67 ability power per  1 bonus attack damage.\nIncrease  ability power by 10%.",
+        "Conversion rate:  2.22 ability power per  1 bonus attack damage.\nIncrease  ability power by 20%.",
+        ""
+      ],
+      "name": "ADAPt",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Casting an ability grants  ability haste. This effect stacks infinitely and lasts until the end of the current round phase.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Accelerating_Sorcery_ar_augment.png/80px-Accelerating_Sorcery_ar_augment.png?2b2fb",
+      "levels": [
+        "8 ability haste.",
+        "12 ability haste.",
+        "18 ability haste."
+      ],
+      "name": "Accelerating Sorcery",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Immobilizing or  grounding an enemy champion grants 2 – 10 (based on level)  bonus armor and  bonus magic resistance for 10 seconds, stacking up to 10 times for a total of 20 – 100 (based on level) bonus resistances, and refreshing on subsequent triggers ( 5 seconds cooldown per cast instance).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Adamant_ar_augment.png/80px-Adamant_ar_augment.png?8080b",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Adamant",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain  25% critical strike chance and  25% bonus critical damage. Your  critical strike chance is capped at 50%. Convert a portion of excess  critical strike chance into  bonus critical damage.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Aim_for_the_Head_ar_augment.png/80px-Aim_for_the_Head_ar_augment.png?b933e",
+      "levels": [
+        "50% convert ratio.",
+        "60% convert ratio.",
+        ""
+      ],
+      "name": "Aim for the Head",
+      "tier": "Gold"
+    },
+    {
+      "effect": "The effectiveness of your  heals and  shields is increased on allied champions.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/All_For_You_ar_augment.png/80px-All_For_You_ar_augment.png?7a2bb",
+      "levels": [
+        "Increased by 25%.",
+        "Increased by 40%.",
+        ""
+      ],
+      "name": "All For You",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Automatically cast  Olaf's  Undertow, throwing an axe at the nearest  visible enemy champion within 950 units. Enemies hit are dealt physical damage,  slowed for 1.5 seconds and have 20% reduced  armor and  magic resistance for 4 seconds ( 12 seconds cooldown). The caster can pick up the axe by walking within 250 units of its landing location, reducing the effect's  current cooldown to 1.5 seconds or immediately resetting it if that has already elapsed. The axe has a width of  180 units and can additionally hit targets in a  100-unit radius upon landing.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/And_My_Axe%21_ar_augment.png/80px-And_My_Axe%21_ar_augment.png?ef27f",
+      "levels": [
+        "65 – 150 (based on level) (+ 80% bonus AD) (+ 45% AP) physical damage.\n Slowed by 25%.",
+        "185 – 270 (based on level) (+ 80% bonus AD) (+ 45% AP) physical damage.\n Slowed by 45%.",
+        ""
+      ],
+      "name": "And My Axe!",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Grants  item haste.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Apex_Inventor_ar_augment.png/80px-Apex_Inventor_ar_augment.png?17481",
+      "levels": [
+        "100 item haste, which is equivalent to  50% cooldown reduction for items.",
+        "300 item haste, which is equivalent to  75% cooldown reduction for items.",
+        ""
+      ],
+      "name": "Apex Inventor",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain 5% increased damage per  hat.\n\nERROR: This augment is granted when Parasitic or Symbiotic Mutation attempts to grant a duplicate augment, including itself.[citation needed]",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Augment_405_ar_augment.png/80px-Augment_405_ar_augment.png?b62a6",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Augment 405",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Your augments and items deal increased damage.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Augmented_Power_ar_augment.png/80px-Augmented_Power_ar_augment.png?d9302",
+      "levels": [
+        "20% (+ 1% per 100 AD) (+ 1% per 100 AP) increased damage.",
+        "40% (+ 1% per 100 AD) (+ 1% per 100 AP) increased damage.\n\nMAX-LEVEL EFFECT:  Heal for 50% damage done by  augments and items.",
+        ""
+      ],
+      "name": "Augmented Power",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Your champion abilities deal increased damage and you gain  ability haste and increased  healing and  shielding from all sources, but your ultimate ability is permanently  sealed.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Back_to_Basics_ar_augment.png/80px-Back_to_Basics_ar_augment.png?4b7bd",
+      "levels": [
+        "25% increased damage.\n 45 ability haste.\n25% increased  healing and  shielding.",
+        "30% increased damage.\n 60 ability haste.\n30% increased  healing and  shielding.",
+        "45% increased damage.\n 90 ability haste.\n45% increased  healing and  shielding.\n\nMAX-LEVEL EFFECT: Gain 5% increased damage and  10 ability haste for each level of your ultimate."
+      ],
+      "name": "Back to Basics",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Replaces  Flee with  Banner of Command.\n\n BANNER OF COMMAND: Grants your ally 15% size, bonus  health,  attack damage,  ability power, and  attack speed for 10 seconds.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Banner_of_Command_ar_augment.png/80px-Banner_of_Command_ar_augment.png?1800e",
+      "levels": [
+        "15% bonus  size,  health,  attack damage,  ability power and  attack speed.\n10 seconds duration.",
+        "25% bonus  size,  health,  attack damage,  ability power and  attack speed.\n15 seconds duration.",
+        ""
+      ],
+      "name": "Banner of Command",
+      "tier": "Gold"
+    },
+    {
+      "effect": "At the start of the combat phase in each round, gain a  shield that absorbs damage equal to a multiple of your  AP and lasts until destroyed.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Big_Brain_ar_augment.png/80px-Big_Brain_ar_augment.png?fe11e",
+      "levels": [
+        "300% AP shield.",
+        "400% AP shield.\n\nMAX-LEVEL EFFECT: Refresh the shield after 3 seconds out of combat.",
+        ""
+      ],
+      "name": "Big Brain",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Start combat with full  Dragon Fury and it no longer decays while in  Dragon Form.\n\nWhile in  Dragon Form  Emberstrike's final strike does 150%  true damage.\n\nThis augment is only available for  Shyvana.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Big_Dragon_Energy_ar_augment.png/80px-Big_Dragon_Energy_ar_augment.png?a089e",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Big Dragon Energy",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Replaces  Flee with  Blade Waltz.\n\n BLADE WALTZ:  Blink to the target enemy champion. You then blink to the nearest other enemy champion every 0.25 seconds over the next 1.25 seconds, blinking up to 5 additional times. Each time you blink to a target, deal 30 – 150 (based on level) (+ 10% bonus AD) (+ 6% AP) physical damage to them and apply on-hit effects at 50% effectiveness, up to a total of 180 – 900 (based on level) (+ 60% bonus AD) (+ 36% AP).\n\nWhile Blade Waltz is active, you are  untargetable and  unable to act. This effect will end prematurely if there are no longer any nearby valid targets to blink to. A target can be blinked to more than once if there are no other valid targets in range.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Blade_Waltz_ar_augment.png/80px-Blade_Waltz_ar_augment.png?83765",
+      "levels": [
+        "6 hits in total.",
+        "8 hits in total.",
+        "10 hits in total.\n\nMAX-LEVEL EFFECT: After Blade Waltz finishes, generate a healing zone that  heals you and your allies for 100 (+ 40% bonus AD) + (+ 40% AP) per second, for a total of 500 (+ 200% bonus AD) + (+ 200% AP) over 5 seconds."
+      ],
+      "name": "Blade Waltz",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain  Darius'  Hemorrhage.\n\nPASSIVE: Damaging basic attacks and abilities apply a stack of Hemorrhage to enemies for 5 seconds, refreshing on subsequent applications and stacking up to 5 times.\n\nHEMORRHAGE: For each stack, the target is dealt 「 15 – 45 (based on level) (+ 40% AD) total physical damage 」 over the duration, up to a maximum of「 75 – 225 (based on level) (+ 200% AD) total physical damage over the duration. 」\n\nNOXIAN MIGHT: When you apply 5 stacks of Hemorrhage to an enemy champion, become empowered with Noxian Might for 5 seconds, granting you 30 – 270 (based on level)  bonus attack damage.\n\nThis augment is only available for  Draven.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Blood_Brother_ar_augment.png/80px-Blood_Brother_ar_augment.png?b84d0",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Blood Brother",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Increases  total attack damage by a percentage.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Blunt_Force_ar_augment.png/80px-Blunt_Force_ar_augment.png?86fd7",
+      "levels": [
+        "10% total attack damage",
+        "25% total attack damage",
+        ""
+      ],
+      "name": "Blunt Force",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Dashing or  blinking grants a 35 – 250 (based on level)  base shield, increased by 90 – 250 (based on the source spell's base cooldown) for 2.5 seconds ( 0.1 seconds cooldown per cast instance;  3 seconds cooldown per source). Any allies you pass through are also granted the same shield you have generated ( 200 radius of collision). Up to 5 shields generated can stack on a given champion, refreshing with each generation.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Bodyguard_ar_augment.png/80px-Bodyguard_ar_augment.png?d9302",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Bodyguard",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Replace  Flee with  Bounce of the Poro King.\n\nBOUNCE OF THE PORO KING: Transform into the  Poro King for 3 seconds, during which you gain 70% damage reduction,  40% bonus movement speed,  crowd control immunity, and  ghosting, but become  unable to declare basic attacks and cast abilities. Upon transformation, you also  cleanse yourself of all  crowd control. While transformed, you bounce up and down every 1 second, with each bounce dealing 100 – 700 (based on level) physical damage to nearby enemy champions and  knocking them back upon landing. An enemy champion can be hit by multiple bounces, but ones beyond the first do not apply the knock back (30 second cooldown).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Bounce_of_the_Poro_King_ar_augment.png/80px-Bounce_of_the_Poro_King_ar_augment.png?5f1da",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Bounce of the Poro King",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "The tier of all future augment offerings is increased. If the offered augment is already prismatic, then you gain a certain amount of  gold instead.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Bravest_of_the_Brave_ar_augment.png/80px-Bravest_of_the_Brave_ar_augment.png?d9302",
+      "levels": [
+        "Tier increases by 1.\nGain  750.",
+        "Tier increases by 2.\nGain  1500.",
+        ""
+      ],
+      "name": "Bravest of the Brave",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Your champion's first basic ability (Q) gains  ability haste.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Bread_And_Butter_ar_augment.png/80px-Bread_And_Butter_ar_augment.png?920e0",
+      "levels": [
+        "100 ability haste.",
+        "200 ability haste.\n\nMAX-LEVEL EFFECT: Casting your first basic ability grants you  40% bonus movement speed for 2 seconds.",
+        ""
+      ],
+      "name": "Bread And Butter",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Your champion's third basic ability (E) gains  ability haste.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Bread_And_Cheese_ar_augment.png/80px-Bread_And_Cheese_ar_augment.png?a2e09",
+      "levels": [
+        "100 ability haste.",
+        "200 ability haste.\n\nMAX-LEVEL EFFECT: Casting your third basic ability grants you  40% bonus movement speed for 2 seconds.",
+        ""
+      ],
+      "name": "Bread And Cheese",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Your champion's second basic ability (W) gains  ability haste.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Bread_And_Jam_ar_augment.png/80px-Bread_And_Jam_ar_augment.png?a2e09",
+      "levels": [
+        "100 ability haste.",
+        "200 ability haste.\n\nMAX-LEVEL EFFECT: Casting your second basic ability grants you  40% bonus movement speed for 2 seconds.",
+        ""
+      ],
+      "name": "Bread And Jam",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  ability haste. Casting an ability grants you  40% bonus movement speed for 2 seconds.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Bread_Sandwich_ar_augment.png/80px-Bread_Sandwich_ar_augment.png?607c0",
+      "levels": [
+        "200 ability haste.",
+        "300 ability haste.",
+        "400 ability haste."
+      ],
+      "name": "Bread Sandwich",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Grants  Crest of Cinders and  Crest of Insight permanently.\n\nThis counts as a Burn source.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Buff_Buddies_ar_augment.png/80px-Buff_Buddies_ar_augment.png?c2ad8",
+      "levels": [
+        "",
+        "MAX-LEVEL EFFECT: Grants to your allies as well. This also provide a Burn source for each ally.",
+        ""
+      ],
+      "name": "Buff Buddies",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Your rerolls are consumed by this effect and you can no longer gain any rerolls for the remainder of the game.\n\nIf you have more than 2 augments, selecting this augment immediately offers a Gold-tier augment selection screen.\nIf you have at most 2 augments, selecting this augment immediately offers a Prismatic-tier augment selection screen.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Calculated_Risk_ar_augment.png/80px-Calculated_Risk_ar_augment.png?d9302",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Calculated Risk",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Casting your ultimate grants you  invulnerability for 2 seconds ( 8 seconds cooldown).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Can%27t_Touch_This_ar_augment.png/80px-Can%27t_Touch_This_ar_augment.png?52c1a",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Can't Touch This",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "At the start of the combat phase in each round, launch yourself from a catapult.\n\nThe catapult lasts for up to 20 seconds before expiring.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Cannon_Fodder_ar_augment.png/80px-Cannon_Fodder_ar_augment.png?887b7",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Cannon Fodder",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Replaces  Flee with  Castle.\n\n CASTLE:  Dash to your ally's location while they do so to yours, swapping places with them. You then both gain  40% bonus movement speed and a  shield for 80 – 250 (based on level) (+ 5% of their maximum health) (respectively), both for 4 seconds. Can be used while the ally is dead to dash to their location.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Castle_ar_augment.png/80px-Castle_ar_augment.png?06eb0",
+      "levels": [
+        "40% bonus movement speed.",
+        "80% bonus movement speed.\n\nMAX-LEVEL EFFECT: Passing through an enemy champion refreshes the duration of the  shield and doubles it.",
+        ""
+      ],
+      "name": "Castle",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain  bonus health, but reduce your damage output.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Celestial_Body_ar_augment.png/80px-Celestial_Body_ar_augment.png?dfea8",
+      "levels": [
+        "1000 bonus health.\nDamage reduced by 10%.",
+        "2000 bonus health.\nDamage reduced by 5%.",
+        "3000 bonus health.\nDamage reduction is removed."
+      ],
+      "name": "Celestial Body",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  Aurelion Sol's  Center of the Universe.\n\nCENTER OF THE UNIVERSE: You are now permanently orbited by 6 Stars that exist at your attack range, and rotate clockwise one after another at the same constant speed.\n\nEach Star deals 5 – 160 (based on level) (+ 25% bonus AD) (+ 12% AP) magic damage to enemies that come into contact with it and has a width of  50 units.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Center_of_the_Universe_ar_augment.png/80px-Center_of_the_Universe_ar_augment.png?43b44",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Center of the Universe",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain the  Hail of Blades and  Press the Attack keystone runes.\n\nSee Arena#Runes for Arena-specific overrides on these runes.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Cerberus_ar_augment.png/80px-Cerberus_ar_augment.png?d9302",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Cerberus",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Dealing damage to an enemy champion also damages the nearest other champion within 800 units of them for  true damage equal to a portion of damage instance post-mitigation.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Chain_Lightning_ar_augment.png/80px-Chain_Lightning_ar_augment.png?051ec",
+      "levels": [
+        "25% damage transmission efficiency.",
+        "40% damage transmission efficiency.",
+        ""
+      ],
+      "name": "Chain Lightning",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Become  attached to your ally for the rest of the game, granting them  100% of your bonus movement speed as well as gaining  ability haste and  bonus attack speed.\n\n Dashing or  blinking detaches you for 1.5 seconds before attaching you back to your ally. While your ally is downed, the link is temporarily broken.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Chauffeur_ar_augment.png/80px-Chauffeur_ar_augment.png?9b858",
+      "levels": [
+        "110 ability haste.\n 60% bonus attack speed.",
+        "170 ability haste.\n 85% bonus attack speed.",
+        ""
+      ],
+      "name": "Chauffeur",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Automatically cast  Ezreal's  Essence Flux towards an enemy. The magical orb sticks to the first enemy champion, structure, or epic jungle monster hit and marks them for 4 seconds ( 10 seconds cooldown).\nHitting the marked target with a basic attack or an ability will detonate the mark, deal (75 (+ 30% bonus AD) (+ 50% AP)) ( ×  (1 + number of  augments with a red sticker you have)) magic damage and grant you  5 (+ 30  ×  number of  augments with a blue sticker you have) bonus movement speed, 10 (+ 30  ×  number of  augments with a green sticker you have)  armor and  magic resistance for 3 seconds.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Chroma_Flux_ar_augment.png/80px-Chroma_Flux_ar_augment.png?d6345",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Chroma Flux",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Healing and  health regeneration you do causes you to deal a ratio of that value in magic damage to the nearest enemy champion within 1000 units.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Circle_of_Death_ar_augment.png/80px-Circle_of_Death_ar_augment.png?9e2b5",
+      "levels": [
+        "50%  heal and  health regen converted to damage.",
+        "100%  heal and  health regen converted to damage.",
+        ""
+      ],
+      "name": "Circle of Death",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Form a  tether between you and your ally that continuously Burns enemies it touches, dealing magic damage every 0.25 seconds. The tether has a width of  100 units.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Clothesline_ar_augment.png/80px-Clothesline_ar_augment.png?29174",
+      "levels": [
+        "5 – 200 (based on level) (+ 7% bonus AD) (+ 4% AP) (+ 0.5% maximum health) magic damage.",
+        "5 – 200 (based on level) (+ 8% bonus AD) (+ 6% AP) (+ 0.65% maximum health) magic damage.",
+        ""
+      ],
+      "name": "Clothesline",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain  Shaco's  Backstab,  Deceive and  Hallucinate's explosion. Replaces  Flee with  Deceive.\n\n PASSIVE - BACKSTAB: Your basic attacks deal 20 – 35 (based on level) (+ 50% bonus AD) (+ 35% AP)  bonus physical damage on-hit when hitting an enemy from behind.\n\n ACTIVE - DECEIVE: Become  invisible for up to 3 seconds and  blink to the target location within 400 units after a 0.125-second delay. Your next basic attack while in stealth deals 100 (+ 150% bonus AD) (+ 55% AP) bonus physical damage, increased to「 (155% + crit damage) damage 」 if  Backstab was applied ( 15 seconds cooldown).\n\n PASSIVE - HALLUCINATE: Upon your death, release an explosion in a  350 radius of your death location, dealing 25% of target's maximum health magic damage to enemies within and  fearing them for 1 second. This effect cannot award victory to the user if they are the last one standing on their team.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Clown_College_ar_augment.png/80px-Clown_College_ar_augment.png?c7704",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Clown College",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Your abilities gains increased damage,  healing and  shielding. However, you lose  50 ability haste. Casting an ability grants you  40% bonus movement speed for 2 seconds.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Combination_Fried_Rice_ar_augment.png/80px-Combination_Fried_Rice_ar_augment.png?6aeec",
+      "levels": [
+        "100% increased damage.\n75%  healing and  shielding.",
+        "125% increased damage.\n100%  healing and  shielding.",
+        "150% increased damage.\n125%  healing and  shielding."
+      ],
+      "name": "Combination Fried Rice",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain the  Electrocute and  Phase Rush keystone runes.\n\nSee Arena#Runes for Arena-specific overrides on these runes.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Combo_Master_ar_augment.png/80px-Combo_Master_ar_augment.png?e314b",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Combo Master",
+      "tier": "Gold"
+    },
+    {
+      "effect": "At the start of the combat phase in each round, mark a champion on the enemy team. The mark causes them to take 15% increased damage from your team and dispense an additional kill bounty when slain. This bounty is granted to both you and your ally when the marked target is slain.\n\nEach enemy champion can only have one mark per round.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Contract_Killer_ar_augment.png/80px-Contract_Killer_ar_augment.png?7f17e",
+      "levels": [
+        "150 bounty",
+        "200 bounty",
+        ""
+      ],
+      "name": "Contract Killer",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Immobilizing or  grounding an enemy champion grants a shield based on your maximum health for 3 seconds ( 5 seconds cooldown per cast instance). Shields can stack between multiple triggers of this effect, though not refreshing the duration of previous shields.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Courage_of_the_Colossus_ar_augment.png/80px-Courage_of_the_Colossus_ar_augment.png?7ba04",
+      "levels": [
+        "100 – 300 (based on level) (+ 3% maximum health)  shield.",
+        "100 – 300 (based on level) (+ 7% maximum health)  shield.",
+        "100 – 300 (based on level) (+ 11% maximum health)  shield.\n\nMAX-LEVEL EFFECT:  Immobilizing or  grounding an enemy champion also grants you  5% increased size and  1% tenacity."
+      ],
+      "name": "Courage of the Colossus",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Your  shields detonate upon expiration, creating an explosion that deals magic damage equal to a multiple of the shield to nearby enemies.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Crack_Open_That_Egg_ar_augment.png/80px-Crack_Open_That_Egg_ar_augment.png?269a3",
+      "levels": [
+        "100% shield converted to damage.",
+        "150% shield converted to damage.",
+        ""
+      ],
+      "name": "Crack Open That Egg",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Your  heals and  shields now have a chance equal to your  critical strike chance to increase. The effectiveness benefits from your  crit damage. Additionally, gain  25% critical strike chance.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Critical_Healing_ar_augment.png/80px-Critical_Healing_ar_augment.png?11004",
+      "levels": [
+        "Increase by 35% + crit damage.",
+        "Increase by 55% + crit damage.",
+        ""
+      ],
+      "name": "Critical Healing",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Your  critical strikes grant you  6% bonus attack speed for 6 seconds, stacking up to several times. Additionally, gain  25% critical strike chance.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Critical_Rhythm_ar_augment.png/80px-Critical_Rhythm_ar_augment.png?6c3e7",
+      "levels": [
+        "Stacks up to 10 times, for a total of  60% attack speed.",
+        "Stacks up to 20 times, for a total of  120% attack speed.",
+        "Stacks up to 30 times, for a total of  180% attack speed.\n\nMAX-LEVEL EFFECT: Attack speed cap increases to 10."
+      ],
+      "name": "Critical Rhythm",
+      "tier": "Gold"
+    },
+    {
+      "effect": "The next instance of  healing or  shielding you grant to an ally generates 5 Cursed Power ( 1.5 seconds cooldown). You can generate up to 40 (+ 10 × number of Curse augments equipped by you and your teammate) Cursed Power per round. Permanently gain  ability haste equal to a percentage of your Cursed Power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Dark_Blessing_ar_augment.png/80px-Dark_Blessing_ar_augment.png?ac9ec",
+      "levels": [
+        "30% convert rate.",
+        "55% convert rate.",
+        ""
+      ],
+      "name": "Dark Blessing",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Abilities with  dashes or  blinks gain  ability haste.\n\nOn  Kalista,  Martial Poise's dash gains  bonus movement speed toward its speed scaling instead.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Dashing_ar_augment.png/80px-Dashing_ar_augment.png?b4498",
+      "levels": [
+        "200 ability haste.\n 53.3% bonus movement speed for  Kalista.",
+        "325 ability haste.\n 73.3% bonus movement speed for  Kalista.\n\nMAX-LEVEL EFFECT:  Dashing or  blinking also grants you  30% tenacity for 3 seconds.",
+        ""
+      ],
+      "name": "Dashing",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Upon dropping below  60% maximum health for the first time, you are  healed for  a certain amount of maximum health over 3 seconds.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Dawnbringer%27s_Resolve_ar_augment.png/80px-Dawnbringer%27s_Resolve_ar_augment.png?10a9e",
+      "levels": [
+        "Heal for  25% maximum health.",
+        "Heal for  30% maximum health.\n\nMAX-LEVEL EFFECT: Dropping below  30% maximum health will trigger this effect again.",
+        ""
+      ],
+      "name": "Dawnbringer's Resolve",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Basic attacks against  champions  on-hit generate 2 Cursed Power. You can generate up to 40 (+ 10 × number of Curse augments equipped by you and your teammate) Cursed Power per round. Permanently gain bonus magic damage  on-hit equal to a percentage of your Cursed Power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Deathtouch_ar_augment.png/80px-Deathtouch_ar_augment.png?58ae4",
+      "levels": [
+        "20% convert rate.",
+        "35% convert rate.",
+        ""
+      ],
+      "name": "Deathtouch",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Replaces  Flee with  Defensive Maneuvers.\n\n DEFENSIVE MANEUVERS: Casts both  Barrier and  Heal on you and your ally.\n\n BARRIER: Grants a 110 – 440 (based on level)  shield for 2.5 seconds.\n\n HEAL:  Heals for 80 – 318 (based on level) and grants 30% bonus movement speed for 1 second.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Defensive_Maneuvers_ar_augment.png/80px-Defensive_Maneuvers_ar_augment.png?1027d",
+      "levels": [
+        "30% bonus movement speed.",
+        "50% bonus movement speed.\n\nMAX-LEVEL EFFECT: This casts a second time 2.5 seconds after you cast it.",
+        ""
+      ],
+      "name": "Defensive Maneuvers",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Grants  bonus attack speed.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Deft_ar_augment.png/80px-Deft_ar_augment.png?42974",
+      "levels": [
+        "40% bonus attack speed.",
+        "75% bonus attack speed.",
+        "120% bonus attack speed.\n\nMAX-LEVEL EFFECT: Attack speed cap increases to 10."
+      ],
+      "name": "Deft",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Scoring a champion  takedown grants permanent adaptive force. This effect can be triggered only once per champion per round.\n\nIf this is your second augment, also gain 18 bonus Attack Damage or 30 Ability Power (Adaptive).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Dematerialize_ar_augment.png/80px-Dematerialize_ar_augment.png?67d12",
+      "levels": [
+        "6 bonus Attack Damage or 10 Ability Power (Adaptive).",
+        "12 bonus Attack Damage or 20 Ability Power (Adaptive).",
+        ""
+      ],
+      "name": "Dematerialize",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain the  Fleet Footwork and  Grasp of the Undying keystone runes.\n\nSee Arena#Runes for Arena-specific overrides on these runes.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Demon%27s_Dance_ar_augment.png/80px-Demon%27s_Dance_ar_augment.png?e03c9",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Demon's Dance",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Replaces  Flee with  Demonic Clasp.\n\n DEMONIC CLASP: Call 1 / 3 / 5 (based on level) claws, each of which pulls enemies towards your direction and deals 100 / 200 / 250 (based on level) (+ 40% AP) magic damage.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Demonic_Clasp_ar_augment.png/80px-Demonic_Clasp_ar_augment.png?9a00e",
+      "levels": [
+        "1 claw.\n100 (+ 40% AP) magic damage.",
+        "3 claws.\n200 (+ 40% AP) magic damage.",
+        "5 claws.\n250 (+ 40% AP) magic damage.\n\nMAX-LEVEL EFFECT: Each claw swipes for 3 times."
+      ],
+      "name": "Demonic Clasp",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Immobilizing an enemy champion generates 10 Cursed Power. You can generate up to 40 (+ 10 × number of Curse augments equipped by you and your teammate) Cursed Power per round. Permanently gain  bonus armor and  bonus magic resistance equal to a percentage of your Cursed Power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Desecrator_ar_augment.png/80px-Desecrator_ar_augment.png?67d12",
+      "levels": [
+        "20% convert rate.",
+        "30% convert rate.",
+        ""
+      ],
+      "name": "Desecrator",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Dashing or  blinking near an enemy champion generates 5 Cursed Power. You can generate up to 40 (+ 10 × number of Curse augments equipped by you and your teammate) Cursed Power per round. Permanently gain  bonus movement speed equal to 20% of your Cursed Power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Despoil_ar_augment.png/80px-Despoil_ar_augment.png?d901b",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Despoil",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Forge a pact with  Little Devil Teemo, who  drains 0.5% of your current health every second, increased to 5% if there are enemy champions within 1000 units. In return, you deal bonus true damage and your basic attacks and abilities summon a Life Remnant nearby for 5 seconds (0.75-second spawn cooldown). You can absorb a Life Remnant by moving over it,  healing you for 100 – 250 (based on level) (+ 60% bonus AD) (+ 30% AP) and granting you  bonus movement speed.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Devil_on_Your_Shoulder_ar_augment.png/80px-Devil_on_Your_Shoulder_ar_augment.png?a5965",
+      "levels": [
+        "10% bonus true damage.\n 20% bonus movement speed.",
+        "20% bonus true damage.\n 30% bonus movement speed.",
+        "30% bonus true damage.\n 50% bonus movement speed."
+      ],
+      "name": "Devil on Your Shoulder",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Replaces  Flee with  Die Another Day.\n\n DIE ANOTHER DAY: Blesses the ground underneath you, summoning a zone for 4 seconds that grants a  minimum health threshold to all units inside equal to 10% of their maximum health. At the end of the duration, units inside are  healed for 250.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Die_Another_Day_ar_augment.png/80px-Die_Another_Day_ar_augment.png?8a465",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Die Another Day",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Your team's first death each round creates an explosion at the location of the champion that died, dealing true damage equal to  a percentage of the target's maximum health to enemies within 500 units. This effect cannot award victory to the user if they are the last one standing on their team.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Dive_Bomber_ar_augment.png/80px-Dive_Bomber_ar_augment.png?a5b8a",
+      "levels": [
+        "15% of the target's maximum health.",
+        "30% of the target's maximum health.",
+        ""
+      ],
+      "name": "Dive Bomber",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Automatically cast  Taric's  Cosmic Radiance, calling down a protective star upon you that descends over 2.5 seconds. Afterwards, you and your teammate within  400 units become  invulnerable for 2.5 seconds. This effect activates 9.5 seconds after the start of the Combat Phase.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Divine_Intervention_ar_augment.png/80px-Divine_Intervention_ar_augment.png?00917",
+      "levels": [
+        "25 seconds cooldown.",
+        "15 seconds cooldown.\n\nMAX-LEVEL EFFECT: This effect will cast for the first time you drop below  50% maximum health in each combat.",
+        ""
+      ],
+      "name": "Divine Intervention",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Deal increased damage based on  movement speed you have more than the target.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Don%27t_Blink_ar_augment.png/80px-Don%27t_Blink_ar_augment.png?619a9",
+      "levels": [
+        "1% increased damage per  10 movement speed difference.",
+        "2% increased damage per  10 movement speed difference.",
+        ""
+      ],
+      "name": "Don't Blink",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain and activate  Singed's  Poison Trail.\n\nPOISON TRAIL: Gain  ghosting and continually create a toxic cloud behind you that lingers for 3.25 seconds. The cloud inflicts  poison to enemies within every 0.5 seconds, which deals 3.75 – 31.25 (based on level) (+ 5% bonus AD) (+ 2.5% AP) magic damage every 0.25 seconds over 2 seconds.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Don%27t_Chase_ar_augment.png/80px-Don%27t_Chase_ar_augment.png?fe0e5",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Don't Chase",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain  2000 upon acquiring this augment.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Donation_ar_augment.png/80px-Donation_ar_augment.png?72e6a",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Donation",
+      "tier": "Gold"
+    },
+    {
+      "effect": "The next instance of ability damage against enemy champions generates 2 Cursed Power ( 3 seconds cooldown). You can generate up to 40 (+ 10 × number of Curse augments equipped by you and your teammate) Cursed Power per round. Permanently gain  adaptive force equal to a percentage of your Cursed Power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Doomsayer_ar_augment.png/80px-Doomsayer_ar_augment.png?4ea40",
+      "levels": [
+        "80% convert rate.",
+        "125% convert rate.",
+        "150% convert rate."
+      ],
+      "name": "Doomsayer",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Basic attacks that  critically strike apply  on-hit effects an additional time. Additionally, gain  25% critical strike chance.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Double_Tap_ar_augment.png/80px-Double_Tap_ar_augment.png?09dbf",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Double Tap",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Become  melee, modifying your attack range to 200 units. Additionally, gain  bonus attack damage,  bonus attack speed,  bonus health,  15% bonus movement speed and  25% life steal. These bonuses are increased by 0% – 30% (based on champion's default attack range).\n\nThis augment is only available for  ranged champions.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Draw_Your_Sword_ar_augment.png/80px-Draw_Your_Sword_ar_augment.png?a4daf",
+      "levels": [
+        "25% bonus attack damage.\n 20% bonus attack speed.\n 25% bonus health.",
+        "30% bonus attack damage.\n 25% bonus attack speed.\n 30% bonus health.",
+        "35% bonus attack damage.\n 30% bonus attack speed.\n 35% bonus health."
+      ],
+      "name": "Draw Your Sword",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "For every 0.5 seconds that you are within 500 units of an enemy champion, generate 1 Cursed Power for each one in range. You can generate up to 40 (+ 10 × number of Curse augments equipped by you and your teammate) Cursed Power per round. Permanently gain  bonus health equal to a percentage of your Cursed Power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Dreadbringer_ar_augment.png/80px-Dreadbringer_ar_augment.png?81f54",
+      "levels": [
+        "300% convert rate.",
+        "600% convert rate.",
+        ""
+      ],
+      "name": "Dreadbringer",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Your basic attacks launch a bolt at the target that fires after a 0.225-second delay  on-attack, deals reduced damage of the triggering attack's pre-mitigation damage, and applies  on-hit effects at 40% effectiveness. Additionally, increase your  total attack speed.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Dual_Wield_ar_augment.png/80px-Dual_Wield_ar_augment.png?b4096",
+      "levels": [
+        "40% damage\n 20% total attack speed\n.",
+        "50% damage\n 25% total attack speed\n.",
+        "60% damage\n 30% total attack speed\n.\n\nMAX-LEVEL EFFECT: Attack speed cap increases to 99."
+      ],
+      "name": "Dual Wield",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain 2 prismatic  Prismatic Stat Anvils once this  augment is removed or replaced.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Dust_To_Diamonds_ar_augment.png/80px-Dust_To_Diamonds_ar_augment.png?e3b1a",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Dust To Diamonds",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Dashing or  blinking causes you to leave behind a trail  from the location you moved to your destination that detonates after 0.75 seconds in a 300 radius, dealing physical damage per explosion to enemies hit. Enemies can only be affected once every 0.5 seconds from all cast instances.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Earthwake_ar_augment.png/80px-Earthwake_ar_augment.png?80d83",
+      "levels": [
+        "140 – 300 (based on level) (+ 80% bonus AD) (+ 20% AP) physical damage.",
+        "140 – 300 (based on level) (+ 100% bonus AD) (+ 30% AP) physical damage.",
+        "140 – 300 (based on level) (+ 120% bonus AD) (+ 40% AP) physical damage.\n\nMAX-LEVEL EFFECT: When it triggers, it repeats for another time."
+      ],
+      "name": "Earthwake",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain increased  Energized stack generation. Upon triggering an  Energized effect, fire a bolt that deals true damage equal to 0.3% of the target's maximum health.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Energetic_ar_augment.png/80px-Energetic_ar_augment.png?53418",
+      "levels": [
+        "200% stack generation.",
+        "300% stack generation.",
+        ""
+      ],
+      "name": "Energetic",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Each instance of damage dealt to an enemy reduces their  armor and  magic resistance for 4 seconds, stacking up to 20 times.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Erosion_ar_augment.png/80px-Erosion_ar_augment.png?2afb3",
+      "levels": [
+        "Reduce  armor and  magic resistance by 1% per stack.\nMax  armor and  magic resistance reduction: 20%\n.",
+        "Reduce  armor and  magic resistance by 2% per stack.\nMax  armor and  magic resistance reduction: 40%\n.\n\nMAX-LEVEL EFFECT: At 20 stacks, the target is  slowed by 30%.",
+        ""
+      ],
+      "name": "Erosion",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Convert all of your  ability power into  bonus attack damage. Additionally, increase your  total attack damage.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/EscAPADe_ar_augment.png/80px-EscAPADe_ar_augment.png?373eb",
+      "levels": [
+        "0.6 bonus attack damage per  1 ability power.\n 10% total attack damage.",
+        "0.8 bonus attack damage per  1 ability power.\n 20% total attack damage.",
+        ""
+      ],
+      "name": "EscAPADe",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Upon dropping below  35% health, gain a  shield for 65% of your maximum health,  150% bonus movement speed, and  reduced size ( 75 seconds cooldown). These effects all decay over 5 seconds.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Escape_Plan_ar_augment.png/80px-Escape_Plan_ar_augment.png?778f4",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Escape Plan",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Your abilities apply  on-hit effects at 100% effectiveness a number of times ( 1 second cooldown per target).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Ethereal_Weapon_ar_augment.png/80px-Ethereal_Weapon_ar_augment.png?daf9b",
+      "levels": [
+        "1 time.",
+        "2 times.",
+        "3 times."
+      ],
+      "name": "Ethereal Weapon",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  ability haste based on your  ability power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Eureka_ar_augment.png/80px-Eureka_ar_augment.png?e0836",
+      "levels": [
+        "20% AP converted to  ability haste.",
+        "30% AP converted to  ability haste.",
+        "45% AP converted to  ability haste."
+      ],
+      "name": "Eureka",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Deal increased damage to enemies below a certain health threshold. Scoring a champion  takedown resets the cooldown of all your basic abilities.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Executioner_ar_augment.png/80px-Executioner_ar_augment.png?1fdec",
+      "levels": [
+        "10% increased damage.\n below 40% health.",
+        "20% increased damage.\n below 50% health.",
+        ""
+      ],
+      "name": "Executioner",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Automatically cast  Blitzcrank's  Rocket Grab at a nearby enemy champion,  pulling the first target hit towards you and  stunning them for 1 second ( 12 seconds cooldown).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Extendo-Arm_ar_augment.png/80px-Extendo-Arm_ar_augment.png?381d1",
+      "levels": [
+        "",
+        "MAX-LEVEL EFFECT: Fire a second hook as soon as the first one is fired.",
+        ""
+      ],
+      "name": "Extendo-Arm",
+      "tier": "Gold"
+    },
+    {
+      "effect": "At the start of the combat phase in each round, gain  Morgana's  Black Shield, granting you a  shield that absorbs magic damage and grants  crowd control immunity while it holds.\n\nThe shield's duration is refreshed once the initial delay for the combat phase is over.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Fallen_Aegis_ar_augment.png/80px-Fallen_Aegis_ar_augment.png?c1209",
+      "levels": [
+        "8 seconds duration.\n 150 – 300 (based on level) shield.",
+        "10 seconds duration.\n 250 – 400 (based on level) shield.\n\nMAX-LEVEL EFFECT: Regain this shield when revived by the revive circle or when exiting  stasis status.",
+        ""
+      ],
+      "name": "Fallen Aegis",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Your next basic attack in each cardinal direction within  750 range additionally  on-attack fires 5 bolts at the target that each deals 10 – 52.5 (based on level) (+ 15% bonus AD) physical damage. Each direction has  unique cooldown. Bolts' damage is increased by 0% – 50% (based on distance travelled). Each bolt can  critically strike and applies  on-hit effects at 20% effectiveness.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Fan_the_Hammer_ar_augment.png/80px-Fan_the_Hammer_ar_augment.png?b4096",
+      "levels": [
+        "7 seconds cooldown per direction.",
+        "5 seconds cooldown per direction.\n\nMAX-LEVEL EFFECT: Firing from a different direction increases the number of bolts to be fired subsequently, for the rest of the round.",
+        ""
+      ],
+      "name": "Fan the Hammer",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Replaces  Flee with  Feel the Burn.\n\n FEEL THE BURN: Casts both  Exhaust and  Ignite on all enemy champions within 1000 units, with the former having its  slow strength increased to 50% and the latter modified to deal 100 – 600 (based on level) true damage over the duration.\n\nThis counts as a Burn source.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Feel_the_Burn_ar_augment.png/80px-Feel_the_Burn_ar_augment.png?eba2f",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Feel the Burn",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Damaging enemies with your ultimate ability  polymorphs them into harmless critters for 2 seconds, during which their  base movement speed is reduced by 60, and  disarms them for the same duration ( 15 seconds cooldown per target).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Fey_Magic_ar_augment.png/80px-Fey_Magic_ar_augment.png?b921a",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Fey Magic",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Casting your ultimate ability empowers you for 7.5 seconds, causing you to gain a  shield based on  your maximum health,  omnivamp, and  30% bonus movement speed for the duration ( 20 seconds cooldown).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Final_Form_ar_augment.png/80px-Final_Form_ar_augment.png?49365",
+      "levels": [
+        "30% of your maximum health shield.\n 15% omnivamp.",
+        "60% of your maximum health shield.\n 25% Omnivamp.",
+        ""
+      ],
+      "name": "Final Form",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Upon selecting this augment, all of your current items are sold to the shop at a higher  gold value (STARTER ITEMS & BOOTS:  500, LEGENDARY ITEM:  2500, PRISMATIC ITEM:  4000).\n\nQuest items ( Needlessly Large Rod,  The Golden Spatula,  Wooglet's Witchcap, as well as  Heartsteel if you have the  Quest: Steel Your Heart augment) and consumables will not be sold from this effect.\n\nWhen this augment is removed or replaced, gain  gold equal to 30% of  gold gained from this augment.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Fire_Sale_ar_augment.png/80px-Fire_Sale_ar_augment.png?00ba1",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Fire Sale",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Basic attacks  on-hit apply a Burn for 5 seconds that deals bonus magic damage based on the target's maximum health. This Burn stacks infinitely and refreshes with each application.\n\nThis counts as a Burn source.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Firebrand_ar_augment.png/80px-Firebrand_ar_augment.png?02ddd",
+      "levels": [
+        "「 0.6% of the target's maximum health magic damage per second. 」",
+        "「 0.8% of the target's maximum health magic damage per second. 」\n\nMAX-LEVEL EFFECT:  Heal for 50% of the damage dealt by this effect.",
+        ""
+      ],
+      "name": "Firebrand",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Automatically cast  Ahri's  Fox-Fire, gaining  50% bonus movement speed that decays over 2 seconds and conjuring 3 flames that orbit you clockwise for up to 2.5 seconds at a radius of  150 units. The flames will fly toward the nearest  visible enemy champion within  550 units, dealing 35 – 160 (based on level) (+ 25% bonus AD (+ 25% AP)  magic damage, reduced to 「 10.5 – 48 (based on level) (+ 7.5% bonus AD (+ 7.5% AP) 」 for enemies hit by subsequent flames from the same cast ( 7 seconds cooldown).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Firefox_ar_augment.png/80px-Firefox_ar_augment.png?5fbe0",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Firefox",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Grants  heal and shield power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/First-Aid_Kit_ar_augment.png/80px-First-Aid_Kit_ar_augment.png?3e6b0",
+      "levels": [
+        "20% heal and shield power.",
+        "35% heal and shield power.",
+        ""
+      ],
+      "name": "First-Aid Kit",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Using  Flash creates an explosion around the blink location that deals 70 – 240 (based on level) (+ 70% AD) (+ 60% AP) magic damage to nearby enemies and  slows them by 35% for 1.25 seconds. Additionally, the cooldown of your  Flash resets every round.\n\nRemoved since V26.09.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Flashbang_ar_augment.png/80px-Flashbang_ar_augment.png?89022",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Flashbang",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Your  Flash now has multiple charges with a  2-second cooldown between casts, gaining maximum charges at the start of each phase in a round. Additionally, the cooldown of your  Flash resets every round.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Flashy_ar_augment.png/80px-Flashy_ar_augment.png?d1bd3",
+      "levels": [
+        "2 charges.",
+        "3 charges.\n\nMAX-LEVEL EFFECT:  Flash creates an explosion at a  500 radius around you, dealing 35 – 120 (based on level) (+ 35% bonus AD) (+ 30% AP) magic damage to enemies within and  slowing them by 35% for 1.25 seconds.",
+        ""
+      ],
+      "name": "Flashy",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain the  Dark Harvest and  First Strike keystone runes. Additionally, for each augment equipped before selecting this one, gain 8 Souls of  Dark Harvest for free.\n\nSee Arena#Runes for Arena-specific overrides on these keystones.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/From_Beginning_to_End_ar_augment.png/80px-From_Beginning_to_End_ar_augment.png?c4a79",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "From Beginning to End",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Automatically cast  Lissandra's  Ring of Frost, creating a cold pulse around you in  450 radius that  roots nearby enemies for 1.25 seconds ( 6.5 seconds cooldown).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Frost_Wraith_ar_augment.png/80px-Frost_Wraith_ar_augment.png?e8049",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Frost Wraith",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Replaces  Flee with  Frozen Foundations.\n\n FROZEN FOUNDATIONS: Summons a wall of ice at the target location for 5 seconds,  knocking aside enemies in the area. The wall has a width of 500 units and a knock back distance of 120 units for champions and 250 units for non-champions.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Frozen_Foundations_ar_augment.png/80px-Frozen_Foundations_ar_augment.png?63ea2",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Frozen Foundations",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Increase the effects of  Power Flowers. When you hit a Power Flower, your teammate gains its effects as well regardless of range and you both gain  40% bonus movement speed for 2 seconds.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Fruits_of_Your_Labor_ar_augment.png/80px-Fruits_of_Your_Labor_ar_augment.png?10547",
+      "levels": [
+        "20% extra effectiveness on yourself.",
+        "40% extra effectiveness on yourself.",
+        ""
+      ],
+      "name": "Fruits of Your Labor",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain  1000. Additionally, in your Shop, the cost of  Prismatic Item Anvils, all  Legendary Item Anvils and  Stat Bonus Anvils is reduced. The resale value of all Prismatic items and Legendary items is also reduced.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Gamba_Anvil_ar_augment.png/80px-Gamba_Anvil_ar_augment.png?f721e",
+      "levels": [
+        "The cost of  Prismatic Item Anvils is reduced to  2500, but the resale value of all Prismatic items is also reduced to  1250.\nThe cost of all Legendary Item Anvils is reduced to  1500, but the resale value of all Legendary Items is also reduced to  687.5.\nThe cost of  Stat Bonus Anvils is reduced by  250.",
+        "",
+        ""
+      ],
+      "name": "Gamba Anvil",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Scoring a champion  takedown grants you  bonus movement speed and  bonus attack speed for 8 seconds.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Get_Excited_ar_augment.png/80px-Get_Excited_ar_augment.png?ace5e",
+      "levels": [
+        "100% bonus movement speed.\n 30% bonus attack speed",
+        "200% bonus movement speed.\n 60% bonus attack speed\n\n\nMAX-LEVEL EFFECT: Attack speed cap increases to 10.",
+        ""
+      ],
+      "name": "Get Excited!",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Become tiny, reducing your  size and gaining  bonus movement speed. Additionally, deal bonus damage against enemy champions with greater size than you.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Giant_Slayer_ar_augment.png/80px-Giant_Slayer_ar_augment.png?8a5cb",
+      "levels": [
+        "20% reduced size.\n 25% bonus movement speed.\n10% / 15% / 25% / 30% (based on target's size) bonus damage.",
+        "25% reduced size.\n 30% bonus movement speed.\n15% / 20% / 30% / 35% (based on target's size) bonus damage.",
+        "30% reduced size.\n 35% bonus movement speed.\n20% / 25% / 35% / 40% (based on target's size) bonus damage."
+      ],
+      "name": "Giant Slayer",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "You gain a health threshold equal to  70% maximum health which cannot be modified nor exceeded by any means. In return, you deal bonus true damage equal to a percentage of all of the damage you deal pre-mitigation.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Glass_Cannon_ar_augment.png/80px-Glass_Cannon_ar_augment.png?639d7",
+      "levels": [
+        "15% extra true damage.",
+        "20% extra true damage.",
+        "30% extra true damage."
+      ],
+      "name": "Glass Cannon",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Grants  bonus maximum health,  adaptive force and  size.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Goliath_ar_augment.png/80px-Goliath_ar_augment.png?71ed1",
+      "levels": [
+        "15% bonus maximum health\n10%  adaptive force\n 30% size",
+        "30% bonus maximum health\n20%  adaptive force\n 60% size",
+        "50% bonus maximum health\n30%  adaptive force\n 100% size"
+      ],
+      "name": "Goliath",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain  omnivamp.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Goredrink_ar_augment.png/80px-Goredrink_ar_augment.png?9d19f",
+      "levels": [
+        "15% omnivamp.",
+        "25% omnivamp.",
+        ""
+      ],
+      "name": "Goredrink",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Dealing damage to an enemy champion inflicts them with venom for 3 seconds, reducing any  shields they gain within the duration by 50%, and applies  Grievous Wounds for the same duration.\n\nIf the target had a shield at the time of application and was not already afflicted by the venom, the strength of all active shields on them is reduced by 50%.\n\nIf the target  heals for a total amount that is over  60% of their maximum health while continuously afflicted with  Grievous Wounds, the strength of the healing reduction is increased to 80%.\n\nThe shield reduction does not affect magic damage shields.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Grevious_Venom_ar_augment.png/80px-Grevious_Venom_ar_augment.png?ed7af",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Grevious Venom",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Replaces  Flee with  Growth Spurt.\n\nGROWTH SPURT: Enlarge yourself, causing you to  knock up enemies within  400 units for 1 second. For a duration, you also gain bonus health and 50% increased size (45 second cooldown).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Growth_Spurt_ar_augment.png/80px-Growth_Spurt_ar_augment.png?0378d",
+      "levels": [
+        "6 seconds duration.\n 250 (+ 20% maximum health) bonus health.",
+        "10 seconds duration.\n 450 (+ 20% maximum health) bonus health.",
+        ""
+      ],
+      "name": "Growth Spurt",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Immobilizing or  grounding an enemy champion  heals you ( 5 seconds cooldown per cast instance).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Guilty_Pleasure_ar_augment.png/80px-Guilty_Pleasure_ar_augment.png?9f3e6",
+      "levels": [
+        "Heal for 10 – 150 (based on level) (+ 1% maximum health).",
+        "Heal for 10 – 150 (based on level) (+ 2% maximum health).",
+        ""
+      ],
+      "name": "Guilty Pleasure",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain 3  hats upon selecting this augment and permanently reduce the cost of  Cappa Juice in your shop by  350. Upon dropping below  30% of your maximum health, gain  35% total movement speed and a 300 – 500 (based on level) (+ 75% bonus movement speed)  shield for 3 seconds, but lose one hat every time this effect activates ( 3 seconds cooldown).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Hat_Trick_ar_augment.png/80px-Hat_Trick_ar_augment.png?d0c5d",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Hat Trick",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Basic attacks deal bonus physical damage equal to  a percentage of your maximum health.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Heavy_Hitter_ar_augment.png/80px-Heavy_Hitter_ar_augment.png?1434b",
+      "levels": [
+        "3.5% of your maximum health converted to bonus physical damage.",
+        "5% of your maximum health converted to bonus physical damage.\n\nMAX-LEVEL EFFECT: Your basic attacks deal addition physical damage equal to  50% of your additional size.",
+        ""
+      ],
+      "name": "Heavy Hitter",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Grants the  Hextech Dragon Soul, or a different  Dragon Soul if you already have it.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Hextech_Soul_ar_augment.png/80px-Hextech_Soul_ar_augment.png?b8298",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Hextech Soul",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Start each round with a number of Bees following you; gain an additional Bee for each hit you or your teammate perform against  Power Flowers, up to a maximum of 8 Bees. For each instance of damage dealt to an enemy champion you send a Bee to them, dealing 「 60 – 120 (based on level) (+ 20% bonus AD) (+ 20% AP) magic damage over 2 seconds 」 on arrival. Bees return to you 6 seconds after being sent off.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Hive_Mind_ar_augment.png/80px-Hive_Mind_ar_augment.png?1cd4c",
+      "levels": [
+        "Start with 1 Bee.",
+        "Start with 2 Bees.",
+        "Start with 3 Bees.\n\nMAX-LEVEL EFFECT: Reduce the target's  total attack speed by 30%."
+      ],
+      "name": "Hive Mind",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain an improved version of  Teemo's  Guerrilla Warfare.\n\nGUERRILLA WARFARE: Gain  invisibility after 0.75 seconds without moving, being  immobilized, taking damage, performing actions that  break stealth,  channeling, or being in  stasis. Upon exiting stealth, gain  20% / 40% / 60% / 80% (based on level) bonus attack speed for 5 seconds and  100% bonus movement speed decaying over the same duration. Your next attack after exiting stealth deals 60 – 200 (based on level) (+ 60% bonus AD) (+ 40% AP) bonus magic damage.\n\nInvisibility is granted immediately at the start of the combat phase.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Hold_Very_Still_ar_augment.png/80px-Hold_Very_Still_ar_augment.png?14cd9",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Hold Very Still",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Your  heals and  shields cause you to fire a missile to the nearest enemy champion within  650 units over 0.32 seconds, applying a Burn upon arrival that deals magic damage based on  the target's maximum health over time.\n\nThe Burn's per-tick damage increases based on the relative value of the triggering  heal or  shield against the  maximum health of the ally recipient.\n\nThis counts as a Burn source.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Holy_Fire_ar_augment.png/80px-Holy_Fire_ar_augment.png?b0a98",
+      "levels": [
+        "Minimum damage: 0.16% of the target's maximum health every second over 5 seconds, for a total of 0.8%.\nMaximum damage: 0.6% of the target's maximum health every second over 5 seconds, for a total of 3%.",
+        "Minimum damage: 0.32% of the target's maximum health every second over 5 seconds, for a total of 1.6%.\nMaximum damage: 1.2% of the target's maximum health every second over 5 seconds, for a total of 6%.",
+        ""
+      ],
+      "name": "Holy Fire",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  bonus movement speed. This bonus is lost for 3 seconds after dealing damage to or taking damage from champions.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Homeguard_ar_augment.png/80px-Homeguard_ar_augment.png?53035",
+      "levels": [
+        "70% bonus movement speed.",
+        "140% bonus movement speed.",
+        ""
+      ],
+      "name": "Homeguard",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Damaging  attacks  on-hit grant you increased damage on your next damaging  champion ability. Damaging  champion abilities grant you increased damage on your next  attack  on-hit. This effect does not stack.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Hybrid_ar_augment.png/80px-Hybrid_ar_augment.png?8f39a",
+      "levels": [
+        "20% increased attack and ability damage.",
+        "30% increased attack and ability damage.",
+        "40% increased attack and ability damage."
+      ],
+      "name": "Hybrid",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Your  slowing effects reduce the  movement speed of targets by an additional amount.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Ice_Cold_ar_augment.png/80px-Ice_Cold_ar_augment.png?5c45f",
+      "levels": [
+        "-75 movement speed.",
+        "-150 movement speed.",
+        ""
+      ],
+      "name": "Ice Cold",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain the  Aftershock and  Glacial Augment keystone runes.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Impassable_ar_augment.png/80px-Impassable_ar_augment.png?80848",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Impassable",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Your ability hits apply a Burn for 5 seconds that deals persistent magic damage ( 1 second cooldown per cast instance). This Burn stacks infinitely and refreshes with each application. Damage over time abilities can apply the effect only once every 2 seconds.\n\nAdditionally, all of your Burn effects reduce the cooldowns of all your basic abilities for each tick of damage they deal to a target.\n\nThis counts as a Burn source.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Infernal_Conduit_ar_augment.png/80px-Infernal_Conduit_ar_augment.png?54c57",
+      "levels": [
+        "「 1.2 – 12 (based on level) (+ 2% bonus AD) (+ 0.9% AP) bonus magic damage per second 」.\n 0.08 seconds cooldown reduction per tick.",
+        "「 1.2 – 12 (based on level) (+ 2.8% bonus AD) (+ 1.2% AP) bonus magic damage per second 」.\n 0.08 seconds cooldown reduction per tick.",
+        "「 1.2 – 12 (based on level) (+ 4% bonus AD) (+ 1.8% AP) bonus magic damage per second 」.\n 0.12 seconds cooldown reduction per tick."
+      ],
+      "name": "Infernal Conduit",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Grants the  Infernal Dragon Soul, or a different  Dragon Soul if one is already obtained.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Infernal_Soul_ar_augment.png/80px-Infernal_Soul_ar_augment.png?dc384",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Infernal Soul",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Grants  critical strike chance.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/It%27s_Critical_ar_augment.png/80px-It%27s_Critical_ar_augment.png?884f6",
+      "levels": [
+        "50% critical strike chance.",
+        "75% critical strike chance.\n\nMAX-LEVEL EFFECT: Gain  25% critical strike damage.",
+        ""
+      ],
+      "name": "It's Critical",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Upon casting your ultimate ability, you apply  Zed's  Death Mark to all enemy champions ( 8 seconds cooldown). The mark stores a percentage of all post-mitigation damage dealt to the affected target, detonating after 5 seconds to deal  true damage equal to the damage stored against them.\n\nIf this augment's cooldown elapses during the channel of  Fiddlesticks'  Crowstorm,  Galio's  Hero's Entrance or  Pantheon's  Grand Starfall, this effect activates right before their first respective damaging effect activates.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/It%27s_Killing_Time_ar_augment.png/80px-It%27s_Killing_Time_ar_augment.png?aa055",
+      "levels": [
+        "35% damage stored.",
+        "40% damage stored.",
+        "50% damage stored.\n\nMAX-LEVEL EFFECT:  Heal for 100% of the damage done by this effect."
+      ],
+      "name": "It's Killing Time",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Your abilities can now  critically strike to deal higher damage. Additionally, gain  critical strike chance based on your  ability power.\n\nIf both Jeweled Gauntlet and  Vulnerability are equipped, only rolls the  critical strike chance of the augment that has the higher  critical damage (or either if equal).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Jeweled_Gauntlet_ar_augment.png/80px-Jeweled_Gauntlet_ar_augment.png?57041",
+      "levels": [
+        "Crit damage modifier: 140% +  bonus critical damage.\n25% (+ 4% per 100 AP) critical strike chance.",
+        "Crit damage modifier: 150% +  bonus critical damage.\n25% (+ 5% per 100 AP) critical strike chance.",
+        "Crit damage modifier: 160% +  bonus critical damage.\n25% (+ 6% per 100 AP) critical strike chance."
+      ],
+      "name": "Jeweled Gauntlet",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Each round, you and your ally gain several Juices (   ) for free that is automatically consumed at the start of the combat phase.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Juice_Box_ar_augment.png/80px-Juice_Box_ar_augment.png?ddf3d",
+      "levels": [
+        "1 juice.",
+        "3 juices.",
+        ""
+      ],
+      "name": "Juice Box",
+      "tier": "Silver"
+    },
+    {
+      "effect": "The price of  Juice of Haste,  Juice of Power and  Juice of Vitality in your and your teammate's shop is reduced by 50% ( 250). Juices that you and your teammate consume grant additional effects.\n Cappa Juice: 1 additional  hat.\n Juice of Haste:  20% bonus movement speed.\n Juice of Power:  15% armor penetration and  15% magic penetration.\n Juice of Vitality:  25% heal and shield power.\n\n\nRemoved since V26.09.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Juice_Press_ar_augment.png/80px-Juice_Press_ar_augment.png?18668",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Juice Press",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Basic attacks  on-hit against enemy champions consume  2.5% of your maximum mana to deal bonus magic damage based on  your maximum mana. This damage can  critically strike for (100% +  30%) bonus damage.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Juiced_ar_augment.png/80px-Juiced_ar_augment.png?d160b",
+      "levels": [
+        "Base damage: 4.5% of your maximum mana",
+        "Base damage: 9% of your maximum mana\n\nMAX-LEVEL EFFECT: Increase the damage of this effect by 10% each time you spend  300 mana for the rest of the round.",
+        ""
+      ],
+      "name": "Juiced",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain the  Arcane Comet and  Summon Aery keystone runes.\n\nSee Arena#Runes for Arena-specific overrides on  Summon Aery.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Keystone_Conjurer_ar_augment.png/80px-Keystone_Conjurer_ar_augment.png?9c754",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Keystone Conjurer",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  100% bonus movement speed towards enemy champions below  40% of their maximum health.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Kill_Secured_ar_augment.png/80px-Kill_Secured_ar_augment.png?12c22",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Kill Secured",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Continuously fire a laser in a line 700 units from your facing direction, dealing 5 – 60 (based on level) (+ 14% AD) (+ 9% AP) magic damage every 0.25 seconds to enemies in its width of 80 units.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Laser_Eyes_ar_augment.png/80px-Laser_Eyes_ar_augment.png?258d0",
+      "levels": [
+        "",
+        "",
+        "MAX-LEVEL EFFECT: The laser deals 1% increased damage every 0.6 seconds your enemy is in your  sights. This effect resets if your enemy leaves your  sights, and resets in each round."
+      ],
+      "name": "Laser Eyes",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain  bonus movement speed and  slow resist.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Leg_Day_ar_augment.png/80px-Leg_Day_ar_augment.png?229e1",
+      "levels": [
+        "40 bonus movement speed.\n 35% slow resist.",
+        "70 bonus movement speed.\n 55% slow resist.",
+        ""
+      ],
+      "name": "Leg Day",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Basic attacks  on-hit generate a stack, up to 4. The fourth stack consumes them all to quickly launch 4 fireworks at the target that deal 11 – 80 (based on level)  on-hit.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Light_%27em_Up%21_ar_augment.png/80px-Light_%27em_Up%21_ar_augment.png?de729",
+      "levels": [
+        "11 – 80 (based on level) (+ 35% bonus AD) (+ 19% AP) bonus magic damage  ×  90% damage modifier per firework, for a total of 39.6 – 288 (based on level) (+ 126% bonus AD) (+ 68.4% AP).",
+        "Damage modifier increases to 100%, for a total of 44 – 320 (based on level) (+ 140% bonus AD) (+ 76% AP).",
+        "Damage modifier increases to 110%, for a total of 48.4 – 352 (based on level) (+ 154% bonus AD) (+ 83.6% AP)."
+      ],
+      "name": "Light 'em Up!",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Automatically cast  Lux's  Prismatic Barrier, throwing a warding light towards your ally which grants a  shield for 28 – 79 (based on level) (+ 7.5% bonus AD) (+ 20% AP) to you and your ally for 2.5 seconds upon coming into contact with it. After reaching maximum range, the light then homes back to you to grant the same shield again when it passes through you and your ally, stacking with the previous shield and refreshing its duration ( 8 seconds cooldown).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Light_Warden_ar_augment.png/80px-Light_Warden_ar_augment.png?26f2c",
+      "levels": [
+        "",
+        "MAX-LEVEL EFFECT: Fire an additional light that grants the same shield for each enemy champion hit.",
+        ""
+      ],
+      "name": "Light Warden",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Increase your  bonus attack speed gained from all sources. While at  3.0 attack speed or higher, your basic attacks deal 40 bonus magic damage  on-hit.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Lightning_Strikes_ar_augment.png/80px-Lightning_Strikes_ar_augment.png?d9719",
+      "levels": [
+        "20% total attack speed.",
+        "30% total attack speed.\n\nMAX-LEVEL EFFECT: Attack speed cap increases to 10.",
+        ""
+      ],
+      "name": "Lightning Strikes",
+      "tier": "Gold"
+    },
+    {
+      "effect": "At the start of the combat phase in each round, gain either 30%  adaptive force,  bonus health and  40% increased size, or  ability haste,  40% bonus movement speed and  40% reduced size.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Mad_Scientist_ar_augment.png/80px-Mad_Scientist_ar_augment.png?ed8dc",
+      "levels": [
+        "20% bonus health.\n 70 ability haste.",
+        "40% bonus health.\n 100 ability haste.",
+        ""
+      ],
+      "name": "Mad Scientist",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Dealing damage to an enemy with an ability within  1000 units fires 3 missiles at them that each deal true damage equal to 0.33% of the target's maximum health, increased to up to 1% based on distance travelled. This effect can only trigger once every 6 seconds from the same cast.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Magic_Missile_ar_augment.png/80px-Magic_Missile_ar_augment.png?1b699",
+      "levels": [
+        "",
+        "MAX-LEVEL EFFECT: Every 3 times this effect triggers, increase the number of missiles by 1 for the rest of the round.",
+        ""
+      ],
+      "name": "Magic Missile",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Each round, a star falls over 20 seconds. You can pick up the star by walking within  200 units of its landing location. After picking it up, you transform into a Magical Girl, gain  adaptive force and a  shield. Upon transformation, you  knock back nearby enemies to  1000 units from you, and cause them to dance for 2 seconds, but granting them  invulnerability for the same duration.\nAs a Magical Girl, every 5 to 10 seconds (based on the number of enemies within  700 units from you), several stars fall from the sky striking around you and each of your enemies, dealing 100 – 500 (based on level) (+ 25% AP) magic damage to those hit.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Magical_Girl_ar_augment.png/80px-Magical_Girl_ar_augment.png?b2380",
+      "levels": [
+        "200 adaptive force.\n200  shield.\n2 stars in each fall.",
+        "300 adaptive force.\n300  shield.\n3 stars in each fall.",
+        "300 adaptive force.\n500  shield.\n5 stars in each fall."
+      ],
+      "name": "Magical Girl",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Basic attacks deal bonus physical damage based on your  ability power.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Marksmage_ar_augment.png/80px-Marksmage_ar_augment.png?ca2d1",
+      "levels": [
+        "75% AP converted to bonus physical damage.",
+        "115% AP converted to bonus physical damage.",
+        ""
+      ],
+      "name": "Marksmage",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Basic attacks  on-hit grant  6 – 18 (based on level) ability power and ability casts grant  3 – 9 (based on level) bonus attack damage. This effect stacks infinitely and lasts until the end of the current round phase.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Master_of_Duality_ar_augment.png/80px-Master_of_Duality_ar_augment.png?aa89c",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Master of Duality",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "When your team triggers Combo Breaker by  immobilizing an enemy champion for 4 seconds out of the last 7 seconds, you become enraged and your next  immobilizing effects deal magic damage based on  your maximum health to the target. This effect resets every round.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Mercy_ar_augment.png/80px-Mercy_ar_augment.png?a9d74",
+      "levels": [
+        "30% of your maximum health magic damage.",
+        "45% of your maximum health magic damage.",
+        ""
+      ],
+      "name": "Mercy",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Grants  bonus health equal to a percentage of  your maximum mana.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Mind_to_Matter_ar_augment.png/80px-Mind_to_Matter_ar_augment.png?e8a01",
+      "levels": [
+        "35% of your maximum mana converted to  bonus health.",
+        "70% of your maximum mana converted to  bonus health.",
+        ""
+      ],
+      "name": "Mind to Matter",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Your  pets deal increased damage as well as gain  bonus health and  size.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Minionmancer_ar_augment.png/80px-Minionmancer_ar_augment.png?3f808",
+      "levels": [
+        "40% increased damage, bonus health and  size.",
+        "55% increased damage, bonus health and  size.",
+        ""
+      ],
+      "name": "Minionmancer",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain an improved version of  LeBlanc's  Mirror Image.\n\nMIRROR IMAGE: Upon being damaged to  30% maximum health, create 4  clones of yourself, after which you and your clones instantly become  invisible for 1.25 seconds ( 30 seconds cooldown). Your clones can mimic your basic attack animation, though cannot deal damage and last for 8 seconds. One clone may move in front of you, the others will move toward random directions. Clones have a  25 bounty.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Mirror_Image_ar_augment.png/80px-Mirror_Image_ar_augment.png?8df34",
+      "levels": [
+        "",
+        "MAX-LEVEL EFFECT: Your clones gain your  augments and their basic attacks deal 20% damage.",
+        ""
+      ],
+      "name": "Mirror Image",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Grants the  Mountain Dragon Soul, or a different  Dragon Soul if one is already obtained.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Mountain_Soul_ar_augment.png/80px-Mountain_Soul_ar_augment.png?9c605",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Mountain Soul",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain the  Multitool in your inventory. At each Shopping Phase, you can choose 1 out of 5 random items on the top of your inventory for  Multitool to transform into.  Multitool can provide prismatic items after the 4th round.\n\nRemoved since V26.09.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Multitool_ar_augment.png/80px-Multitool_ar_augment.png?daffb",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Multitool",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Basic attacks  on-hit reduce the remaining cooldowns of your abilities by  1.25 seconds.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Mystic_Punch_ar_augment.png/80px-Mystic_Punch_ar_augment.png?abe25",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Mystic Punch",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Upon taking fatal damage, you enter a downed state as normal but modify the arm time for the revive and automatically revive yourself without the help of your ally over 8 seconds. Additionally, you can enter the downed state for revival an additional time after the first revive, for a total of 2 revives per round. Each time you revive however, you respawn with reduced  maximum health and  size. The first revive reduces your  maximum health by 30% and  size by 20% and the second does so by 51% and 40% (70% total maximum health and 80% size for first revive, then 49% total maximum health and 60% size for the second), and so on.\n\nThis effect only activates while your ally is alive and is cancelled immediately if they die while you are in the downed state. You and your ally can enter the downed state even after one of you has already been revived from one, though not a second time for your ally. If your ally stands in your revival zone, the revive occurs faster. Upon reviving, you  knock back all nearby enemies.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Nesting_Doll_ar_augment.png/80px-Nesting_Doll_ar_augment.png?6f52f",
+      "levels": [
+        "2 seconds arm time.\n1 extra revival.",
+        "3 seconds arm time.\n2 extra revivals.",
+        "3 seconds arm time.\n3 extra revivals.\n\nMAX-LEVEL EFFECT: Each ally gains an additional revive."
+      ],
+      "name": "Nesting Doll",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Replaces  Flee with  Now You See Me.\n\n NOW YOU SEE ME:\n\nPASSIVE: Casting an ability with a  dash or  blink leaves behind a mark at the cast location.\n\nACTIVE:  Blinks you to the mark's location and grants you 50% bonus movement speed for 2 seconds.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Now_You_See_Me_ar_augment.png/80px-Now_You_See_Me_ar_augment.png?399e1",
+      "levels": [
+        "5 seconds cooldown.\n50% bonus movement speed.",
+        "0.5 seconds cooldown.\n75% bonus movement speed.\n\n\nMAX-LEVEL EFFECT: Increase the number of portals you can have at a time to 5.",
+        ""
+      ],
+      "name": "Now You See Me",
+      "tier": "Silver"
+    },
+    {
+      "effect": "No effect.\n\nERROR: This augment is only granted when the Parasitic Mutation augment has failed to copy an augment.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Null_ar_augment.png/80px-Null_ar_augment.png?90b81",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Null",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain  Death's Dance's Ignore Pain.\n\nIGNORE PAIN: Reduce some post-mitigation damage received and instead store it to successively take it as  true damage over 6 seconds, dealing a sixth of the stored damage each second.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Numb_to_Pain_ar_augment.png/80px-Numb_to_Pain_ar_augment.png?a8bc3",
+      "levels": [
+        "( 25% /  10%) damage reduction.",
+        "( 40% /  25%) damage reduction.\n\nMAX-LEVEL EFFECT: Gain  Death's Dance's Defy: Upon a champion takedown, cleanse the over-time damage.",
+        ""
+      ],
+      "name": "Numb to Pain",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Automatically cast  Sivir's  Boomerang Blade at a nearby enemy, dealing physical damage to enemies hit ( 7 seconds cooldown).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/OK_Boomerang_ar_augment.png/80px-OK_Boomerang_ar_augment.png?58e37",
+      "levels": [
+        "39.5 – 201 (based on level) (+ 22% bonus AD) (+ 15% AP) physical damage.",
+        "109.5 – 271 (based on level) (+ 22% bonus AD) (+ 15% AP) physical damage.\nFire a second Boomerang",
+        ""
+      ],
+      "name": "OK Boomerang",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Replaces  Flee with  Kalista's  Fate's Call.\n\nFATE'S CALL: Retrieve your ally and hold them for 4 seconds,  pulling them to yourself over 1 second and  cleansing them from all  crowd control, as well as rendering them  invulnerable and  untargetable for the duration ( 60 seconds cooldown).\n\nWhile being held, your ally is  vanished and can  dash with  displacement immunity to end Fate's Call's effects and reappear at the target location; after the duration, they will automatically do so at maximum range from your facing direction. The ally's dash stops upon colliding with an enemy  champion,  knocking up all nearby enemies briefly and landing to their  base attack range from the target collided with.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Oathsworn_ar_augment.png/80px-Oathsworn_ar_augment.png?add2f",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Oathsworn",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Grants the  Ocean Dragon Soul, which has a modified base  heal value of 100, or a different  Dragon Soul if one is already obtained.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Ocean_Soul_ar_augment.png/80px-Ocean_Soul_ar_augment.png?67824",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Ocean Soul",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Your abilities now have a  health cost of  5% current health to cast them. In return, you gain  ability power,  bonus movement speed and  omnivamp based on your  missing health.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Wisdom_of_Ages_ar_augment.png/80px-Wisdom_of_Ages_ar_augment.png?531d7",
+      "levels": [
+        "Capped at  70% missing health:\n 75 – 150 (based on level) ability power.\n 0% – 50% (based on missing health) bonus movement speed.\n 0% – 15% (based on missing health) omnivamp.",
+        "Capped at  70% missing health:\n 75 – 150 (based on level) ability power.\n 0% – 75% (based on missing health) bonus movement speed.\n 0% – 25% (based on missing health) omnivamp.",
+        ""
+      ],
+      "name": "Ominous Pact",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Grants random  Dragon Souls.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Omni_Soul_ar_augment.png/80px-Omni_Soul_ar_augment.png?53d28",
+      "levels": [
+        "2  Dragon Souls.",
+        "3  Dragon Souls.",
+        "4  Dragon Souls."
+      ],
+      "name": "Omni Soul",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Replaces  Flee with  Orbital Laser.\n\n ORBITAL LASER: Call upon an orbital laser to fire down on the target location after 2.5 seconds, immediately dealing true damage equal to the  30% of the target's maximum health then 45 – 120 (based on level) magic damage every 0.5 seconds over 3 seconds to enemies within a 550 radius, up to a total of 270 – 720 (based on level).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Orbital_Laser_ar_augment.png/80px-Orbital_Laser_ar_augment.png?70e58",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Orbital Laser",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Dashing or  blinking grants  bonus armor and  bonus magic resistance, stacking up to 5 times. This effect lasts until the end of the current round phase.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Outlaw%27s_Grit_ar_augment.png/80px-Outlaw%27s_Grit_ar_augment.png?fabcd",
+      "levels": [
+        "10 bonus resistances, stacking up to 5 times for a total of 50 bonus resistances.",
+        "15 bonus resistances, stacking up to 5 times for a total of 75 bonus resistances.\n\nMAX-LEVEL EFFECT: Gaining the stack doubles the bonusresistances for 2 seconds.",
+        ""
+      ],
+      "name": "Outlaw's Grit",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Your abilities'  mana costs are doubled, but you also gain increased damage as well as self and outgoing  healing and  shielding, based on  your maximum mana.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Overflow_ar_augment.png/80px-Overflow_ar_augment.png?88ba2",
+      "levels": [
+        "7% (+ 0.5% per 100 maximum mana) increased damage,  healing and  shielding.",
+        "15% (+ 0.5% per 100 maximum mana) increased damage,  healing and  shielding.\n\nMAX-LEVEL EFFECT: Reduce the current cooldown of one of your basic abilities by  5 seconds each time you spend  300 mana.",
+        ""
+      ],
+      "name": "Overflow",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Your current augments transform into an equal number of completely random Prismatic ones.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Pandora%27s_Box_ar_augment.png/80px-Pandora%27s_Box_ar_augment.png?d9302",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Pandora's Box",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Upon taking fatal damage for the first time, you become  untargetable, transforming into a wisp, and are restored to  a portion of your maximum health. After 1 second,  dash to a random location on the map 1500–3000 units away at 3500 unit/s speed and become targetable again upon arrival. The target location is always inside the Ring of Fire and up to 1500 units away from its edge.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Panic_Room_ar_augment.png/80px-Panic_Room_ar_augment.png?ce8bb",
+      "levels": [
+        "15% maximum health.",
+        "35% maximum health.",
+        ""
+      ],
+      "name": "Panic Room",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Copy a random  augment from either champion on the enemy team when the Combat Phase starts, with the copied augment changing every round.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Parasitic_Mutation_ar_augment.png/80px-Parasitic_Mutation_ar_augment.png?96ad3",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Parasitic Mutation",
+      "tier": "Silver"
+    },
+    {
+      "effect": "You  heal for a part of the damage dealt by your ally.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Parasitic_Relationship_ar_augment.png/80px-Parasitic_Relationship_ar_augment.png?f5c42",
+      "levels": [
+        "Ally damage to heal ratio:\n15% (in teams of 2).\n10% (in teams of 3).",
+        "Ally damage to heal ratio:\n22.5% (in teams of 2).\n15% (in teams of 3)}}.\n\nMAX-LEVEL EFFECT: Excess  healing from this augment is converted into a  shield.",
+        ""
+      ],
+      "name": "Parasitic Relationship",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Grants a great amount of  base health regeneration, increased while below  a certain health threshold.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Perseverance_ar_augment.png/80px-Perseverance_ar_augment.png?2bbb6",
+      "levels": [
+        "600% base health regeneration.\n 1200% enhanced health regeneration.\n Below 25% maximum health.",
+        "1200% base health regeneration.\n 2400% enhanced health regeneration.\n Below 50% maximum health.",
+        ""
+      ],
+      "name": "Perseverance",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  Veigar's  Phenomenal Evil Power.\n\nPHENOMENAL EVIL POWER: Generate a permanent stack of Phenomenal Evil each time you damage an enemy champion with  ability damage. This effect cannot trigger more than once every second globally and once every 5 seconds from the same cast instance. For each stack, gain  ability power.\n\nIf this is your second augment, start with 40 Phenomenal Evil stacks, granting you  40 ability power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Phenomenal_Evil_ar_augment.png/80px-Phenomenal_Evil_ar_augment.png?b2d1a",
+      "levels": [
+        "1 ability power per stack.",
+        "2 ability power per stack.",
+        "MAX-LEVEL EFFECT: Gain  10% ability power."
+      ],
+      "name": "Phenomenal Evil",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Replaces  Flee with  Mark. Your  Mark is empowered to instead throw a pinball, which deals 100 – 500 (based on level) bonus true damage and ricochets off of terrain that it collides with. Each time the pinball ricochets, its remaining travel distance is reset, it increases in  radius by 25%, deals 20% increased damage, and reduces  Mark's remaining cooldown by  30% of its total. The pinball can ricochet up to 4 times, for a maximum radius increase of 100% and a damage increase of 80%. Additionally, your  Mark gains  50 ability haste.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Pinball_ar_augment.png/80px-Pinball_ar_augment.png?421fe",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Pinball",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Scoring a champion  takedown generates a stack, once per champion per round. This augment will transform into a free  Prismatic Item Anvil, a Prismatic Augment selection and a free  Prismatic Stat Anvil at 5 stacks.\n\nThese bonuses are granted at the start of the shop phase after a combat phase where the stack requirement is achieved.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Prismatic_Egg_ar_augment.png/80px-Prismatic_Egg_ar_augment.png?7ea69",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Prismatic Egg",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain  15% (+ 25% per 100 bonus armor) (+ 25% per 100 bonus magic resistance) heal and shield power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Protein_Shake_ar_augment.png/80px-Protein_Shake_ar_augment.png?88ca4",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Protein Shake",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Convert all of your  bonus attack speed into  ability haste at a rate of  0.65 ability haste per  1% bonus attack speed. Additionally, your abilities' total cooldowns are reduced by  10%.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Purist_-_Caster_ar_augment.png/80px-Purist_-_Caster_ar_augment.png?9f0b9",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Purist - Caster",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Automatically cast an improved version of  Camille's  Tactical Sweep, winding over 0.75 seconds to slash in a 650 radius around you. The slash deals physical damage to enemies within the area ( 12 seconds cooldown). Enemies hit by the outer edge of the circle take bonus physical damage equal to 10% (+ 2.5% per 100 bonus AD) (+ 1.6% per 100 AP) (+ 0.1% per 100 bonus health) of their maximum health and are  slowed decaying over 2 seconds. Additionally, you are  healed for a part of the bonus post-mitigation damage against enemy champions hit by the outer edge.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Quantum_Computing_ar_augment.png/80px-Quantum_Computing_ar_augment.png?0eb3c",
+      "levels": [
+        "159 – 312 (based on level) (+ 85% bonus AD) (+ 50% AP) physical damage.\n 60% slow strength.",
+        "234 – 387 (based on level) (+ 85% bonus AD) (+ 50% AP) physical damage.\n 80% slow strength.",
+        "309 – 462 (based on level) (+ 85% bonus AD) (+ 50% AP) physical damage.\n 80% slow strength.\n\nMAX-LEVEL EFFECT: Your automatic effects have 25% / 10% / 1% (based on cast times) chance to multi-cast."
+      ],
+      "name": "Quantum Computing",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "QUEST:  Heal allied champions for 2500 in total, or mitigate 2500 damage for them.\n\nREWARD: Upon completing your QUEST, gain  100% bonus attack speed and empower your basic attacks to deal bonus magic damage equal to  350% of your heal and shield power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Quest_Angel_of_Retribution_ar_augment.png/80px-Quest_Angel_of_Retribution_ar_augment.png?e82e6",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Quest: Angel of Retribution",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  Bami's Cinder. You can now purchase  Hollow Radiance and  Sunfire Aegis in spite of the item limit imposed by Immolate.\n\nQUEST: Obtain  Hollow Radiance and  Sunfire Aegis.\n\nREWARD: Upon completing your QUEST, convert the items you obtained for the quest into  Void Immolation.\n\n Void Immolation counts as 2 Burn effect sources.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Quest_Icathia%27s_Fall_ar_augment.png/80px-Quest_Icathia%27s_Fall_ar_augment.png?06458",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Quest: Icathia's Fall",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "QUEST: Wear 10  hats simultaneously.\n\nREWARD: For each hat currently worn, gain 7.2 bonus Attack Damage or 12 Ability Power (Adaptive),  8 bonus armor,  8 bonus magic resistance,  3% tenacity and  4 bonus movement speed. However, you now lose half your hats upon losing a round.\n\nIf the requirements are fulfilled at any point during a Combat Phase, only grants the rewards after the end of the current round. Rewards cannot be earned mid-combat.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Quest_Mad_Hatter_ar_augment.png/80px-Quest_Mad_Hatter_ar_augment.png?1b718",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Quest: Mad Hatter",
+      "tier": "Gold"
+    },
+    {
+      "effect": "QUEST: Purchase 2 Item Anvils ( / ).\n\nREWARD: All of your items will become  Masterwork, increasing their stats by 40%.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Quest_Rite_of_the_Forge_God_ar_augment.png/80px-Quest_Rite_of_the_Forge_God_ar_augment.png?6b1db",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Quest: Rite of the Forge God",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "QUEST: Obtain  Heartsteel and accumulate over 400 bonus health from Colossal Consumption.\n\nREWARD: Upon completing your QUEST, increase the bonus health previously and future gained from  Heartsteel's Colossal Consumption by 300%, and gain  bonus health regeneration equal to 12.5% of the bonus health gained from Colossal Consumption.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Quest_Steel_Your_Heart_ar_augment.png/80px-Quest_Steel_Your_Heart_ar_augment.png?4aff7",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Quest: Steel Your Heart",
+      "tier": "Gold"
+    },
+    {
+      "effect": "QUEST: Possess  Hextech Gunblade,  Infinity Edge and  Perplexity.\n\nREWARD: Attacks now fire in a narrow straight line, damaging all enemies within for 60% AP physical damage and 75% AD magic damage and applying  on-hit effects twice.\n\nThis augment is only available for  Yunara and can only be offered during the first two rounds where Augment selection is available.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Quest_Three_Sacred_Treasures_ar_augment.png/80px-Quest_Three_Sacred_Treasures_ar_augment.png?b54ab",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Quest: Three Sacred Treasures",
+      "tier": "Gold"
+    },
+    {
+      "effect": "QUEST: Score 8 champion  takedowns, up to one for each enemy per round.\n\nREWARD: Upon completing your QUEST, you receive  The Golden Spatula.\n\n The Golden Spatula counts as a Burn source.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Quest_Urf%27s_Champion_ar_augment.png/80px-Quest_Urf%27s_Champion_ar_augment.png?f8bab",
+      "levels": [
+        "",
+        "MAX-LEVEL EFFECT: Increase this item's stats by 20%.",
+        ""
+      ],
+      "name": "Quest: Urf's Champion",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain a  Needlessly Large Rod that has its ability power stat modified to  120 AP.\n\nQUEST: Obtain  Rabadon's Deathcap and  Zhonya's Hourglass.\n\nREWARD: Upon completing your QUEST, convert the items you obtained for the quest into  Wooglet's Witchcap.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Quest_Wooglet%27s_Witchcap_ar_augment.png/80px-Quest_Wooglet%27s_Witchcap_ar_augment.png?0f7db",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Quest: Wooglet's Witchcap",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Casting an ability  heals you, based on your  maximum health.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Rabble_Rousing_ar_augment.png/80px-Rabble_Rousing_ar_augment.png?a631a",
+      "levels": [
+        "Heal for 5 – 60 (based on level) (+ 1% maximum health)",
+        "Heal for 5 – 60 (based on level) (+ 2% maximum health)\n\nMAX-LEVEL EFFECT:  Healing from ultimate abilities is doubled.",
+        ""
+      ],
+      "name": "Rabble Rousing",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  2500 once this  augment is removed or replaced.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Rags_to_Riches_ar_augment.png/80px-Rags_to_Riches_ar_augment.png?d1aee",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Rags to Riches",
+      "tier": "Silver"
+    },
+    {
+      "effect": "At the start of the combat phase in each round, you are now imprisoned in the center of the battlefield for 9 seconds, becoming  suppressed in the duration. While imprisoned, you gain 40% – 70% (based on current round) damage reduction (including against  true damage) and  crowd control immunity, and increase your  attack damage,  ability power,  maximum health, and  size according to the time you're imprisoned.\n\nAt the end of the duration, or upon being damaged to 50% maximum health otherwise, you are set free,  knocking back all nearby enemies and losing the damage reduction and crowd control immunity but keeping the other bonuses until the end of the round. Additionally, you receive a  shield that absorbs damage equal to  a percentage of your maximum health and lasts until destroyed.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Raid_Boss_ar_augment.png/80px-Raid_Boss_ar_augment.png?10d28",
+      "levels": [
+        "Increase stats by 0% – 35% (based on seconds imprisoned).\n 25% maximum health  shield.",
+        "Increase stats by 0% – 55% (based on seconds imprisoned).\n 40% maximum health  shield.",
+        ""
+      ],
+      "name": "Raid Boss",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Grants  ability haste.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Recursion_ar_augment.png/80px-Recursion_ar_augment.png?bcafc",
+      "levels": [
+        "40 ability haste.",
+        "60 ability haste.",
+        "80 ability haste."
+      ],
+      "name": "Recursion",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Upon dropping below  60% or 30% of your maximum health, each for the first time in a round,  knock back all enemies within a  500 radius by 750 units.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Repulsor_ar_augment.png/80px-Repulsor_ar_augment.png?78874",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Repulsor",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Automatically refresh your basic abilities' cooldowns  every several seconds.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Restart_ar_augment.png/80px-Restart_ar_augment.png?5abef",
+      "levels": [
+        "12 seconds cooldown.",
+        "8 seconds cooldown.",
+        ""
+      ],
+      "name": "Restart",
+      "tier": "Gold"
+    },
+    {
+      "effect": "You constantly  heal while moving.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Restless_Restoration_ar_augment.png/80px-Restless_Restoration_ar_augment.png?7515f",
+      "levels": [
+        "Heal for 0.2 – 1.2 (based on level) (+ 0.016% maximum health) per 10 units travelled.",
+        "Heal for 0.2 – 1.2 (based on level) (+ 0.03% maximum health) per 10 units travelled.",
+        ""
+      ],
+      "name": "Restless Restoration",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Your champion's first basic ability (Q) gains increased damage and increased  Healing and  Shielding, but loses  50 ability haste.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Rice_And_Chicken_ar_augment.png/80px-Rice_And_Chicken_ar_augment.png?bd970",
+      "levels": [
+        "50% increased damage.\n30% increased  Healing and  Shielding.",
+        "75% increased damage.\n50% increased  Healing and  Shielding.\n\nMAX-LEVEL EFFECT: Casting your first basic ability grants you  40% bonus movement speed for 2 seconds.",
+        ""
+      ],
+      "name": "Rice And Chicken",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Your champion's second basic ability (W) gains increased damage and increased  Healing and  Shielding, but loses  50 ability haste.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Rice_And_Fish_ar_augment.png/80px-Rice_And_Fish_ar_augment.png?0772d",
+      "levels": [
+        "50% increased damage.\n30% increased  Healing and  Shielding.",
+        "75% increased damage.\n50% increased  Healing and  Shielding.\n\nMAX-LEVEL EFFECT: Casting your second basic ability grants you  40% bonus movement speed for 2 seconds.",
+        ""
+      ],
+      "name": "Rice And Fish",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Your champion's third basic ability (E) gains increased damage and increased  Healing and  Shielding, but loses  50 ability haste.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Rice_And_Pork_ar_augment.png/80px-Rice_And_Pork_ar_augment.png?c90e8",
+      "levels": [
+        "50% increased damage.\n30% increased  Healing and  Shielding.",
+        "75% increased damage.\n50% increased  Healing and  Shielding.\n\nMAX-LEVEL EFFECT: Casting your third basic ability grants you  40% bonus movement speed for 2 seconds.",
+        ""
+      ],
+      "name": "Rice And Pork",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Self and outgoing  healing or  shielding grants you increased ability damage ( 3 seconds cooldown). This effect can only occur once per cast instance, stacks infinitely and lasts until the end of the current round phase.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Righteous_Fury_ar_augment.png/80px-Righteous_Fury_ar_augment.png?b73d2",
+      "levels": [
+        "2% increased ability damage per stack.",
+        "3% increased ability damage per stack.",
+        "4% increased ability damage per stack."
+      ],
+      "name": "Righteous Fury",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Increase your augment count to 6. When you defeat a team, a selection screen of their augments will open in the shopping phase of the next round. From now, Augment Selections only provide Augment Level Ups.\nIf none of their augments are applicable to you, you'll gain  500 instead.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Scavenger_ar_augment.png/80px-Scavenger_ar_augment.png?5f2d6",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Scavenger",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  ( 75 /  50) bonus attack range.\n\nRemoved since V26.09.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Scoped_Weapons_ar_augment.png/80px-Scoped_Weapons_ar_augment.png?c1842",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Scoped Weapons",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain  ( 200 /  100) bonus attack range.\n\nRemoved since V26.09.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Scopier_Weapons_ar_augment.png/80px-Scopier_Weapons_ar_augment.png?1a7c2",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Scopier Weapons",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  bonus attack range.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Scopiest_Weapons_ar_augment.png/80px-Scopiest_Weapons_ar_augment.png?8345f",
+      "levels": [
+        "( 150 /  90) attack range.",
+        "( 225 /  135) attack range.",
+        "( 300 /  180) attack range."
+      ],
+      "name": "Scopiest Weapons",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain  Leona's  Sunlight.\n\nSUNLIGHT: Your abilities mark enemies, causing them to take bonus magic damage based on  their maximum health from your ally's next basic attack or ability hit against them ( 0.75-second cooldown per target).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Searing_Dawn_ar_augment.png/80px-Searing_Dawn_ar_augment.png?c1cec",
+      "levels": [
+        "40 – 200 (based on level) (+ 2.5% of target's maximum health) bonus magic damage.",
+        "40 – 200 (based on level) (+ 4.5% of target's maximum health) bonus magic damage.",
+        ""
+      ],
+      "name": "Searing Dawn",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Automatically get a bomb attached to you that detonates after  13 seconds, creating an explosion that deals true damage based on the target's maximum health to enemies within 350 units and  knocks them up for 0.75 seconds ( 13 seconds cooldown).\n\nThe bomb's duration is not refreshed when the initial delay for the combat phase elapses.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Self_Destruct_ar_augment.png/80px-Self_Destruct_ar_augment.png?052f1",
+      "levels": [
+        "Explosion damage: 15% of the target's maximum health.",
+        "Explosion damage: 25% of the target's maximum health.",
+        ""
+      ],
+      "name": "Self Destruct",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Upon taking fatal damage for the first time, you are restored to 100% maximum health but suffer true damage over time until you die from reaching 0 health. Scoring a champion  takedown ends this effect's damage immediately and sets your  current health to a percentage of maximum health.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Serve_Beyond_Death_ar_augment.png/80px-Serve_Beyond_Death_ar_augment.png?8e4df",
+      "levels": [
+        "Suffer 8.33% of your maximum health true damage every 0.264 seconds over 3 seconds.\nSet to  20% maximum health on takedown.",
+        "Suffer 4.67% of your maximum health true damage every 0.264 seconds over 6 seconds.\nSet to  30% maximum health on takedown.",
+        ""
+      ],
+      "name": "Serve Beyond Death",
+      "tier": "Silver"
+    },
+    {
+      "effect": "After  dashing,  blinking, or exiting  stealth, gain  bonus movement speed for a period of time.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Shadow_Runner_ar_augment.png/80px-Shadow_Runner_ar_augment.png?27e49",
+      "levels": [
+        "200 bonus movement speed.\n2 seconds duration.",
+        "400 bonus movement speed.\n3 seconds duration.",
+        ""
+      ],
+      "name": "Shadow Runner",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Scoring a champion  takedown generates a stack, stacking infinitely. For each stack, gain  ability haste and  bonus movement speed, and reduce your  size by 4%. Lose a proportion of stacks on death.\n\nSize reduction is capped at 80% (20 stacks).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Shrink_Engine_ar_augment.png/80px-Shrink_Engine_ar_augment.png?33d71",
+      "levels": [
+        "8 ability haste.\n 1% bonus movement speed.\nLose 25% of stacks on death.",
+        "10 ability haste.\n 1.5% bonus movement speed.\nNo stacks will be lost anymore.",
+        ""
+      ],
+      "name": "Shrink Engine",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Basic attacks reduce the target's damage dealt for 3 seconds, refreshing with each hit. Their  size is also reduced significantly for the duration.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Shrink_Ray_ar_augment.png/80px-Shrink_Ray_ar_augment.png?f22b9",
+      "levels": [
+        "15% damage and size reduction.",
+        "20% damage and size reduction.\n\nMAX-LEVEL EFFECT: Do 5% / 10% / 15% / 20% (based on target's size) bonus damage to small targets.",
+        ""
+      ],
+      "name": "Shrink Ray",
+      "tier": "Gold"
+    },
+    {
+      "effect": "For each  Silver augment you have, gain increased damage.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Silver_Spoon_ar_augment.png/80px-Silver_Spoon_ar_augment.png?2155f",
+      "levels": [
+        "7.5% increased damage per Silver augment.",
+        "10% increased damage per Silver augment.",
+        "15% increased damage per Silver augment."
+      ],
+      "name": "Silver Spoon",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Hitting an enemy with a basic ability while located at least  700 units away from them at the time of the hit  reduces the current cooldown of that ability to 0.5 seconds. If the ability hit is from a damage over time effect, the cooldown of the ability is instead reduced to 3 seconds if it is not already below that.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Skilled_Sniper_ar_augment.png/80px-Skilled_Sniper_ar_augment.png?1d583",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Skilled Sniper",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Immobilizing or  grounding an enemy champion grants you  adaptive force, stacking infinitely ( 5 seconds cooldown per cast instance). This effect lasts until the end of the current round phase.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Slap_Around_ar_augment.png/80px-Slap_Around_ar_augment.png?dde95",
+      "levels": [
+        "9 bonus Attack Damage or 15 Ability Power (Adaptive).",
+        "15 bonus Attack Damage or 25 Ability Power (Adaptive).",
+        ""
+      ],
+      "name": "Slap Around",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Automatically cast  Zac's  Unstable Matter, releasing a burst of slime in a  450 radius around you and dealing 40 – 80 (based on level) (+ 3% – 7% (based on level) (+ 1.5% per 100 bonus AD) (+ 1.5% per 100 AP) of target's maximum health) magic damage to enemies hit ( 7 seconds cooldown). Additionally, hitting a champion secretes a slime blob toward a nearby location. Both you and enemy champions can interact with the blob by moving over it; you may consume it to  heal yourself for 3% – 6% (based on level) of your maximum health, while an enemy may destroy it to deny the effect.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Slime_Time_ar_augment.png/80px-Slime_Time_ar_augment.png?bb63c",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Slime Time",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Surrounds you in flames, causing you to apply a Burn every second to enemies within  500 units for 5 seconds that deals magic damage. This Burn stacks infinitely and refreshes with each application.\n\nThis counts as a Burn source.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Slow_Cooker_ar_augment.png/80px-Slow_Cooker_ar_augment.png?61099",
+      "levels": [
+        "「 0.26% of your maximum health per second. 」",
+        "「 0.35% of your maximum health per second. 」",
+        "「 0.45% of your maximum health per second. 」"
+      ],
+      "name": "Slow Cooker",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Your  base attack speed is set to a static amount of 0.65 and your attack rate no longer benefits from any source of attack speed bonuses. In return, you convert all  bonus attack speed into  bonus attack damage.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Slow_and_Steady_ar_augment.png/80px-Slow_and_Steady_ar_augment.png?8904b",
+      "levels": [
+        "Convert ratio:  0.75 bonus attack damage from every  1% bonus attack speed.",
+        "Convert ratio:  1 bonus attack damage from every  1% bonus attack speed.\n\nMAX-LEVEL EFFECT: Gain  30% life steal.",
+        ""
+      ],
+      "name": "Slow and Steady",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Replaces  Flee with  Mark /  Dash.\n\nMARK: Throws a snowball in the target direction that deals 15 – 100 (based on level) true damage to the first enemy hit and marks them for 3 seconds ( 6 seconds cooldown). While the target is marked, you are granted the ability to cast  Dash.\n\nDASH: You  dash to the marked target while being  untargetable, dealing the same damage again upon arrival.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Snowball_Fight%21_ar_augment.png/80px-Snowball_Fight%21_ar_augment.png?df8fe",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Snowball Fight!",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Granting a buff,  heal, or  shield to your ally deals 30 – 150 (based on level) true damage to enemies within 500 units of them and  slows targets for 1.5 seconds ( 2 seconds cooldown).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Sonic_Boom_ar_augment.png/80px-Sonic_Boom_ar_augment.png?6389a",
+      "levels": [
+        "30% slow strength.",
+        "60% slow strength.",
+        ""
+      ],
+      "name": "Sonic Boom",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Your  critical strikes  heal you for a part of damage dealt. Additionally, gain 25% critical strike chance.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Soul_Siphon_ar_augment.png/80px-Soul_Siphon_ar_augment.png?85bbc",
+      "levels": [
+        "Heal for 10% damage done by critical strikes.",
+        "Heal for 20% damage done by critical strikes.",
+        ""
+      ],
+      "name": "Soul Siphon",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Whenever you damage an enemy champion with an ability, gain  bonus movement speed decaying over 0.75 seconds.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Speed_Demon_ar_augment.png/80px-Speed_Demon_ar_augment.png?e1da2",
+      "levels": [
+        "150 bonus movement speed.",
+        "300 bonus movement speed.",
+        ""
+      ],
+      "name": "Speed Demon",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Replaces  Flee with  Spellcraft.\n\n SPELLCRAFT: Wind up for 0.75 second and unleash a burst of energy to a 35° cone with  650 units radius in front of you, dealing 100 (+ 10% bonus AD) (+ 15% AP) magic damage to enemies within this cone. This deals 200% damage to enemies hit with outer edge,  slowing them by 10% for 2 seconds. Hitting at least one enemy champion with the outer edge  restores  5% of your missing health.\nThose effects get enhanced every time you select augments with following modifiers:\n* Each  augment with a red sticker increases the magic damage by 75 (+ 20% bonus AD) (+ 30% AP). This value doubles to enemies hit with the outer edge.\n* Each  augment with a blue sticker increases the  slow effect by 45%.\n* Each  augment with a green sticker increases the  heal by 20%.\nAt most 3 modifiers of the same kind can take effect.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Spellcraft_ar_augment.png/80px-Spellcraft_ar_augment.png?044c9",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Spellcraft",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Hitting an enemy champion with an ability sends a trail centered from you to the location they were hit, detonating in a 100 width radius after 0.75 seconds to deal magic damage to enemies within. This effect can only trigger once every 6 seconds from the same cast.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Spellwake_ar_augment.png/80px-Spellwake_ar_augment.png?988d8",
+      "levels": [
+        "100 – 325 (based on level) (+ 145% bonus AD) (+ 20% AP) magic damage.",
+        "100 – 325 (based on level) (+ 165% bonus AD) (+ 30% AP) magic damage.\n\nMAX-LEVEL EFFECT: Fire an additional wave 0.5 second after this effect is triggered.",
+        ""
+      ],
+      "name": "Spellwake",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Replaces  Flee with  Akshan's  Heroic Swing.\n\nHEROIC SWING - ACTIVE: You can activate Heroic Swing three times before the ability goes on cooldown, and you can use the third cast only after 0.5 seconds of the second cast. An attack or movement command may be input to use the second and third casts.\n\n FIRST CAST: Fire a hook in the target direction that embeds in the first terrain hit for 2 seconds. Heroic Swing's second cast can be used while the hook is attached. If the hook fails to attach or you become  immobilized,  grounded, or  polymorphed within the duration, Heroic Swing is cancelled and placed on full cooldown.\n\n SECOND CAST:  Swing around the terrain in either a clockwise or counterclockwise direction based on the position of the cursor relative to your facing direction, stopping upon colliding with an enemy champion or terrain. While swinging, fire at the nearest  visible enemy within  500 units every 0.231 seconds to deal them 15 – 75 (based on level) (+ 15% AD)  ×  (1 + 0.3 per 100% bonus attack speed) physical damage and apply  on-hit effects for each shot, with on-hit damage reduced to 25% effectiveness. The dash will be  interrupted if you are affected by any  immobilizing or  polymorphing crowd control during the dash.\n\nTHIRD CAST: End the swing by  jumping to the target location and fire one last shot at a nearby  visible enemy.\n\nScoring an enemy champion  takedown reduces Heroic Swing's  current cooldown to 0.5 seconds.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Spin_Me_Right_Round_ar_augment.png/80px-Spin_Me_Right_Round_ar_augment.png?f7d5b",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Spin Me Right Round",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Your spinning abilities deal increased damage and benefit from  ability haste.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Spin_To_Win_ar_augment.png/80px-Spin_To_Win_ar_augment.png?a27fb",
+      "levels": [
+        "25% increased damage.\n 25 ability haste.",
+        "35% increased damage.\n 35 ability haste.",
+        ""
+      ],
+      "name": "Spin To Win",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain  10% heal and shield power. After casting your ultimate ability, increase your  heal and shield power by 50% for 10 seconds ( 10 seconds cooldown).\n\nRemoved since V26.09.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Spirit_Infusion_ar_augment.png/80px-Spirit_Infusion_ar_augment.png?1b718",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Spirit Infusion",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Redirect a part of the damage dealt to your ally to you, and  heal yourself equal to a part of the healing they receive.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Spirit_Link_ar_augment.png/80px-Spirit_Link_ar_augment.png?aff7b",
+      "levels": [
+        "「 12.5% damage redirection (in teams of 2) 」.\n「 25% healing redirection (in teams of 2) 」.",
+        "「 15% damage redirection (in teams of 2) 」.\n「 35% healing redirection (in teams of 2) 」.",
+        "「 20% damage redirection (in teams of 2) 」.\n「 65% healing redirection (in teams of 2) 」."
+      ],
+      "name": "Spirit Link",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Increase the number of permanent stacks you gain from abilities, augments and items by 75%.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Stackosaurus_Rex_ar_augment.png/80px-Stackosaurus_Rex_ar_augment.png?8d872",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Stackosaurus Rex",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Upon selecting this augment, gain  Stat Bonus Anvils for free.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Stats_on_Stats_on_Stats%21_ar_augment.png/80px-Stats_on_Stats_on_Stats%21_ar_augment.png?3c366",
+      "levels": [
+        "4  Stat Bonus Anvils.",
+        "Gain another  Stat Bonus Anvils, for a total of 5.",
+        "Gain another  Stat Bonus Anvils, for a total of 6.\n\nMAX-LEVEL EFFECT: Gain a  Prismatic Stat Anvil. Increase stats from  Stat Bonus Anvils by 20%."
+      ],
+      "name": "Stats on Stats on Stats!",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Upon selecting this augment, gain  Stat Bonus Anvils for free.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Stats_on_Stats%21_ar_augment.png/80px-Stats_on_Stats%21_ar_augment.png?3c366",
+      "levels": [
+        "3  Stat Bonus Anvils.",
+        "Gain another  Stat Bonus Anvils, for a total of 4.",
+        "Gain another  Stat Bonus Anvils, for a total of 5.\n\nMAX-LEVEL EFFECT: Gain a  Prismatic Stat Anvil. Increase stats from  Stat Bonus Anvils by 20%."
+      ],
+      "name": "Stats on Stats!",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Upon selecting this augment, gain  Stat Bonus Anvils for free.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Stats%21_ar_augment.png/80px-Stats%21_ar_augment.png?780bd",
+      "levels": [
+        "2  Stat Bonus Anvils.",
+        "Gain another  Stat Bonus Anvils, for a total of 3.",
+        "Gain another  Stat Bonus Anvils, for a total of 4.\n\nMAX-LEVEL EFFECT: Gain a  Prismatic Stat Anvil. Increase stats from  Stat Bonus Anvils by 20%."
+      ],
+      "name": "Stats!",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Casting your ultimate ability grants you an aura for 2 seconds, growing in size over the duration to up to  500 units. After the duration, you  taunt all enemies within the aura and gain 50% damage reduction for the same duration ( 30 seconds cooldown). Additionally, gain  30 ultimate haste.\n\nAura is activated once the ultimate's effect starts or has elapsed.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Stuck_In_Here_With_Me_ar_augment.png/80px-Stuck_In_Here_With_Me_ar_augment.png?cc306",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Stuck In Here With Me",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "The first several times you use each unique summoner spell in the current phase of the round, set its cooldown to  3 seconds instead of its default. Additionally, the  cooldown of your  Flash resets every round.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Summoner_Revolution_ar_augment.png/80px-Summoner_Revolution_ar_augment.png?c6004",
+      "levels": [
+        "First 1 time.",
+        "First 2 times.",
+        ""
+      ],
+      "name": "Summoner Revolution",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Replace both of your summoner spells with random ones available in a pool. After using a summoner spell during the combat phase, replace the spell in the respective slot with another random one.\n\nSUMMONER SPELL POOL:  Banner of Command,  Barrier,  Blade Waltz,  Castle,  Cleanse,  Mark /  Dash,  Defensive Maneuvers,  Die Another Day,  Exhaust,  Feel the Burn,  Flash,  Flee,  Ghost,  Heal,  Ignite,  Vanish",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Summoner%27s_Roulette_ar_augment.png/80px-Summoner%27s_Roulette_ar_augment.png?9cd1d",
+      "levels": [
+        "6 seconds cooldown per slot.",
+        "4 seconds cooldown per slot.\n\nMAX-LEVEL EFFECT: Increase chance of rolling special summoner spells.",
+        ""
+      ],
+      "name": "Summoner's Roulette",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Copy a random  augment from your teammate upon selecting this augment and upon entering a new round's Shop Phase, with the copied augment changing every round.\n\nThis effect cannot grant you an augment that is not applicable to your champion.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Symbiotic_Mutation_ar_augment.png/80px-Symbiotic_Mutation_ar_augment.png?10014",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Symbiotic Mutation",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain the  Conqueror and  Lethal Tempo keystone runes.\n\nSee Arena#Runes for Arena-specific overrides on these keystones.\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Symphony_of_War_ar_augment.png/80px-Symphony_of_War_ar_augment.png?541f0",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Symphony of War",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Scoring a champion  takedown permanently grants  bonus maximum health and  size. This effect can be triggered only once per champion per round.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Tank_Engine_ar_augment.png/80px-Tank_Engine_ar_augment.png?8d3d9",
+      "levels": [
+        "2% bonus maximum health.\n 10% size.",
+        "5% bonus maximum health.\n 15% size.",
+        ""
+      ],
+      "name": "Tank Engine",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain Critical Defend Chance equal to  100% of your critical strike chance, up to critical strike chance. Additionally, gain  25% critical strike chance.\n\nCRITICAL DEFEND CHANCE: Grants you a chance to reduce an instance of damage taken.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Tank_It_Or_Leave_It_ar_augment.png/80px-Tank_It_Or_Leave_It_ar_augment.png?23cb5",
+      "levels": [
+        "15% +  25% of critical strike damage damage reduction.",
+        "25% +  25% of critical strike damage damage reduction.",
+        ""
+      ],
+      "name": "Tank It Or Leave It",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Basic attacks  on-hit grant  bonus movement speed, stacking infinitely and lasting until the end of the current round phase. Additionally, gain  bonus attack speed equal to  10% of your total movement speed.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Tap_Dancer_ar_augment.png/80px-Tap_Dancer_ar_augment.png?03445",
+      "levels": [
+        "8 bonus movement speed.",
+        "10 bonus movement speed.",
+        "12 bonus movement speed.\n\nMAX-LEVEL EFFECT: Attack speed cap increases to 10."
+      ],
+      "name": "Tap Dancer",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Grants  bonus attack damage,  ability haste, and  lethality.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/The_Brutalizer_ar_augment.png/80px-The_Brutalizer_ar_augment.png?acf82",
+      "levels": [
+        "20 bonus attack damage.\n 15 ability haste.\n 15 lethality.",
+        "50 bonus attack damage.\n 35 ability haste.\n 30 lethality.",
+        ""
+      ],
+      "name": "The Brutalizer",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Grants  armor penetration and  magic penetration.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Thread_the_Needle_ar_augment.png/80px-Thread_the_Needle_ar_augment.png?45a90",
+      "levels": [
+        "15%  armor penetration and  magic penetration.",
+        "20%  armor penetration and  magic penetration.",
+        "35%  armor penetration and  magic penetration."
+      ],
+      "name": "Thread the Needle",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Immobilizing or  grounding an enemy champion inflicts them with a Burn for 5 seconds, dealing magic damage based on  the target's maximum health ( 5 seconds cooldown per cast instance). This Burn stacks infinitely and refreshes with each application.\n\nThis counts as a Burn source.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Tormentor_ar_augment.png/80px-Tormentor_ar_augment.png?f8f50",
+      "levels": [
+        "「 0.6% of the target's maximum health per second 」 magic damage.",
+        "「 0.8% of the target's maximum health per second 」 magic damage.",
+        "「 1.2% of the target's maximum health per second 」 magic damage."
+      ],
+      "name": "Tormentor",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Dashing or  blinking causes you to inflict the nearest enemy champion within  650 units with a Burn for 5 seconds, dealing magic damage based on  the target's maximum health ( 1.5 seconds cooldown per cast instance). This Burn stacks infinitely and refreshes with each application.\n\nThis counts as a Burn source.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Trailblazer_ar_augment.png/80px-Trailblazer_ar_augment.png?644b8",
+      "levels": [
+        "「 0.7% of the target's maximum health per second. 」",
+        "「 1% of the target's maximum health per second. 」",
+        ""
+      ],
+      "name": "Trailblazer",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain two completely random  augments, excluding the other two offerings in your current assortment.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Transmute_Chaos_ar_augment.png/80px-Transmute_Chaos_ar_augment.png?fd0fc",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Transmute: Chaos",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain one random  Gold augment, excluding the other two offerings in your current assortment.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Transmute_Gold_ar_augment.png/80px-Transmute_Gold_ar_augment.png?622ad",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Transmute: Gold",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain one random  Prismatic augment, excluding the other two offerings in your current assortment.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Transmute_Prismatic_ar_augment.png/80px-Transmute_Prismatic_ar_augment.png?4bc2b",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Transmute: Prismatic",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain completely random  silver augments to fill all available slots.\n\nYou can no longer receive new augments, but replace or upgrade existing ones.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Transmute_Silver_ar_augment.png/80px-Transmute_Silver_ar_augment.png?ae58c",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Transmute: Silver",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Gain a  prismatic augment selection when this augment is removed or replaced.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Trash_To_Treasure_ar_augment.png/80px-Trash_To_Treasure_ar_augment.png?996f8",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Trash To Treasure",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Upon exiting  stealth, unleash an explosion in a  300 radius around you, dealing magic damage to nearby enemies. Upon your  clones and traps being destroyed or expiring, they will also trigger this effect around them.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Trickster_Demon_ar_augment.png/80px-Trickster_Demon_ar_augment.png?0edf7",
+      "levels": [
+        "200 – 400 (based on level) (+ 30% bonus AD) (+ 40% AP) magic damage.",
+        "400 – 600 (based on level) (+ 40% bonus AD) (+ 60% AP) magic damage.",
+        ""
+      ],
+      "name": "Trickster Demon",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Upon damaging an enemy while located at over  700 units away at the time of the hit, cast  Ezreal's  Trueshot Barrage in their direction. The barrage deals 175 – 525 (based on level) (+ 100% bonus AD) (+ 70% AP) magic damage to enemies it passes through. This augment has  cooldown on each target.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Trueshot_Prodigy_ar_augment.png/80px-Trueshot_Prodigy_ar_augment.png?3b8e4",
+      "levels": [
+        "10 seconds cooldown per target.",
+        "8 seconds cooldown per target.",
+        "6 seconds cooldown per target.\n\nMAX-LEVEL EFFECT: Fires an additional missile upon hit."
+      ],
+      "name": "Trueshot Prodigy",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Basic attacks generate a stack. At maximum stack, your next basic attack consumes all stacks to apply  on-hit effects again at 100% effectiveness.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Twice_Thrice_ar_augment.png/80px-Twice_Thrice_ar_augment.png?e5d8b",
+      "levels": [
+        "Maximum stack: 2.",
+        "Maximum stack: 1.",
+        ""
+      ],
+      "name": "Twice Thrice",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Damaging abilities against enemy champions launch Firecrackers at the target that each deal 10 – 30 (based on level) (+ 7% bonus AD) (+ 7% AP) magic damage ( 5 seconds cooldown). Additionally, gain  25% critical strike chance.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Twin_Fire_ar_augment.png/80px-Twin_Fire_ar_augment.png?6efa0",
+      "levels": [
+        "1 (+ 1 per 50% critical strike chance) Firecrackers.",
+        "1 (+ 1 per 33.3% critical strike chance) Firecrackers.",
+        "1 (+ 1 per 25% critical strike chance) Firecrackers."
+      ],
+      "name": "Twin Fire",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Basic attacks fire a bolt at an additional target that deals physical damage and applies on-hit effects at 100% effectiveness.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Typhoon_ar_augment.png/80px-Typhoon_ar_augment.png?e778f",
+      "levels": [
+        "20% AD physical damage.",
+        "50% AD physical damage.",
+        ""
+      ],
+      "name": "Typhoon",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Casting your ultimate ability resets its  cooldown immediately after its effect starts or has elapsed. This may occur only once per phase in a round.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Ultimate_Revolution_ar_augment.png/80px-Ultimate_Revolution_ar_augment.png?6f738",
+      "levels": [
+        "",
+        "MAX-LEVEL EFFECT: Your ultimate can refresh for a second time.",
+        ""
+      ],
+      "name": "Ultimate Revolution",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Replaces  Flee with a random champion's ultimate ability, available from a pool. After using the granted ultimate ability during the combat phase, replace the ultimate in the respective slot with another random one after the cooldown for this effect elapses (20 / 17.5 / 15 (based on level) seconds cooldown, increased to 25 / 22.5 / 20 (based on level) for  Dr. Mundo's  Maximum Dosage).\n\nULTIMATE ABILITY POOL:  Cho'Gath's  Feast,  Dr. Mundo's  Maximum Dosage,  Gangplank's  Cannon Barrage,  Gragas'  Explosive Cask,  Lucian's  The Culling,  Lux's  Final Spark,  Morgana's  Soul Shackles.\n\nYou can receive your own champion's ultimate ability from this augment. Ultimate abilities granted by this effect count as an ultimate for all purposes.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Ultimate_Roulette_ar_augment.png/80px-Ultimate_Roulette_ar_augment.png?cedcc",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Ultimate Roulette",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Casting your ultimate ability grants you  crowd control immunity ( 8 seconds cooldown).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Ultimate_Unstoppable_ar_augment.png/80px-Ultimate_Unstoppable_ar_augment.png?e5d8b",
+      "levels": [
+        "2 seconds duration.",
+        "5 seconds duration.",
+        ""
+      ],
+      "name": "Ultimate Unstoppable",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Upon activating  Cultivation of War's revive, deal 75 (+ 100% AD) (+ 110% AP) (+ 15% of target's current health) physical damage to nearby enemies and  knock back all targets hit up to  700 units over 0.75 seconds, as well as  stunning them for the same duration.\n\nFor the next 4 seconds, gain  30% bonus movement speed and become  invulnerable against enemy  champions farther than  450 units from yourself.\n\nThis augment is only available for  Zaahen.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Undying_Guard_ar_augment.png/80px-Undying_Guard_ar_augment.png?45b92",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Undying Guard",
+      "tier": "Gold"
+    },
+    {
+      "effect": "You can now cast  Sylas'  Hijack on your ally to steal their  ultimate ability. When you score a takedown, the total lockout duration on a single target and the total cooldown of your ultimate are reduced by  20%. Gain  60 Ultimate Haste.\n\nThis augment is only available for  Sylas.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Unshackled_ar_augment.png/80px-Unshackled_ar_augment.png?9100a",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Unshackled",
+      "tier": "Gold"
+    },
+    {
+      "effect": "At the start of each round, this augment transforms into a random  augment, either without levels or at its max level.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Unstable_Transmutation_ar_augment.png/80px-Unstable_Transmutation_ar_augment.png?d10bf",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Unstable Transmutation",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  250 on taking this augment. Upgrades  The Collector, empowering Death to have its execution threshold increased each time you kill an enemy champion, and Taxes to generate higher gold from kills. Execution threshold can stack up to 15 times.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Upgrade_Collector_ar_augment.png/80px-Upgrade_Collector_ar_augment.png?aa647",
+      "levels": [
+        "Increase by 1%, capped at a threshold of  15% of the target's maximum health.\nAdditional  200 from kills.",
+        "Increase by 1.25%, capped at a threshold of  23.75% of the target's maximum health.\nAdditional  300 from kills.",
+        ""
+      ],
+      "name": "Upgrade Collector",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Gain  250 on taking this augment. Upgrades  Hubris, empowering Eminence to  heal you for 5% maximum health + (3% per stack) missing health upon being triggered and grant you  10 (+ 5 per stack) bonus movement speed for its duration.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Upgrade_Hubris_ar_augment.png/80px-Upgrade_Hubris_ar_augment.png?4b109",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Upgrade Hubris",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Upgrades  Sword of Blossoming Dawn, empowering Peppermint to have its  healing increased by 250%. Additionally, you gain  100% bonus attack speed.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Upgrade_Sword_of_Blossoming_Dawn_ar_augment.png/80px-Upgrade_Sword_of_Blossoming_Dawn_ar_augment.png?ddfe4",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Upgrade Sword of Blossoming Dawn",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Replaces  Flee with  Vanish.\n\n VANISH: Grants  invisibility for 4 seconds. Attacking or casting abilities ends the stealth immediately.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Vanish_ar_augment.png/80px-Vanish_ar_augment.png?9698b",
+      "levels": [
+        "3 second duration.",
+        "6 second duration.\n\nMAX-LEVEL EFFECT: Casting this spell grants you  25% bonus movement speed.",
+        ""
+      ],
+      "name": "Vanish",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Grants a  spell shield that blocks the next hostile ability  every several seconds (cooldown timer does not restart from champion damage taken).",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Veil_of_Warding_ar_augment.png/80px-Veil_of_Warding_ar_augment.png?12cae",
+      "levels": [
+        "20 seconds cooldown.",
+        "10 seconds cooldown.",
+        ""
+      ],
+      "name": "Veil of Warding",
+      "tier": "Silver"
+    },
+    {
+      "effect": "After your ally dies once, gain increased damage and  omnivamp for the remainder of the round.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Vengeance_ar_augment.png/80px-Vengeance_ar_augment.png?5baf8",
+      "levels": [
+        "「 24% increased damage (teams of 2). 」\n「  24% omnivamp (teams of 2). 」",
+        "「 28% increased damage (teams of 2). 」\n「  28% omnivamp (teams of 2). 」",
+        "「 32% increased damage (teams of 2). 」\n「  32% omnivamp (teams of 2). 」"
+      ],
+      "name": "Vengeance",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Damage dealt by items and damage over time effects can now  critically strike for extra damage. Additionally, gain  25% critical strike chance.\n\nIf both Vulnerability and  Jeweled Gauntlet are equipped, only rolls the critical strike chance of the augment that has the higher critical damage (or either if equal).\nHideNotes",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Vulnerability_ar_augment.png/80px-Vulnerability_ar_augment.png?292f4",
+      "levels": [
+        "140% + bonus critical damage extra damage.",
+        "170% + bonus critical damage extra damage.",
+        ""
+      ],
+      "name": "Vulnerability",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Replaces  Flee with  Warmup Routine.\n\n WARMUP ROUTINE:  Channel for up to 10 seconds to increase your damage output by 2% per second, up to 20%. The damage amplification lasts until the end of the current round phase.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Warmup_Routine_ar_augment.png/80px-Warmup_Routine_ar_augment.png?a69a7",
+      "levels": [
+        "20% maximum extra damage.",
+        "40% maximum extra damage.\n\nMAX-LEVEL EFFECT: Gain permanently increased damage when you reach maximum stacks in a round. Now your partner can join the dance to gain stacks faster.",
+        ""
+      ],
+      "name": "Warmup Routine",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Replaces  Flee with  Time Stop.\n\n TIME STOP: Immediately put yourself in  stasis, and after a 0.33-second delay, all nearby champions as well. While in stasis, become  untargetable and  invulnerable for the duration but also unable to move, declare basic attacks, cast abilities, use summoner spells, or activate items. The stasis lasts 1.75 seconds for yourself, and 2.5 seconds for all other champions affected. During the effect,  heal yourself for「 25% of your missing health over the duration. 」",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/We%27ll_Be_Right_Back_ar_augment.png/80px-We%27ll_Be_Right_Back_ar_augment.png?192de",
+      "levels": [
+        "Heal for 25% of your missing health.",
+        "Heal for 50% of your missing health.\n\nMAX-LEVEL EFFECT: You can now move when in  stasis.",
+        ""
+      ],
+      "name": "We'll Be Right Back",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Hitting an enemy champion with an ability generates a stack of Popoff for 6 seconds, stacking up to 6 times. For each stack, your basic abilities' cooldowns progress faster. At maximum Popoff stacks, this value is doubled.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Weighted_Popoffs_ar_augment.png/80px-Weighted_Popoffs_ar_augment.png?e1253",
+      "levels": [
+        "Progress 2.5% faster, for a total of 30% at maximum stacks.",
+        "Progress 5% faster, for a total of 60% at maximum stacks.",
+        ""
+      ],
+      "name": "Weighted Popoffs",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Automatically cast  Brand's  Pyroclasm to an enemy champion within  750 units. The bouncing fireball deals magic damage to the target ( 12 seconds cooldown). The fireball can bounce between you and enemy champions, up to several times.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Wild_Fire_ar_augment.png/80px-Wild_Fire_ar_augment.png?e4194",
+      "levels": [
+        "350 (+ 30% bonus AD) (+ 40% AP) magic damage.\n3 maximum bounces.",
+        "450 (+ 30% bonus AD) (+ 40% AP) magic damage.\n4 maximum bounces.",
+        "550 (+ 30% bonus AD) (+ 40% AP) magic damage.\n6 maximum bounces.\n\nMAX-LEVEL EFFECT: Max bounce count increases by 1."
+      ],
+      "name": "Wild Fire",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "When your ally drops below  30% of their maximum health, reduce your  current health by 25% to grant them a  shield equal to  a percentage of your current health for 10 seconds.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Willing_Sacrifice_ar_augment.png/80px-Willing_Sacrifice_ar_augment.png?b6e97",
+      "levels": [
+        "25% of your current health  shield.",
+        "35% of your current health  shield.\n\nMAX-LEVEL EFFECT: When this effect triggers, your teammate will be  cleansed as well.",
+        ""
+      ],
+      "name": "Willing Sacrifice",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  1.5 bonus movement speed per 1  Lethality or  flat magic penetration, and  5 bonus movement speed per 5%  armor penetration or  magic penetration.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Wind_Beneath_Blade_ar_augment.png/80px-Wind_Beneath_Blade_ar_augment.png?ce6a9",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Wind Beneath Blade",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Grants 1 level upon selecting this augment and 1 additional level at the start of every other round. Additionally, the level cap for your champion is removed, allowing them to benefit from effects that scale past level 18, including stat growth.\n\nIf this augment is picked after Round 4, gain 3 levels upon selecting the augment instead of 1.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Wisdom_of_Ages_ar_augment.png/80px-Wisdom_of_Ages_ar_augment.png?531d7",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Wisdom of Ages",
+      "tier": "Prismatic"
+    },
+    {
+      "effect": "Grants  ability power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Witchful_Thinking_ar_augment.png/80px-Witchful_Thinking_ar_augment.png?60e86",
+      "levels": [
+        "60 ability power.",
+        "120 ability power.",
+        "180 ability power."
+      ],
+      "name": "Witchful Thinking",
+      "tier": "Silver"
+    },
+    {
+      "effect": "Grants  bonus movement speed based on your  ability haste.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/With_Haste_ar_augment.png/80px-With_Haste_ar_augment.png?8bc33",
+      "levels": [
+        "120% of your  ability haste converted to  movement speed.",
+        "225% of your  ability haste converted to  movement speed.",
+        ""
+      ],
+      "name": "With Haste",
+      "tier": "Gold"
+    },
+    {
+      "effect": "Gain  25% (+ 5% per 100 AP) bonus attack speed and  12.5% (+ 5% per 100 AP) critical strike chance based on your  ability power.",
+      "icon": "https://wiki.leagueoflegends.com/en-us/images/thumb/Zealot_ar_augment.png/80px-Zealot_ar_augment.png?1c180",
+      "levels": [
+        "",
+        "",
+        ""
+      ],
+      "name": "Zealot",
+      "tier": "Silver"
+    }
+  ]
+}

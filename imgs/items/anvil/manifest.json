@@ -1,0 +1,82 @@
+[
+  {
+    "id": 220000,
+    "name": "추가 능력치",
+    "nameKo": "추가 능력치",
+    "nameEn": "Stat Bonus",
+    "category": "anvil",
+    "icon": "anvil/220000-stat-bonus.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/220000_statanvil.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 220001,
+    "name": "전설 전사 아이템",
+    "nameKo": "전설 전사 아이템",
+    "nameEn": "Legendary Fighter Item",
+    "category": "anvil",
+    "icon": "anvil/220001-legendary-fighter-item.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/220001_fighteranvil.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 220002,
+    "name": "전설 원거리 딜러 아이템",
+    "nameKo": "전설 원거리 딜러 아이템",
+    "nameEn": "Legendary Marksman Item",
+    "category": "anvil",
+    "icon": "anvil/220002-legendary-marksman-item.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/220002_marksmananvil.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 220003,
+    "name": "전설 암살자 아이템",
+    "nameKo": "전설 암살자 아이템",
+    "nameEn": "Legendary Assassin Item",
+    "category": "anvil",
+    "icon": "anvil/220003-legendary-assassin-item.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/220003_assassinanvil.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 220004,
+    "name": "전설 마법사 아이템",
+    "nameKo": "전설 마법사 아이템",
+    "nameEn": "Legendary Mage Item",
+    "category": "anvil",
+    "icon": "anvil/220004-legendary-mage-item.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/220004_mageanvil.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 220005,
+    "name": "전설 탱커 아이템",
+    "nameKo": "전설 탱커 아이템",
+    "nameEn": "Legendary Tank Item",
+    "category": "anvil",
+    "icon": "anvil/220005-legendary-tank-item.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/220005_tankanvil.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 220006,
+    "name": "전설 서포터 아이템",
+    "nameKo": "전설 서포터 아이템",
+    "nameEn": "Legendary Support Item",
+    "category": "anvil",
+    "icon": "anvil/220006-legendary-support-item.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/220006_supportanvil.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 220007,
+    "name": "프리즘 아이템",
+    "nameKo": "프리즘 아이템",
+    "nameEn": "Prismatic Item",
+    "category": "anvil",
+    "icon": "anvil/220007-prismatic-item.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/220007_prismaticanvil.png",
+    "patch": "16.19.1"
+  }
+]

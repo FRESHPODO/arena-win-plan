@@ -1,0 +1,122 @@
+[
+  {
+    "id": "reverberation-cc",
+    "title": "반향 무한 CC",
+    "description": "CC기에 적중하면 대상에게 적중 시 효과를 3회 적용하는 ‘반향’을 이용해, ‘신비한 주먹’과 ‘달빛 마법검’의 쿨타임 감소를 연쇄적으로 발동시켜 CC를 반복하는 빌드.",
+    "createdAt": "2026-09-29T12:00:00+09:00",
+    "representative": {
+      "name": "반향",
+      "icon": "imgs/items/prismatic/447114-reverberation.png"
+    },
+    "items": [
+      {
+        "name": "반향",
+        "icon": "imgs/items/prismatic/447114-reverberation.png",
+        "core": true
+      },
+      {
+        "name": "달빛 마법검",
+        "icon": "imgs/items/prismatic/447110-moonflair-spellblade.png",
+        "core": true
+      },
+      {
+        "name": "신기루 검",
+        "icon": "imgs/items/prismatic/447100-mirage-blade.png",
+        "core": false
+      },
+      {
+        "name": "몰락한 왕의 검",
+        "icon": "imgs/items/legendary/3153-blade-of-the-ruined-king.png",
+        "core": true
+      },
+      {
+        "name": "마나무네",
+        "icon": "imgs/items/legendary/3004-manamune.png",
+        "core": true
+      }
+    ],
+    "augments": [
+      {
+        "name": "신비한 주먹",
+        "icon": "imgs/augments/icons/58-mysticpunch.png",
+        "core": true
+      },
+      {
+        "name": "환영 무기",
+        "icon": "imgs/augments/icons/29-etherealweapon.png",
+        "core": true
+      }
+    ],
+    "championNote": "CC 반복 구조와 기본 공격 연계가 쉬운 조합",
+    "champions": [
+      {
+        "name": "바이",
+        "icon": "imgs/champions/icons/vi.png",
+        "note": "돌진 · 제압"
+      },
+      {
+        "name": "알리스타",
+        "icon": "imgs/champions/icons/alistar.png",
+        "note": "다중 CC · 방해"
+      },
+      {
+        "name": "그라가스",
+        "icon": "imgs/champions/icons/gragas.png",
+        "note": "돌진 · 폭발 CC"
+      }
+    ]
+  },
+  {
+    "id": "fb2a5b26-75a0-43a9-8787-e7d147063330",
+    "title": "자동화",
+    "description": "자동화 아이템 + 에너지 충만 룬조각기",
+    "createdAt": "2026-09-29T18:30:05.309Z",
+    "items": [
+      {
+        "name": "룬 조각기",
+        "icon": "imgs/items/prismatic/447108-runecarver.png",
+        "core": true
+      },
+      {
+        "name": "마공화살 동료",
+        "icon": "imgs/items/prismatic/443081-hexbolt-companion.png",
+        "core": true
+      },
+      {
+        "name": "번개 막대",
+        "icon": "imgs/items/prismatic/447119-lightning-rod.png",
+        "core": true
+      }
+    ],
+    "augments": [
+      {
+        "name": "에너지 충만",
+        "icon": "imgs/augments/icons/344-energetic.png",
+        "core": true
+      },
+      {
+        "name": "양자 연산",
+        "icon": "imgs/augments/icons/66-quantumcomputing.png",
+        "core": true
+      },
+      {
+        "name": "늘어나는 팔",
+        "icon": "imgs/augments/icons/33-extendoarm.png",
+        "core": true
+      }
+    ],
+    "champions": [
+      {
+        "name": "용기",
+        "icon": "imgs/champions/icons/bravery.png",
+        "note": ""
+      }
+    ],
+    "championNote": "",
+    "representative": {
+      "name": "양자 연산",
+      "icon": "imgs/augments/icons/66-quantumcomputing.png",
+      "core": true
+    }
+  }
+]

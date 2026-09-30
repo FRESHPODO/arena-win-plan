@@ -1,0 +1,482 @@
+[
+  {
+    "id": 226630,
+    "name": "선혈포식자",
+    "nameKo": "선혈포식자",
+    "nameEn": "Goredrinker",
+    "category": "prismatic",
+    "icon": "prismatic/226630-arena.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6630_fighter_t4_goredrinker.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 226693,
+    "name": "자객의 발톱",
+    "nameKo": "자객의 발톱",
+    "nameEn": "Prowler's Claw",
+    "category": "prismatic",
+    "icon": "prismatic/226693-arena.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6693_assassin_t4_prowlersclaw.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443054,
+    "name": "흑강철 발톱",
+    "nameKo": "흑강철 발톱",
+    "nameEn": "Darksteel Talons",
+    "category": "prismatic",
+    "icon": "prismatic/443054-darksteel-talons.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3054_silversteeltalons.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443055,
+    "name": "질책",
+    "nameKo": "질책",
+    "nameEn": "Fulmination",
+    "category": "prismatic",
+    "icon": "prismatic/443055-fulmination.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3055_fulmination.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443056,
+    "name": "불사대마왕의 왕관",
+    "nameKo": "불사대마왕의 왕관",
+    "nameEn": "Demon King's Crown",
+    "category": "prismatic",
+    "icon": "prismatic/443056-demon-king-s-crown.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3056_demonkingscrown.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443058,
+    "name": "용암의 방패",
+    "nameKo": "용암의 방패",
+    "nameEn": "Shield of Molten Stone",
+    "category": "prismatic",
+    "icon": "prismatic/443058-shield-of-molten-stone.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3058_shieldofmoltenstone.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443059,
+    "name": "별빛밤 망토",
+    "nameKo": "별빛밤 망토",
+    "nameEn": "Cloak of Starry Night",
+    "category": "prismatic",
+    "icon": "prismatic/443059-cloak-of-starry-night.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3059_cloakofstarrynight.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443060,
+    "name": "신성의 검",
+    "nameKo": "신성의 검",
+    "nameEn": "Sword of the Divine",
+    "category": "prismatic",
+    "icon": "prismatic/443060-sword-of-the-divine.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3131_fighter_t3_swordofthedivine.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443061,
+    "name": "엔트로피의 힘",
+    "nameKo": "엔트로피의 힘",
+    "nameEn": "Force Of Entropy",
+    "category": "prismatic",
+    "icon": "prismatic/443061-force-of-entropy.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3061_forceofentropy.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443062,
+    "name": "핏빛 선물",
+    "nameKo": "핏빛 선물",
+    "nameEn": "Sanguine Gift",
+    "category": "prismatic",
+    "icon": "prismatic/443062-sanguine-gift.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3062_sanguinegift.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443063,
+    "name": "일라이자의 기적",
+    "nameKo": "일라이자의 기적",
+    "nameEn": "Eleisa's Miracle",
+    "category": "prismatic",
+    "icon": "prismatic/443063-eleisa-s-miracle.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3063_elishasmiracle.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443064,
+    "name": "승천의 부적",
+    "nameKo": "승천의 부적",
+    "nameEn": "Talisman Of Ascension",
+    "category": "prismatic",
+    "icon": "prismatic/443064-talisman-of-ascension.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3064_talismanofascension.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443069,
+    "name": "불귀신",
+    "nameKo": "불귀신",
+    "nameEn": "Hamstringer",
+    "category": "prismatic",
+    "icon": "prismatic/443069-hamstringer.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3069_hamstringer.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443079,
+    "name": "터보 화공 탱크",
+    "nameKo": "터보 화공 탱크",
+    "nameEn": "Turbo Chemtank",
+    "category": "prismatic",
+    "icon": "prismatic/443079-turbo-chemtank.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6664_tank_t4_acceleratedchemtank.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443081,
+    "name": "마공화살 동료",
+    "nameKo": "마공화살 동료",
+    "nameEn": "Hexbolt Companion",
+    "category": "prismatic",
+    "icon": "prismatic/443081-hexbolt-companion.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/443081_hexboltcompanion.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443083,
+    "name": "워모그의 갑옷",
+    "nameKo": "워모그의 갑옷",
+    "nameEn": "Warmog's Armor",
+    "category": "prismatic",
+    "icon": "prismatic/443083-warmog-s-armor.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3083_tank_t3_warmogs.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443090,
+    "name": "사신의 대가",
+    "nameKo": "사신의 대가",
+    "nameEn": "Reaper's Toll",
+    "category": "prismatic",
+    "icon": "prismatic/443090-reaper-s-toll.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/443090_reaperstoll.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 443193,
+    "name": "가고일 돌갑옷",
+    "nameKo": "가고일 돌갑옷",
+    "nameEn": "Gargoyle Stoneplate",
+    "category": "prismatic",
+    "icon": "prismatic/443193-gargoyle-stoneplate.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3193_tank_t3_gargoylestoneplate.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 444636,
+    "name": "밤의 수확자",
+    "nameKo": "밤의 수확자",
+    "nameEn": "Night Harvester",
+    "category": "prismatic",
+    "icon": "prismatic/444636-night-harvester.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4636_mage_t4_nightharvester.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 444637,
+    "name": "악마의 포옹",
+    "nameKo": "악마의 포옹",
+    "nameEn": "Demonic Embrace",
+    "category": "prismatic",
+    "icon": "prismatic/444637-demonic-embrace.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4637_mage_t3_demonicembrace.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 444644,
+    "name": "부서진 여왕의 왕관",
+    "nameKo": "부서진 여왕의 왕관",
+    "nameEn": "Crown of the Shattered Queen",
+    "category": "prismatic",
+    "icon": "prismatic/444644-crown-of-the-shattered-queen.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4644_crown.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 446632,
+    "name": "신성한 파괴자",
+    "nameKo": "신성한 파괴자",
+    "nameEn": "Divine Sunderer",
+    "category": "prismatic",
+    "icon": "prismatic/446632-divine-sunderer.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6632_fighter_t4_divinedevourer.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 446656,
+    "name": "만년서리",
+    "nameKo": "만년서리",
+    "nameEn": "Everfrost",
+    "category": "prismatic",
+    "icon": "prismatic/446656-everfrost.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6656_mage_t4_everfrost.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 446667,
+    "name": "광휘의 미덕",
+    "nameKo": "광휘의 미덕",
+    "nameEn": "Radiant Virtue",
+    "category": "prismatic",
+    "icon": "prismatic/446667-radiant-virtue.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6667_tank_t4_radiantvirtue.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 446671,
+    "name": "돌풍",
+    "nameKo": "돌풍",
+    "nameEn": "Galeforce",
+    "category": "prismatic",
+    "icon": "prismatic/446671-galeforce.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6671_marksman_t4_galeforce.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 446691,
+    "name": "드락사르의 황혼검",
+    "nameKo": "드락사르의 황혼검",
+    "nameEn": "Duskblade of Draktharr",
+    "category": "prismatic",
+    "icon": "prismatic/446691-duskblade-of-draktharr.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6691_assassin_t4_duskbladeofdraktharr.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447100,
+    "name": "신기루 검",
+    "nameKo": "신기루 검",
+    "nameEn": "Mirage Blade",
+    "category": "prismatic",
+    "icon": "prismatic/447100-mirage-blade.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/7100_mirageblade.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447101,
+    "name": "도박꾼의 칼날",
+    "nameKo": "도박꾼의 칼날",
+    "nameEn": "Gambler's Blade",
+    "category": "prismatic",
+    "icon": "prismatic/447101-gambler-s-blade.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/7101_gamblers_blade.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447102,
+    "name": "현실 균열",
+    "nameKo": "현실 균열",
+    "nameEn": "Reality Fracture",
+    "category": "prismatic",
+    "icon": "prismatic/447102-reality-fracture.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/7102_realityfracture.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447103,
+    "name": "혈마법사의 투구",
+    "nameKo": "혈마법사의 투구",
+    "nameEn": "Hemomancer's Helm",
+    "category": "prismatic",
+    "icon": "prismatic/447103-hemomancer-s-helm.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/7103_hemomancershelm.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447104,
+    "name": "활력증진의 펜던트",
+    "nameKo": "활력증진의 펜던트",
+    "nameEn": "Innervating Locket",
+    "category": "prismatic",
+    "icon": "prismatic/447104-innervating-locket.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3032_innervating_locket.project_jade.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447105,
+    "name": "창공의 서약",
+    "nameKo": "창공의 서약",
+    "nameEn": "Empyrean Promise",
+    "category": "prismatic",
+    "icon": "prismatic/447105-empyrean-promise.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/7105_angelicpromise.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447106,
+    "name": "용의 심장",
+    "nameKo": "용의 심장",
+    "nameEn": "Dragonheart",
+    "category": "prismatic",
+    "icon": "prismatic/447106-dragonheart.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/7106_dragonheart.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447107,
+    "name": "참수자",
+    "nameKo": "참수자",
+    "nameEn": "Decapitator",
+    "category": "prismatic",
+    "icon": "prismatic/447107-decapitator.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/7107_decapitator.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447108,
+    "name": "룬 조각기",
+    "nameKo": "룬 조각기",
+    "nameEn": "Runecarver",
+    "category": "prismatic",
+    "icon": "prismatic/447108-runecarver.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/7108_runecarver.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447109,
+    "name": "잔혹 행위",
+    "nameKo": "잔혹 행위",
+    "nameEn": "Cruelty",
+    "category": "prismatic",
+    "icon": "prismatic/447109-cruelty.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6035_fighter_t3_silvermeredawn.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447110,
+    "name": "달빛 마법검",
+    "nameKo": "달빛 마법검",
+    "nameEn": "Moonflair Spellblade",
+    "category": "prismatic",
+    "icon": "prismatic/447110-moonflair-spellblade.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/7110_moonflairspellblade.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447112,
+    "name": "살점포식자",
+    "nameKo": "살점포식자",
+    "nameEn": "Flesheater",
+    "category": "prismatic",
+    "icon": "prismatic/447112-flesheater.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/7112_flesheater.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447113,
+    "name": "폭발의 구",
+    "nameKo": "폭발의 구",
+    "nameEn": "Detonation Orb",
+    "category": "prismatic",
+    "icon": "prismatic/447113-detonation-orb.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/7113_detonationorb.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447114,
+    "name": "반향",
+    "nameKo": "반향",
+    "nameEn": "Reverberation",
+    "category": "prismatic",
+    "icon": "prismatic/447114-reverberation.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/447114_reverberation.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447115,
+    "name": "섭정 시해",
+    "nameKo": "섭정 시해",
+    "nameEn": "Regicide",
+    "category": "prismatic",
+    "icon": "prismatic/447115-regicide.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/447115_regicide.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447116,
+    "name": "킨코우 십수",
+    "nameKo": "킨코우 십수",
+    "nameEn": "Kinkou Jitte",
+    "category": "prismatic",
+    "icon": "prismatic/447116-kinkou-jitte.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/447116_kinkoujitte.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447118,
+    "name": "화염술사의 망토",
+    "nameKo": "화염술사의 망토",
+    "nameEn": "Pyromancer's Cloak",
+    "category": "prismatic",
+    "icon": "prismatic/447118-pyromancer-s-cloak.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/447118_pyromancerscloak.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447119,
+    "name": "번개 막대",
+    "nameKo": "번개 막대",
+    "nameEn": "Lightning Rod",
+    "category": "prismatic",
+    "icon": "prismatic/447119-lightning-rod.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/447119_lightningrod.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447120,
+    "name": "다이아몬드 창",
+    "nameKo": "다이아몬드 창",
+    "nameEn": "Diamond-Tipped Spear",
+    "category": "prismatic",
+    "icon": "prismatic/447120-diamond-tipped-spear.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/447120_diamondtippedspear.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447121,
+    "name": "황혼의 끝자락",
+    "nameKo": "황혼의 끝자락",
+    "nameEn": "Twilight's Edge",
+    "category": "prismatic",
+    "icon": "prismatic/447121-twilight-s-edge.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/447121_twilightsedge.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447122,
+    "name": "블랙홀 건틀릿",
+    "nameKo": "블랙홀 건틀릿",
+    "nameEn": "Black Hole Gauntlet",
+    "category": "prismatic",
+    "icon": "prismatic/447122-black-hole-gauntlet.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/447122_blackholegauntlet.png",
+    "patch": "16.19.1"
+  },
+  {
+    "id": 447123,
+    "name": "조종의 손아귀",
+    "nameKo": "조종의 손아귀",
+    "nameEn": "Puppeteer",
+    "category": "prismatic",
+    "icon": "prismatic/447123-puppeteer.png",
+    "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/447123_puppeteer.png",
+    "patch": "16.19.1"
+  }
+]

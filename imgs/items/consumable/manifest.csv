@@ -1,0 +1,4 @@
+"id","name","nameKo","nameEn","category","icon","iconUrl","patch"
+"2142","힘의 주스","힘의 주스","Juice of Power","consumable","consumable/2142-arena.png","https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/icon_item_souljuice_abilitypowerattackdamage.png","16.19.1"
+"2143","활력의 주스","활력의 주스","Juice of Vitality","consumable","consumable/2143-arena.png","https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/icons_souljuice_green.png","16.19.1"
+"2144","가속의 주스","가속의 주스","Juice of Haste","consumable","consumable/2144-arena.png","https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/icons_souljuice_yellow.png","16.19.1"

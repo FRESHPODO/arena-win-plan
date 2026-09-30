@@ -1,0 +1,11 @@
+{
+  "updatedAtUtc": "2026-09-29T13:19:16.1274610Z",
+  "locale": "ko_KR",
+  "sources": {
+    "champions": "https://ddragon.leagueoflegends.com/cdn/16.19.1/data/ko_KR/champion.json",
+    "items": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/ko_kr/v1/items.json",
+    "braveryIcon": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-champ-select/global/default/images/champion-grid/bravery-champion.png",
+    "augments": "https://raw.communitydragon.org/latest/cdragon/arena/ko_kr.json"
+  },
+  "manifestsUpdated": 7
+}

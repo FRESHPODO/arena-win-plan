@@ -1,0 +1,18 @@
+{
+  "generatedAtUtc": "2026-09-29T12:32:02.7707907Z",
+  "patch": "16.19.1",
+  "championData": "https://ddragon.leagueoflegends.com/cdn/16.19.1/data/en_US/champion.json",
+  "augmentData": "https://raw.communitydragon.org/latest/cdragon/arena/en_us.json",
+  "itemData": "https://ddragon.leagueoflegends.com/cdn/16.19.1/data/en_US/item.json",
+  "itemAssetData": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/items.json",
+  "counts": {
+    "champions": 173,
+    "championImages": 346,
+    "augments": 225,
+    "legendaryItems": 126,
+    "prismaticItems": 46,
+    "anvilItems": 8,
+    "arenaExclusiveItems": 18,
+    "totalDownloads": 769
+  }
+}
