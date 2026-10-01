@@ -105,3 +105,7 @@ input:focus-visible,textarea:focus-visible,select:focus-visible{outline-color:#a
 ::selection{background:#655d9f;color:#fff}
 
 .item-description-tooltip.item-prismatic-description{border:2px solid #ad91eb}
+.editor-equipment-description{margin-top:28px}
+.editor-row{display:grid;grid-template-columns:46px 140px minmax(0,1fr) auto;gap:12px}.editor-row .editor-asset-name{min-width:0}.editor-row input[data-field="note"]{min-width:0;width:100%}
+@media(max-width:720px){.editor-row{grid-template-columns:46px minmax(0,1fr) auto}.editor-row .editor-asset-name{grid-column:2}.editor-row input[data-field="note"]{grid-column:1/-1;grid-row:2}.editor-row .remove{grid-column:3;grid-row:1}}
+.related-player{width:100%;max-width:480px;margin-top:22px;padding:16px;background:#151d27;color:#edf0f5;border:1px solid #364354;border-radius:12px}.related-player h2{font-size:15px;margin:0 0 12px}.related-player iframe{display:block;width:100%;aspect-ratio:16/9;border:0;border-radius:8px;background:#090d12}.video-switcher{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}.video-switcher button{font-size:12px;padding:7px 12px}.video-switcher button[aria-pressed=true]{background:#484778;border-color:#aaa4ef;color:#fff}

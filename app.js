@@ -1,5 +1,5 @@
 const app = document.querySelector('#app');
-const assetVersion = '20261001-full-1';
+const assetVersion = '20261001-editor-2';
 const versioned = path => `${path}${path.includes('?')?'&':'?'}v=${assetVersion}`;
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let builds = [], catalog = {}, draft, pickKind, pickCore=true;
@@ -9,12 +9,12 @@ const itemTabNames = {prismatic:'프리즘',legendary:'전설',anvil:'모루',co
 const augmentTabNames = {'0':'실버','1':'골드','2':'프리즘','4':'귀빈'};
 const augmentOrder = ['2','1','0','4'];
 const augmentTabEntries = () => augmentOrder.map(key=>[key,augmentTabNames[key]]);
-const matchesGrade = (a,kind,grade) => kind==='items'?a.category===grade:kind==='augments'?String(a.rarity)===grade:true;
+const matchesGrade = (a,kind,grade) => grade==='all'?true:kind==='items'?a.category===grade:kind==='augments'?String(a.rarity)===grade:true;
 function renderItemTabs() {
   const tabs=document.querySelector('#item-tabs');
   tabs.hidden=pickKind==='champions';
   tabs.setAttribute('aria-label',pickKind==='augments'?'증강 등급':'아이템 등급');
-  tabs.innerHTML=pickKind!=='champions'?(pickKind==='augments'?augmentTabEntries():Object.entries(itemTabNames)).map(([key,name])=>`<button type="button" role="tab" aria-selected="${key===itemTab}" tabindex="${key===itemTab?0:-1}" data-category="${key}">${name}</button>`).join(''):'';
+  tabs.innerHTML=pickKind!=='champions'?[['all','전체'],...(pickKind==='augments'?augmentTabEntries():Object.entries(itemTabNames))].map(([key,name])=>`<button type="button" role="tab" aria-selected="${key===itemTab}" tabindex="${key===itemTab?0:-1}" data-category="${key}">${name}</button>`).join(''):'';
   tabs.querySelectorAll('button').forEach((button,index)=>{
     button.onclick=()=>{itemTab=button.dataset.category;renderItemTabs();renderAssets();tabs.querySelector(`[data-category="${itemTab}"]`).focus();};
     button.onkeydown=event=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(event.key)){event.preventDefault();const all=[...tabs.querySelectorAll('button')];const next=event.key==='Home'?0:event.key==='End'?all.length-1:(index+(event.key==='ArrowLeft'?-1:1)+all.length)%all.length;all[next].click();}};
@@ -296,6 +296,31 @@ function youtubeUrl(value) {
 function videoLinks(b) {
   return (Array.isArray(b.youtubeUrls)?b.youtubeUrls:[b.youtubeUrl]).filter(value=>typeof value==='string' && value.trim()).map(value=>value.trim());
 }
+function youtubeEmbed(value) {
+  if(!youtubeUrl(value))return '';
+  const url=new URL(value),parts=url.pathname.split('/').filter(Boolean);
+  const id=url.hostname==='youtu.be'?parts[0]:url.pathname==='/watch'?url.searchParams.get('v'):['shorts','embed','live'].includes(parts[0])?parts[1]:'';
+  if(!/^[A-Za-z0-9_-]{11}$/.test(id||''))return '';
+  const embed=new URL('https://www.youtube-nocookie.com/embed/'+id);
+  const time=url.searchParams.get('t')||url.searchParams.get('start')||'';
+  const match=time.match(/^(?:(\d+)h)?(?:(\d+)m)?(?:(\d+)s)?$/);
+  const seconds=/^\d+$/.test(time)?Number(time):match?Number(match[1]||0)*3600+Number(match[2]||0)*60+Number(match[3]||0):0;
+  if(seconds>0)embed.searchParams.set('start',String(seconds));
+  return embed.href;
+}
+function relatedVideos(b){
+  const videos=[...new Set(videoLinks(b).map(youtubeEmbed).filter(Boolean))];
+  if(!videos.length)return '';
+  return `<section class="related-player" data-html2canvas-ignore><h2>관련 영상</h2>${videos.length>1?`<div class="video-switcher" aria-label="관련 영상 선택">${videos.map((url,i)=>`<button type="button" data-video-src="${esc(url)}" data-video-number="${i+1}" aria-pressed="${i===0}">영상 ${i+1}</button>`).join('')}</div>`:''}<iframe title="관련 유튜브 영상 1" src="${esc(videos[0])}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></section>`;
+}
+function setupRelatedVideos(){
+  document.querySelectorAll('[data-video-src]').forEach(button=>button.onclick=()=>{
+    if(button.getAttribute('aria-pressed')==='true')return;
+    const section=button.closest('.related-player'),frame=section.querySelector('iframe');
+    frame.src=button.dataset.videoSrc;frame.title='관련 유튜브 영상 '+button.dataset.videoNumber;
+    section.querySelectorAll('[data-video-src]').forEach(other=>other.setAttribute('aria-pressed',String(other===button)));
+  });
+}
 function renderVideoInputs(values) {
   document.querySelector('#video-inputs').innerHTML=values.map((value,i)=>`<div class="video-input-row"><input type="url" data-video-url aria-label="유튜브 영상 링크 ${i+1}" value="${esc(value)}" placeholder="https://www.youtube.com/watch?v=…"><button type="button" data-remove-video="${i}" aria-label="유튜브 영상 링크 ${i+1} 삭제">삭제</button></div>`).join('');
   document.querySelectorAll('[data-remove-video]').forEach(button=>button.onclick=()=>{
@@ -304,13 +329,14 @@ function renderVideoInputs(values) {
   });
 }
 function buildDescription(b) {
-  return `<div class="build-description">${[['핵심 매커니즘',b.description],['아이템/증강',b.equipmentDescription],['주의사항',b.cautions]].map(([title,body])=>`<section><h2>${title}</h2><p>${esc(body || '등록된 설명이 없습니다.')}</p></section>`).join('')}</div>${videoLinks(b).filter(url=>youtubeUrl(url)).map((url,i)=>`<a class="related-video" href="${esc(youtubeUrl(url))}" target="_blank" rel="noopener noreferrer">▶ 관련 유튜브 영상 ${i+1} 보기 ↗</a>`).join('')}`;
+  return `<div class="build-description">${[['핵심 매커니즘',b.description],['아이템/증강',b.equipmentDescription],['주의사항',b.cautions]].map(([title,body])=>`<section><h2>${title}</h2><p>${esc(body || '등록된 설명이 없습니다.')}</p></section>`).join('')}</div>${relatedVideos(b)}`;
 }
 function renderDetail(b, preview=false) {
   clearCarousels();
   if (!b) {app.innerHTML='<h1>빌드를 찾을 수 없습니다.</h1><a class="button" href="#/">보관함으로</a>';return;}
   document.title = `${b.title} · 아레나농가`;
   app.innerHTML = `<a class="back" href="#/">← 추천 빌드 정리</a>${preview?'<div class="notice">작성 미리보기입니다. 아직 공개되지 않았습니다. <button id="resume">편집으로 돌아가기</button></div>':''}<article class="detail"><div><div class="detail-title"><h1>${esc(b.title)}</h1><div class="detail-meta"><span>${date(b.createdAt)} 등록</span>${!preview?`<a href="#/edit/${encodeURIComponent(b.id)}">빌드 편집 ↗</a>`:''}</div></div>${buildDescription(b)}<h2 class="section-heading">핵심 아이템</h2>${gearCards(b.items.filter(a=>a.core!==false))}${b.items.some(a=>a.core===false)?`<h2 class="section-heading">보조 아이템</h2>${gearCards(b.items.filter(a=>a.core===false))}`:''}<h2 class="section-heading">핵심 증강</h2>${gearCards(b.augments.filter(a=>a.core!==false),true)}${b.augments.some(a=>a.core===false)?`<h2 class="section-heading">보조 증강</h2>${gearCards(b.augments.filter(a=>a.core===false),true)}`:''}</div><aside class="champions">${parameterBars(b)}<h2>추천 챔피언</h2><p class="muted">${esc(b.championNote || '이 플랜과 함께할 챔피언')}</p>${b.champions.map(c=>`<div class="champion" style="--champion-accent:${/^#[0-9a-f]{6}$/i.test(iconColors.champions[c.icon] || '')?iconColors.champions[c.icon]:'#b7c8d9'}">${image(c)}<div><h3>${esc(c.name)}</h3><p>${esc(c.note)}</p></div></div>`).join('')}</aside></article>`;
+  setupRelatedVideos();
   setupCarousels();
   setupItemTooltips();
   if (preview) document.querySelector('#resume').onclick=()=>renderEditor(null,true);
@@ -322,7 +348,7 @@ function renderEditor(id, keep=false) {
     draft = existing ? structuredClone(existing) : {id:crypto.randomUUID(),title:'',description:'',createdAt:new Date().toISOString(),items:[],augments:[],champions:[],championNote:'',representative:null};
   }
   document.title='빌드 작성 · 아레나농가';
-  app.innerHTML=`<div class="editor"><a class="back" href="#/">← 추천 빌드 정리</a><h1>빌드 작성</h1><div class="notice">아이템과 증강을 추가한 뒤 대표 아이콘 하나를 선택하세요.<br>현재 작성한 빌드 하나를 JSON 파일로 저장할 수 있습니다. 이 화면의 변경은 다운로드 전까지 저장되지 않습니다.</div><form id="build-form"><div class="form-grid"><label class="wide">빌드 이름<input name="title" required maxlength="80" value="${esc(draft.title)}" placeholder="예: 반향 무한 CC"></label><div class="wide" id="editor-parameters">${parameterBars(draft,true)}</div><label class="wide">핵심 매커니즘<textarea name="description" required maxlength="4000">${esc(draft.description)}</textarea></label><label class="wide">주의사항<textarea name="cautions" maxlength="4000" placeholder="운용할 때 주의할 점">${esc(draft.cautions)}</textarea></label></div><label class="wide">아이템/증강<textarea name="equipmentDescription" maxlength="4000" placeholder="아이템과 증강의 조합 및 활용 방법">${esc(draft.equipmentDescription)}</textarea></label>${[["items",true,"핵심 아이템"],["items",false,"보조 아이템"],["augments",true,"핵심 증강"],["augments",false,"보조 증강"],["champions",true,"추천 챔피언"]].map(([kind,core,label])=>`<h2 class="section-heading">${label}</h2>${kind==='champions'?`<label class="wide">추천 챔피언 설명<input name="championNote" value="${esc(draft.championNote)}" maxlength="180"></label>`:''}<div id="rows-${kind}-${core}"></div><button type="button" data-add="${kind}" data-core="${core}" class="small">＋ ${label} 추가</button>`).join('')}<h2 class="section-heading">대표 아이콘 · 하나 선택</h2><div id="representative" class="representative"></div><div class="wide video-editor"><span>관련 유튜브 영상 (선택)</span><div id="video-inputs"></div><button type="button" id="add-video" class="small">＋ 영상 링크 추가</button><small>여러 영상 링크를 추가할 수 있습니다. 비워 두어도 됩니다.</small></div><p id="editor-error" role="alert"></p><div class="actions"><button type="submit" class="primary">파일로 저장 ↓</button><button type="button" id="preview">이미지로 공유 ↗</button></div></form></div>`;
+  app.innerHTML=`<div class="editor"><a class="back" href="#/">← 추천 빌드 정리</a><h1>빌드 작성</h1><div class="notice">아이템과 증강을 추가한 뒤 대표 아이콘 하나를 선택하세요.<br>현재 작성한 빌드 하나를 JSON 파일로 저장할 수 있습니다. 이 화면의 변경은 다운로드 전까지 저장되지 않습니다.</div><form id="build-form"><div class="form-grid"><label class="wide">빌드 이름<input name="title" required maxlength="80" value="${esc(draft.title)}" placeholder="예: 반향 무한 CC"></label><div class="wide" id="editor-parameters">${parameterBars(draft,true)}</div><label class="wide">핵심 매커니즘<textarea name="description" required maxlength="4000">${esc(draft.description)}</textarea></label><label class="wide">주의사항<textarea name="cautions" maxlength="4000" placeholder="운용할 때 주의할 점">${esc(draft.cautions)}</textarea></label></div><label class="wide editor-equipment-description">아이템/증강<textarea name="equipmentDescription" maxlength="4000" placeholder="아이템과 증강의 조합 및 활용 방법">${esc(draft.equipmentDescription)}</textarea></label>${[["items",true,"핵심 아이템"],["items",false,"보조 아이템"],["augments",true,"핵심 증강"],["augments",false,"보조 증강"],["champions",true,"추천 챔피언"]].map(([kind,core,label])=>`<h2 class="section-heading">${label}</h2>${kind==='champions'?`<label class="wide">추천 챔피언 설명<input name="championNote" value="${esc(draft.championNote)}" maxlength="180"></label>`:''}<div id="rows-${kind}-${core}"></div><button type="button" data-add="${kind}" data-core="${core}" class="small">＋ ${label} 추가</button>`).join('')}<h2 class="section-heading">대표 아이콘 · 하나 선택</h2><div id="representative" class="representative"></div><div class="wide video-editor"><span>관련 유튜브 영상 (선택)</span><div id="video-inputs"></div><button type="button" id="add-video" class="small">＋ 영상 링크 추가</button><small>여러 영상 링크를 추가할 수 있습니다. 비워 두어도 됩니다.</small></div><p id="editor-error" role="alert"></p><div class="actions"><button type="submit" class="primary">파일로 저장 ↓</button><button type="button" id="preview">이미지로 공유 ↗</button></div></form></div>`;
   document.querySelectorAll('[data-add]').forEach(btn=>btn.onclick=()=>openPicker(btn.dataset.add,btn.dataset.core!=='false'));
   document.querySelector('#editor-parameters').onclick=e=>{
     const button=e.target.closest('[data-parameter]');if(!button)return;
@@ -367,17 +393,17 @@ async function exportBuildImage(){
   finally{stage.remove();button.disabled=false;button.textContent='이미지로 공유 ↗';}
 }
 function syncFields(){const f=document.querySelector('#build-form');if(!f)return;['title','description','equipmentDescription','cautions','championNote'].forEach(k=>draft[k]=f.elements[k].value.trim());draft.youtubeUrls=[...f.querySelectorAll('[data-video-url]')].map(input=>input.value.trim()).filter(Boolean);delete draft.youtubeUrl;}
-function validDraft(){const message=videoLinks(draft).some(url=>!youtubeUrl(url))?'https://로 시작하는 유튜브 링크를 입력해 주세요.':!draft.representative?'대표 아이콘을 선택해 주세요.':!draft.champions.length?'추천 챔피언을 한 명 이상 추가해 주세요.':'';document.querySelector('#editor-error').textContent=message;return !message;}
+function validDraft(){const message=videoLinks(draft).some(url=>!youtubeEmbed(url))?'유효한 유튜브 영상 링크를 입력해 주세요.':!draft.representative?'대표 아이콘을 선택해 주세요.':!draft.champions.length?'추천 챔피언을 한 명 이상 추가해 주세요.':'';document.querySelector('#editor-error').textContent=message;return !message;}
 function renderRows(){
   [['items',true],['items',false],['augments',true],['augments',false],['champions',true]].forEach(([kind,core])=>{
     const target=document.querySelector(`#rows-${kind}-${core}`);
-    target.innerHTML=draft[kind].map((a,i)=>({a,i})).filter(({a})=>kind==='champions'||(a.core!==false)===core).map(({a,i})=>`<div class="editor-row">${image(a)}${kind==='champions'?`<input type="text" aria-label="표시 이름" maxlength="80" data-field="name" data-index="${i}" value="${esc(a.name)}">`:`<strong class="editor-asset-name">${esc(a.name)}</strong>`}${kind==='champions'?`<input type="text" aria-label="챔피언 간단한 설명" data-field="note" data-index="${i}" value="${esc(a.note)}" placeholder="간단한 설명">`:`<input type="text" maxlength="80" aria-label="${esc(a.name)} 소제목 설명" data-field="note" data-index="${i}" value="${esc(a.note)}" placeholder="소제목 설명 (선택)">`}<button class="remove" type="button" data-remove="${i}" aria-label="${esc(a.name)} 삭제">✕</button></div>`).join('');
+    target.innerHTML=draft[kind].map((a,i)=>({a,i})).filter(({a})=>kind==='champions'||(a.core!==false)===core).map(({a,i})=>`<div class="editor-row">${image(a)}<strong class="editor-asset-name">${esc(a.name)}</strong>${kind==='champions'?`<input type="text" aria-label="챔피언 간단한 설명" data-field="note" data-index="${i}" value="${esc(a.note)}" placeholder="간단한 설명">`:`<input type="text" maxlength="80" aria-label="${esc(a.name)} 소제목 설명" data-field="note" data-index="${i}" value="${esc(a.note)}" placeholder="소제목 설명 (선택)">`}<button class="remove" type="button" data-remove="${i}" aria-label="${esc(a.name)} 삭제">✕</button></div>`).join('');
     target.querySelectorAll('[data-field]').forEach(el=>el.oninput=()=>{draft[kind][el.dataset.index][el.dataset.field]=el.value;renderRepresentative();});
     target.querySelectorAll('[data-remove]').forEach(el=>el.onclick=()=>{const [removed]=draft[kind].splice(Number(el.dataset.remove),1);if(draft.representative?.icon===removed.icon)draft.representative=null;renderRows();});
   });renderRepresentative();
 }
 function renderRepresentative(){const assets=[...draft.items,...draft.augments];document.querySelector('#representative').innerHTML=assets.length?assets.map((a,i)=>`<button type="button" data-rep="${i}" aria-label="${esc(a.name)} 대표 아이콘으로 선택" aria-pressed="${draft.representative?.icon===a.icon}" class="${draft.representative?.icon===a.icon?'selected':''}">${image(a)}</button>`).join(''):'<p class="muted">아이템 또는 증강을 먼저 추가하세요.</p>';document.querySelectorAll('[data-rep]').forEach(btn=>btn.onclick=()=>{draft.representative={...assets[btn.dataset.rep]};renderRepresentative();});}
-function openPicker(kind,core=true){document.querySelector('#asset-search').placeholder=kind==='champions'?'한글·영문 이름 또는 ID 검색':'이름 또는 키워드: 적중시, 자동 사용, 충전, 주문력';pickKind=kind;pickCore=core;itemTab=kind==='augments'?'2':'prismatic';renderItemTabs();document.querySelector('#asset-search').value='';renderAssets();document.querySelector('#picker').showModal();document.querySelector('#asset-search').focus();}
+function openPicker(kind,core=true){document.querySelector('#asset-search').placeholder=kind==='champions'?'한글·영문 이름 또는 ID 검색':'이름 또는 키워드: 적중시, 자동 사용, 충전, 주문력';pickKind=kind;pickCore=core;itemTab='all';renderItemTabs();document.querySelector('#asset-search').value='';renderAssets();document.querySelector('#picker').showModal();document.querySelector('#asset-search').focus();}
 function renderAssets(){const q=document.querySelector('#asset-search').value.toLowerCase();const list=catalog[pickKind].filter(a=>matchesGrade(a,pickKind,itemTab)).filter(a=>matchesAssetSearch(a,pickKind,q));document.querySelector('#asset-results').innerHTML=list.map(a=>`<button type="button" class="${pickKind==='items' && isPrismaticItem(a)?'encyclopedia-prismatic':''}" data-asset="${a.id}">${image(a)}<span>${esc(a.name)}</span></button>`).join('')||'<p>검색 결과가 없습니다.</p>';document.querySelectorAll('[data-asset]').forEach(btn=>btn.onclick=()=>{const a=catalog[pickKind].find(a=>String(a.id)===btn.dataset.asset);const existing=draft[pickKind].find(x=>x.icon===a.icon);if(existing && pickKind!=='champions')existing.core=pickCore;if(!existing)draft[pickKind].push({name:a.name,icon:a.icon,...(pickKind==='champions'?{note:''}:{core:pickCore})});document.querySelector('#picker').close();renderRows();});}
 document.querySelector('#asset-search').oninput=renderAssets;
 document.querySelector('#close-picker').onclick=()=>document.querySelector('#picker').close();
