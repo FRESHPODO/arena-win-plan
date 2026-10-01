@@ -1,0 +1,47 @@
+{
+  "id": "earthwake-blade-waltz",
+  "title": "대지의 각성 + 검무",
+  "description": "검무로 대상 지정 불가 상태에서 적 사이를 이동하며 대지의 각성을 발동합니다. 소환사 혁명으로 검무를 빠르게 다시 사용해 연속 폭발 피해를 노립니다.",
+  "equipmentDescription": "대지의 각성과 검무를 핵심으로 조합하고, 소환사 혁명을 함께 확보해 연속 사용을 노립니다. 자체 돌진기 또는 검무 타격과 맞물리는 패시브가 있는 챔피언과 조합합니다.",
+  "cautions": "눈덩이처럼 소환사 주문을 다른 주문으로 바꾸는 증강을 먼저 채용하면 검무가 등장하지 않을 수 있으므로 피합니다. 검무의 보호 효과는 대상 지정 불가이며 모든 피해에 대한 완전한 무적과는 다릅니다.",
+  "items": [],
+  "augments": [
+    {
+      "name": "대지의 각성",
+      "icon": "imgs/augments/icons/27-earthwake.png",
+      "core": true,
+      "note": "이동 경로 폭발"
+    },
+    {
+      "name": "검무",
+      "icon": "imgs/augments/icons/6-bladewaltz.png",
+      "core": true,
+      "note": "대상 지정 불가 상태로 연속 이동"
+    },
+    {
+      "name": "소환사 혁명",
+      "icon": "imgs/augments/icons/223-summonerrevolution.png",
+      "core": true,
+      "note": "소환사 주문 빠른 재사용"
+    }
+  ],
+  "champions": [
+    {
+      "name": "암베사",
+      "icon": "imgs/champions/icons/ambessa.png",
+      "note": "자체 돌진기로 대지의 각성을 추가 활용"
+    },
+    {
+      "name": "우르곳",
+      "icon": "imgs/champions/icons/urgot.png",
+      "note": "검무 타격과 패시브 시너지를 노리는 선택"
+    }
+  ],
+  "championNote": "자체 돌진기 또는 검무와 맞물리는 패시브를 가진 챔피언",
+  "representative": {
+    "name": "대지의 각성",
+    "icon": "imgs/augments/icons/27-earthwake.png"
+  },
+  "createdAt": "2026-10-01T00:56:06.567Z",
+  "youtubeUrls": []
+}

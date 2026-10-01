@@ -1,0 +1,36 @@
+{
+  "id": "mad-hatter-hat-trick",
+  "title": "모자장수 + 해트트릭",
+  "description": "모루작처럼 누적 능력치를 노리지만, 능력치 모루 대신 소비 아이템인 카파 주스로 모자를 모으는 빌드입니다.",
+  "equipmentDescription": "퀘스트: 미치광이 모자장수와 해트트릭을 반드시 함께 확보합니다. 카파 주스를 구매해 모자를 쌓고, 퀘스트 보상과 모자 수에 따른 능력치 증가를 활용합니다.",
+  "cautions": "두 필수 증강이 모두 필요합니다. 모자장수 퀘스트는 패배 시 모자의 절반을 잃으며, 해트트릭의 방어 효과가 발동할 때도 모자가 소모됩니다.",
+  "items": [],
+  "augments": [
+    {
+      "name": "퀘스트: 미치광이 모자장수",
+      "icon": "imgs/augments/icons/318-quest-madhatter.png",
+      "core": true,
+      "note": "필수 · 모자 누적 능력치"
+    },
+    {
+      "name": "해트트릭",
+      "icon": "imgs/augments/icons/241-hattrick.png",
+      "core": true,
+      "note": "필수 · 모자 구매 비용 감소"
+    }
+  ],
+  "champions": [
+    {
+      "name": "용기",
+      "icon": "imgs/champions/icons/bravery.png",
+      "note": "특정 챔피언보다 필수 증강 확보가 중요"
+    }
+  ],
+  "championNote": "모자와 증강 조합 중심의 자유 선택",
+  "representative": {
+    "name": "퀘스트: 미치광이 모자장수",
+    "icon": "imgs/augments/icons/318-quest-madhatter.png"
+  },
+  "createdAt": "2026-10-01T00:56:06.567Z",
+  "youtubeUrls": []
+}
