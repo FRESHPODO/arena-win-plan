@@ -9,7 +9,8 @@
       "map": 30,
       "icon": "anvil/Anvil_Shardblade_item.webp",
       "description": "<mainText>특수 아이템. 상세 능력치와 효과 설명은 아직 등록되지 않았습니다.</mainText>",
-      "source": "user-provided icon and name"
+      "source": "user-provided icon and name",
+      "rarity": "prismatic"
     }
   ]
 }

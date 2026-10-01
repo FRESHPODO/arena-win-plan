@@ -1844,6 +1844,7 @@
       "id": "anvil-shardblade",
       "name": "파편 검",
       "icon": "imgs/items/anvil/Anvil_Shardblade_item.webp",
+      "rarity": "prismatic",
       "aliases": [],
       "stats": "",
       "effects": "특수 아이템. 상세 능력치와 효과 설명은 아직 등록되지 않았습니다.",

@@ -4,6 +4,7 @@ const versioned = path => `${path}${path.includes('?')?'&':'?'}v=${assetVersion}
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let builds = [], catalog = {}, draft, pickKind, pickCore=true;
 let itemTab = 'prismatic';
+const isPrismaticItem = asset => asset.rarity==='prismatic' || asset.category==='prismatic' || asset.icon?.includes('/prismatic/') || itemDescriptions.get(asset.icon)?.rarity==='prismatic';
 const itemTabNames = {prismatic:'프리즘',legendary:'전설',anvil:'모루',consumable:'소비'};
 const augmentTabNames = {'0':'실버','1':'골드','2':'프리즘','4':'귀빈'};
 const augmentOrder = ['2','1','0','4'];
@@ -169,7 +170,7 @@ function renderEncyclopedia() {
     const rows=catalog[kind].filter(a=>(grade==='all'||matchesGrade(a,kind,grade))&&matchesAssetSearch(a,kind,q));
     document.querySelector('#encyclopedia-count').textContent=`${rows.length}개`;
     document.querySelector('#encyclopedia-list').dataset.kind=kind;
-    document.querySelector('#encyclopedia-list').innerHTML=rows.map(a=>`<button type="button" class="encyclopedia-entry item-info-trigger ${kind==='augments'?`encyclopedia-rarity-${a.rarity}`:a.category==='prismatic'?'encyclopedia-prismatic':''}" data-item-icon="${esc(a.icon)}" aria-label="${esc(a.name)} 설명">${image(a)}<strong>${esc(a.name)}</strong><small>${kind==='items'?itemTabNames[a.category]:augmentTabNames[a.rarity]}</small></button>`).join('')||'<p class="empty">검색 결과가 없습니다.</p>';
+    document.querySelector('#encyclopedia-list').innerHTML=rows.map(a=>`<button type="button" class="encyclopedia-entry item-info-trigger ${kind==='augments'?`encyclopedia-rarity-${a.rarity}`:isPrismaticItem(a)?'encyclopedia-prismatic':''}" data-item-icon="${esc(a.icon)}" aria-label="${esc(a.name)} 설명">${image(a)}<strong>${esc(a.name)}</strong><small>${kind==='items'?itemTabNames[a.category]:augmentTabNames[a.rarity]}</small></button>`).join('')||'<p class="empty">검색 결과가 없습니다.</p>';
     setupItemTooltips();
   };
   const renderGrades=()=>{
@@ -184,7 +185,7 @@ function renderEncyclopedia() {
 function gearCards(assets, augment=false) {
   const carousel = assets.length > 5;
   const label = augment ? '증강' : '아이템';
-  return `<div class="gear-section">${carousel?`<div class="carousel-controls"><button type="button" data-direction="-1" aria-label="이전 ${label}">←</button><button type="button" data-direction="1" aria-label="다음 ${label}">→</button></div>`:''}<div class="cards ${augment?'augment':''} ${carousel?'carousel':''}" ${carousel?`tabindex="0" role="region" aria-label="${label} 목록, 좌우 방향키로 이동"`:''}>${assets.map(a => `<div class="gear ${!augment && a.icon.includes('/prismatic/')?'prismatic-gear':''}">${`<button type="button" class="item-info-trigger" data-item-icon="${esc(a.icon)}" aria-label="${esc(a.name)} ${augment?'증강':'아이템'} 설명">${image(a)}</button>`}<strong>${esc(a.name)}</strong>${a.note?`<span class="gear-note">${esc(a.note)}</span>`:''}</div>`).join('')}</div></div>`;
+  return `<div class="gear-section">${carousel?`<div class="carousel-controls"><button type="button" data-direction="-1" aria-label="이전 ${label}">←</button><button type="button" data-direction="1" aria-label="다음 ${label}">→</button></div>`:''}<div class="cards ${augment?'augment':''} ${carousel?'carousel':''}" ${carousel?`tabindex="0" role="region" aria-label="${label} 목록, 좌우 방향키로 이동"`:''}>${assets.map(a => `<div class="gear ${!augment && isPrismaticItem(a)?'prismatic-gear':''}">${`<button type="button" class="item-info-trigger" data-item-icon="${esc(a.icon)}" aria-label="${esc(a.name)} ${augment?'증강':'아이템'} 설명">${image(a)}</button>`}<strong>${esc(a.name)}</strong>${a.note?`<span class="gear-note">${esc(a.note)}</span>`:''}</div>`).join('')}</div></div>`;
 }
 const augmentLevels = new Map();
 function augmentMaxLevel(item) { return Math.max(1,item.levels?.length || 1); }
@@ -211,7 +212,7 @@ function setupItemTooltips() {
     clearTimeout(timer);active?.removeAttribute('aria-describedby');active=button;
     const item=itemDescriptions.get(button.dataset.itemIcon);
     const isAugment=item?.kind==='augment';
-    box.className=`item-description-tooltip${isAugment?` augment-description rarity-${item.rarity}`:''}`;
+    box.className=`item-description-tooltip${isAugment?` augment-description rarity-${item.rarity}`:item && isPrismaticItem(item)?' item-prismatic-description':''}`;
     box.innerHTML=item?`<div class="item-description-title">${image(item)}<strong>${esc(item.name)}</strong></div>${item.stats?`<div class="item-description-stats">${richItemText(item.stats)}</div>`:''}<div class="item-description-effects">${richItemEffects(item)}</div>`:'<p>아이템 설명을 찾을 수 없습니다.</p>';
     if(isAugment) box.innerHTML=augmentTooltip(item);
     box.role=isAugment?'dialog':'tooltip';
@@ -377,7 +378,7 @@ function renderRows(){
 }
 function renderRepresentative(){const assets=[...draft.items,...draft.augments];document.querySelector('#representative').innerHTML=assets.length?assets.map((a,i)=>`<button type="button" data-rep="${i}" aria-label="${esc(a.name)} 대표 아이콘으로 선택" aria-pressed="${draft.representative?.icon===a.icon}" class="${draft.representative?.icon===a.icon?'selected':''}">${image(a)}</button>`).join(''):'<p class="muted">아이템 또는 증강을 먼저 추가하세요.</p>';document.querySelectorAll('[data-rep]').forEach(btn=>btn.onclick=()=>{draft.representative={...assets[btn.dataset.rep]};renderRepresentative();});}
 function openPicker(kind,core=true){document.querySelector('#asset-search').placeholder=kind==='champions'?'한글·영문 이름 또는 ID 검색':'이름 또는 키워드: 적중시, 자동 사용, 충전, 주문력';pickKind=kind;pickCore=core;itemTab=kind==='augments'?'2':'prismatic';renderItemTabs();document.querySelector('#asset-search').value='';renderAssets();document.querySelector('#picker').showModal();document.querySelector('#asset-search').focus();}
-function renderAssets(){const q=document.querySelector('#asset-search').value.toLowerCase();const list=catalog[pickKind].filter(a=>matchesGrade(a,pickKind,itemTab)).filter(a=>matchesAssetSearch(a,pickKind,q));document.querySelector('#asset-results').innerHTML=list.map(a=>`<button type="button" data-asset="${a.id}">${image(a)}<span>${esc(a.name)}</span></button>`).join('')||'<p>검색 결과가 없습니다.</p>';document.querySelectorAll('[data-asset]').forEach(btn=>btn.onclick=()=>{const a=catalog[pickKind].find(a=>String(a.id)===btn.dataset.asset);const existing=draft[pickKind].find(x=>x.icon===a.icon);if(existing && pickKind!=='champions')existing.core=pickCore;if(!existing)draft[pickKind].push({name:a.name,icon:a.icon,...(pickKind==='champions'?{note:''}:{core:pickCore})});document.querySelector('#picker').close();renderRows();});}
+function renderAssets(){const q=document.querySelector('#asset-search').value.toLowerCase();const list=catalog[pickKind].filter(a=>matchesGrade(a,pickKind,itemTab)).filter(a=>matchesAssetSearch(a,pickKind,q));document.querySelector('#asset-results').innerHTML=list.map(a=>`<button type="button" class="${pickKind==='items' && isPrismaticItem(a)?'encyclopedia-prismatic':''}" data-asset="${a.id}">${image(a)}<span>${esc(a.name)}</span></button>`).join('')||'<p>검색 결과가 없습니다.</p>';document.querySelectorAll('[data-asset]').forEach(btn=>btn.onclick=()=>{const a=catalog[pickKind].find(a=>String(a.id)===btn.dataset.asset);const existing=draft[pickKind].find(x=>x.icon===a.icon);if(existing && pickKind!=='champions')existing.core=pickCore;if(!existing)draft[pickKind].push({name:a.name,icon:a.icon,...(pickKind==='champions'?{note:''}:{core:pickCore})});document.querySelector('#picker').close();renderRows();});}
 document.querySelector('#asset-search').oninput=renderAssets;
 document.querySelector('#close-picker').onclick=()=>document.querySelector('#picker').close();
 init();

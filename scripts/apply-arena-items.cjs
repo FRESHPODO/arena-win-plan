@@ -16,16 +16,16 @@ const rows = source.items.map(s => {
   const target = path.join(root,'imgs/items',icon);
   fs.mkdirSync(path.dirname(target),{recursive:true});
   if (!fs.existsSync(target) && donor) fs.copyFileSync(path.join(root,'imgs/items',donor.icon),target);
-  return {id:s.id,name:s.name,nameKo:s.name,nameEn:s.nameEn,category:s.category,icon,iconUrl:s.iconUrl,patch:source.patch};
+  return {id:s.id,name:s.name,nameKo:s.name,nameEn:s.nameEn,category:s.category,...(s.rarity?{rarity:s.rarity}:{}),icon,iconUrl:s.iconUrl,patch:source.patch};
 });
 const descriptions = rows.map(r => {
   const s=source.items.find(s=>s.id===r.id);
   const aliases=new Set(previous.items.find(p=>String(p.id)===String(r.id))?.aliases || []);
   for(const o of old) if(o.name===r.name || (o.iconUrl===r.iconUrl && o.name==='리안드리의 고통')) aliases.add('imgs/items/'+o.icon);
   aliases.delete('imgs/items/'+r.icon);
-  return {id:r.id,name:r.name,icon:'imgs/items/'+r.icon,aliases:[...aliases],stats:plain((s.description.match(/<stats>([\s\S]*?)<\/stats>/i)||[])[1]||''),effects:plain(s.description.replace(/<stats>[\s\S]*?<\/stats>/gi,'')),descriptionHtml:s.description};
+  return {id:r.id,name:r.name,icon:'imgs/items/'+r.icon,...(r.rarity?{rarity:r.rarity}:{}),aliases:[...aliases],stats:plain((s.description.match(/<stats>([\s\S]*?)<\/stats>/i)||[])[1]||''),effects:plain(s.description.replace(/<stats>[\s\S]*?<\/stats>/gi,'')),descriptionHtml:s.description};
 });
-function manifest(file,records){write(file+'.json',records);const keys=Object.keys(records[0]||{});const cell=v=>'"'+String(v??'').replace(/"/g,'""')+'"';fs.writeFileSync(path.join(root,file+'.csv'),[keys.map(cell).join(','),...records.map(r=>keys.map(k=>cell(r[k])).join(','))].join('\n')+'\n');}
+function manifest(file,records){write(file+'.json',records);const keys=[...new Set(records.flatMap(record=>Object.keys(record)))];const cell=v=>'"'+String(v??'').replace(/"/g,'""')+'"';fs.writeFileSync(path.join(root,file+'.csv'),[keys.map(cell).join(','),...records.map(r=>keys.map(k=>cell(r[k])).join(','))].join('\n')+'\n');}
 manifest('imgs/items/manifest',rows);
 for(const category of ['prismatic','legendary','anvil','consumable','exclusive']) {fs.mkdirSync(path.join(root,'imgs/items',category),{recursive:true});manifest(`imgs/items/${category}/manifest`,rows.filter(r=>r.category===category));}
 write('data/item-descriptions.ko.json',{locale:'ko_KR',patch:source.patch,source:source.source,items:descriptions});
