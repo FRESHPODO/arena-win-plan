@@ -78,5 +78,14 @@
     "icon": "anvil/220007-prismatic-item.png",
     "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/220007_prismaticanvil.png",
     "patch": "16.19.1"
+  },
+  {
+    "id": "anvil-shardblade",
+    "name": "파편 검",
+    "nameKo": "파편 검",
+    "nameEn": "Anvil Shardblade",
+    "category": "anvil",
+    "icon": "anvil/Anvil_Shardblade_item.webp",
+    "patch": "16.19.1"
   }
 ]

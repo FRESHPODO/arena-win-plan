@@ -1758,5 +1758,14 @@
     "icon": "prismatic/447123-puppeteer.png",
     "iconUrl": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/447123_puppeteer.png",
     "patch": "16.19.1"
+  },
+  {
+    "id": "anvil-shardblade",
+    "name": "파편 검",
+    "nameKo": "파편 검",
+    "nameEn": "Anvil Shardblade",
+    "category": "anvil",
+    "icon": "anvil/Anvil_Shardblade_item.webp",
+    "patch": "16.19.1"
   }
 ]

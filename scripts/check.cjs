@@ -7,6 +7,7 @@ const itemCatalog=JSON.parse(fs.readFileSync(path.join(root,'imgs/items/manifest
 for(const item of itemCatalog){const description=descriptions.items.find(row=>row.id===item.id);assert(description,`Missing Korean description: ${item.id}`);assert(description.name && (description.stats || description.effects),`Empty description: ${item.id}`);assert(!/<[^>]+>/.test(description.stats+description.effects),`Unstripped description tags: ${item.id}`);}
 console.log(`Validated ${descriptions.items.length} Korean item descriptions.`);
 const arenaSource=JSON.parse(fs.readFileSync(path.join(root,'data/item-arena-source.json'),'utf8'));
+arenaSource.items.push(...JSON.parse(fs.readFileSync(path.join(root,'data/item-custom-source.json'),'utf8')).items);
 assert.equal(new Set(itemCatalog.map(i=>i.name)).size,itemCatalog.length,'Duplicate Arena item names');
 for(const item of itemCatalog)assert(arenaSource.items.some(s=>s.id===item.id && s.map===30 && s.category===item.category),`Non-Arena item: ${item.id}`);
 assert(!itemCatalog.some(i=>[6653,3172].includes(i.id)),'Regular-mode item leaked into Arena');
