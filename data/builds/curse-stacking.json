@@ -2,38 +2,38 @@
   "id": "curse-stacking",
   "title": "저주",
   "description": "저주 계통 증강을 여러 개 채용하고, 전투 중 저주를 쌓아 높은 영구 능력치를 얻는 빌드입니다.",
-  "equipmentDescription": "공포를 부르는 자, 파멸의 예언자, 신성 모독자, 어둠의 축복, 죽음의 손길, 침탈 등 저주를 획득하는 증강을 조합합니다. 아래 증강은 고정 세트가 아닌 선택 후보이며, 현재 챔피언이 반복해서 발동할 수 있는 조건을 우선합니다.",
-  "cautions": "회복·보호막, 이동 불가, 기본 공격, 스킬 피해, 돌진 등 증강마다 저주 획득 조건이 다릅니다. 챔피언이 충족할 수 있는 조건인지 확인하세요.",
+  "equipmentDescription": "공포를 부르는 자, 파멸의 예언자, 신성 모독자, 어둠의 축복, 죽음의 손길, 침탈 등 저주를 획득하는 증강을 조합합니다.",
+  "cautions": "저주 파밍이 가능한 증강을 최대한 초반에 확보합니다. \n이후 목표 스탯에 맞는 저주 증강을 탐색합니다.",
   "items": [],
   "augments": [
     {
       "name": "공포를 부르는 자",
       "icon": "imgs/augments/icons/216-dreadbringer.png",
-      "core": false,
+      "core": true,
       "note": "근접 유지 · 체력"
     },
     {
       "name": "파멸의 예언자",
       "icon": "imgs/augments/icons/219-doomsayer.png",
-      "core": false,
+      "core": true,
       "note": "스킬 피해 · 적응형 능력치"
     },
     {
       "name": "신성 모독자",
       "icon": "imgs/augments/icons/218-desecrator.png",
-      "core": false,
+      "core": true,
       "note": "이동 불가 · 방어 능력치"
     },
     {
       "name": "어둠의 축복",
       "icon": "imgs/augments/icons/215-darkblessing.png",
-      "core": false,
+      "core": true,
       "note": "아군 회복·보호막 · 스킬 가속"
     },
     {
       "name": "죽음의 손길",
       "icon": "imgs/augments/icons/217-deathtouch.png",
-      "core": false,
+      "core": true,
       "note": "기본 공격 · 적중 시 피해"
     },
     {
@@ -50,11 +50,18 @@
       "note": "챔피언의 스킬에 맞는 저주 증강 선택"
     }
   ],
-  "championNote": "저주 획득 조건을 자주 충족할 수 있도록 구성",
+  "championNote": "",
   "representative": {
     "name": "공포를 부르는 자",
     "icon": "imgs/augments/icons/216-dreadbringer.png"
   },
   "createdAt": "2026-10-01T00:56:06.567Z",
-  "youtubeUrls": []
+  "youtubeUrls": [
+    "https://youtu.be/MLGQrxF6JqQ"
+  ],
+  "parameters": {
+    "carry": 4,
+    "luck": 2,
+    "burden": 1
+  }
 }

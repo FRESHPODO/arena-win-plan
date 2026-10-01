@@ -1,7 +1,7 @@
 {
   "id": "reverberation-cc",
   "title": "반향 무한 CC",
-  "description": "CC기에 적중하면 대상에게 적중 시 효과를 3회 적용하는 ‘반향’을 이용해, ‘신비한 주먹’과 ‘달빛 마법검’의 쿨타임 감소를 연쇄적으로 발동시켜 CC를 반복하는 빌드.",
+  "description": "CC기에 적중하면 대상에게 적중 시 효과를 3회 적용하는 반향과 적중시 스킬 쿨타임을 감소시키는 신비한 주먹, 달빛 마법검을 이용해 무한으로 CC를 적용합니다. \n반향을 최우선으로 확보하고, 돌진, 신기루 검, 스킬 가속, 마법검, 신비한 주먹 등 쿨타임 감소 관련 아이템/증강으로 보조합니다.",
   "createdAt": "2026-09-29T12:00:00+09:00",
   "representative": {
     "name": "반향",
@@ -11,42 +11,91 @@
     {
       "name": "반향",
       "icon": "imgs/items/prismatic/447114-reverberation.png",
-      "core": true
+      "core": true,
+      "note": "핵심"
     },
     {
       "name": "달빛 마법검",
       "icon": "imgs/items/prismatic/447110-moonflair-spellblade.png",
-      "core": true
+      "core": true,
+      "note": "쿨타임 감소"
     },
     {
       "name": "신기루 검",
       "icon": "imgs/items/prismatic/447100-mirage-blade.png",
-      "core": false
+      "core": true,
+      "note": "쿨타임 감소(돌진)"
+    },
+    {
+      "name": "사신의 대가",
+      "icon": "imgs/items/prismatic/443090-reaper-s-toll.png",
+      "core": false,
+      "note": "온힛 데미지 보조"
     },
     {
       "name": "몰락한 왕의 검",
-      "icon": "imgs/items/legendary/3153-blade-of-the-ruined-king.png",
-      "core": true
+      "icon": "imgs/items/legendary/223153-arena.png",
+      "core": false,
+      "note": "온힛 데미지 보조"
     },
     {
-      "name": "마나무네",
-      "icon": "imgs/items/legendary/3004-manamune.png",
-      "core": true
+      "name": "무라마나",
+      "icon": "imgs/items/legendary/223042-transformed.png",
+      "core": false,
+      "note": "마나 보조&데미지(AD)"
+    },
+    {
+      "name": "영겁의 지팡이",
+      "icon": "imgs/items/legendary/226657-arena.png",
+      "core": false,
+      "note": "무한 마나 보조(AP)"
     }
   ],
   "augments": [
     {
       "name": "신비한 주먹",
       "icon": "imgs/augments/icons/58-mysticpunch.png",
-      "core": true
+      "core": true,
+      "note": "쿨타임 감소"
     },
     {
       "name": "환영 무기",
       "icon": "imgs/augments/icons/29-etherealweapon.png",
-      "core": true
+      "core": true,
+      "note": "적중시 보조"
+    },
+    {
+      "name": "자비",
+      "icon": "imgs/augments/icons/wiki-mercy.png",
+      "core": false,
+      "note": "연계 분쇄 발생시 딜량 증가"
+    },
+    {
+      "name": "화염 낙인",
+      "icon": "imgs/augments/icons/36-firebrand.png",
+      "core": false,
+      "note": "온힛 데미지 보조"
+    },
+    {
+      "name": "감바 모루",
+      "icon": "imgs/augments/icons/234-gambaanvil.png",
+      "core": false,
+      "note": "반향 구매 도움"
+    },
+    {
+      "name": "돌진",
+      "icon": "imgs/augments/icons/19-dashing.png",
+      "core": false,
+      "note": "돌진 스킬 쿨타임 감소"
+    },
+    {
+      "name": "대지의 각성",
+      "icon": "imgs/augments/icons/27-earthwake.png",
+      "core": false,
+      "note": "돌진 계열 데미지 보조"
     }
   ],
-  "championNote": "CC 반복 구조와 기본 공격 연계가 쉬운 조합",
+  "championNote": "모션이 간결한 CC기나 돌진 계열의 CC기를 가진 챔피언",
   "champions": [
     {
       "name": "바이",
@@ -63,5 +112,15 @@
       "icon": "imgs/champions/icons/gragas.png",
       "note": "돌진 · 폭발 CC"
     }
+  ],
+  "parameters": {
+    "carry": 5,
+    "luck": 2,
+    "burden": 1
+  },
+  "equipmentDescription": "첫 프리즘 모루에서 반향이 등장했을 경우, 무한 CC를 완성하지 않더라도 상당히 높은 벨류를 가지고 있으므로 우선 구매해도 좋습니다.",
+  "cautions": "연속 사용시 적중하지 않는 스킬(바이 Q 등)이 있으니 일부 챔피언은 사용 시 주의해야 합니다.",
+  "youtubeUrls": [
+    "https://www.youtube.com/watch?v=KOkYAYXWkIM&t=1554s", "https://youtu.be/QGvJhLSAf2M", "https://youtu.be/GMpbSr6VRm8"
   ]
 }

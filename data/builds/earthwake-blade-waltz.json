@@ -1,10 +1,45 @@
 {
   "id": "earthwake-blade-waltz",
   "title": "대지의 각성 + 검무",
-  "description": "검무로 대상 지정 불가 상태에서 적 사이를 이동하며 대지의 각성을 발동합니다. 소환사 혁명으로 검무를 빠르게 다시 사용해 연속 폭발 피해를 노립니다.",
-  "equipmentDescription": "대지의 각성과 검무를 핵심으로 조합하고, 소환사 혁명을 함께 확보해 연속 사용을 노립니다. 자체 돌진기 또는 검무 타격과 맞물리는 패시브가 있는 챔피언과 조합합니다.",
-  "cautions": "눈덩이처럼 소환사 주문을 다른 주문으로 바꾸는 증강을 먼저 채용하면 검무가 등장하지 않을 수 있으므로 피합니다. 검무의 보호 효과는 대상 지정 불가이며 모든 피해에 대한 완전한 무적과는 다릅니다.",
-  "items": [],
+  "description": "검무로 대상 지정 불가 상태에서 적 사이를 이동하며 대지의 각성을 발동합니다. 소환사 혁명으로 검무를 다시 사용해 연속 폭발 피해를 노립니다.",
+  "equipmentDescription": "대지의 각성과 검무, 소환사 혁명이 필수 파츠입니다. \n물리 관통, 공격력/주문력 등 대지의 각성 피해를 증폭시키는 아이템의 효율이 높습니다.",
+  "cautions": "눈덩이, 소환사 룰렛, 불사의 날 등 소환사 주문을 다른 주문으로 바꾸는 증강을 먼저 채용하면 검무가 등장하지 않을 수 있으므로 피합니다.",
+  "items": [
+    {
+      "name": "드락사르의 황혼검",
+      "icon": "imgs/items/prismatic/446691-duskblade-of-draktharr.png",
+      "core": false,
+      "note": "물리 피해 증폭"
+    },
+    {
+      "name": "불사대마왕의 왕관",
+      "icon": "imgs/items/prismatic/443056-demon-king-s-crown.png",
+      "core": false,
+      "note": "스탯 증가"
+    },
+    {
+      "name": "용의 심장",
+      "icon": "imgs/items/prismatic/447106-dragonheart.png",
+      "core": false,
+      "note": "스탯 증가"
+    },
+    {
+      "name": "킨코우 십수",
+      "icon": "imgs/items/prismatic/447116-kinkou-jitte.png",
+      "core": true,
+      "note": "검무 시너지"
+    },
+    {
+      "name": "독사의 송곳니",
+      "icon": "imgs/items/legendary/226695-arena.png",
+      "core": false
+    },
+    {
+      "name": "필멸자의 운명",
+      "icon": "imgs/items/legendary/223033-arena.png",
+      "core": false
+    }
+  ],
   "augments": [
     {
       "name": "대지의 각성",
@@ -43,5 +78,12 @@
     "icon": "imgs/augments/icons/27-earthwake.png"
   },
   "createdAt": "2026-10-01T00:56:06.567Z",
-  "youtubeUrls": []
+  "youtubeUrls": [
+    "https://www.youtube.com/watch?v=m_-EneztzVU"
+  ],
+  "parameters": {
+    "carry": 5,
+    "luck": 3,
+    "burden": 1
+  }
 }

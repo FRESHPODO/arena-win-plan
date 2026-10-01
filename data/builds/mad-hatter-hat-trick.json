@@ -1,10 +1,35 @@
 {
   "id": "mad-hatter-hat-trick",
   "title": "모자장수 + 해트트릭",
-  "description": "모루작처럼 누적 능력치를 노리지만, 능력치 모루 대신 소비 아이템인 카파 주스로 모자를 모으는 빌드입니다.",
-  "equipmentDescription": "퀘스트: 미치광이 모자장수와 해트트릭을 반드시 함께 확보합니다. 카파 주스를 구매해 모자를 쌓고, 퀘스트 보상과 모자 수에 따른 능력치 증가를 활용합니다.",
-  "cautions": "두 필수 증강이 모두 필요합니다. 모자장수 퀘스트는 패배 시 모자의 절반을 잃으며, 해트트릭의 방어 효과가 발동할 때도 모자가 소모됩니다.",
-  "items": [],
+  "description": "모루작처럼 누적 능력치를 노리지만, 능력치 모루 대신 소비 아이템인 카파 주스로 모자를 모으는 빌드입니다. 아이템 구매가 가능하므로, 최소한의 필요 아이템을 구매할 수 있습니다.",
+  "equipmentDescription": "퀘스트: 미치광이 모자장수와 해트트릭을 반드시 함께 확보합니다. 확보한 후에는 모든 골드를 카파 주스에 투자해 모자를 쌓고, 퀘스트 보상으로 얻는 모자 수에 따른 능력치 증가를 활용합니다.",
+  "cautions": "두 필수 증강이 모두 필요하므로, 골드 증강을 적극적으로 탐색하세요.",
+  "items": [
+    {
+      "name": "도박꾼의 칼날",
+      "icon": "imgs/items/prismatic/447101-gambler-s-blade.png",
+      "core": true,
+      "note": "골드 획득"
+    },
+    {
+      "name": "독사의 송곳니",
+      "icon": "imgs/items/legendary/226695-arena.png",
+      "core": false,
+      "note": "보호막 파괴"
+    },
+    {
+      "name": "필멸자의 운명",
+      "icon": "imgs/items/legendary/223033-arena.png",
+      "core": false,
+      "note": "치유 감소"
+    },
+    {
+      "name": "화공 펑크 사슬검",
+      "icon": "imgs/items/legendary/226609-arena.png",
+      "core": false,
+      "note": "치유 감소"
+    }
+  ],
   "augments": [
     {
       "name": "퀘스트: 미치광이 모자장수",
@@ -28,9 +53,16 @@
   ],
   "championNote": "모자와 증강 조합 중심의 자유 선택",
   "representative": {
-    "name": "퀘스트: 미치광이 모자장수",
-    "icon": "imgs/augments/icons/318-quest-madhatter.png"
+    "name": "해트트릭",
+    "icon": "imgs/augments/icons/241-hattrick.png",
+    "core": true,
+    "note": "필수 · 모자 구매 비용 감소"
   },
   "createdAt": "2026-10-01T00:56:06.567Z",
-  "youtubeUrls": []
+  "youtubeUrls": [],
+  "parameters": {
+    "carry": 4,
+    "luck": 2,
+    "burden": 2
+  }
 }

@@ -1,0 +1,111 @@
+{
+  "id": "436d8548-e300-4d2c-bd61-306741f0f592",
+  "title": "완전 자동화",
+  "description": "자동화 증강을 무수히 발생시키는 빌드입니다. \n충전 공격 발생 시 자동화 공격을 작동시키는 마공화살 동료와로 자동화 증강 공격을 발생시키고, 그 공격을 다시 충전 스택으로 전환하는 룬 조각기가 핵심 파츠입니다. \n스킬 가속을 자동화에 적용하는 번개 막대를 이용해 예열 구간을 완화합니다.",
+  "createdAt": "2026-10-01T01:38:35.640Z",
+  "items": [
+    {
+      "name": "룬 조각기",
+      "icon": "imgs/items/prismatic/447108-runecarver.png",
+      "core": true
+    },
+    {
+      "name": "마공화살 동료",
+      "icon": "imgs/items/prismatic/443081-hexbolt-companion.png",
+      "core": true
+    },
+    {
+      "name": "번개 막대",
+      "icon": "imgs/items/prismatic/447119-lightning-rod.png",
+      "core": true
+    }
+  ],
+  "augments": [
+    {
+      "name": "양자 연산",
+      "icon": "imgs/augments/icons/66-quantumcomputing.png",
+      "core": true,
+      "note": "자동화(데미지)"
+    },
+    {
+      "name": "야생 불꽃",
+      "icon": "imgs/augments/icons/wiki-wild-fire.png",
+      "core": true,
+      "note": "자동화(데미지)"
+    },
+    {
+      "name": "에너지 충만",
+      "icon": "imgs/augments/icons/344-energetic.png",
+      "core": true,
+      "note": "충전 가속"
+    },
+    {
+      "name": "신성한 중재",
+      "icon": "imgs/augments/icons/301-divineintervention.png",
+      "core": false,
+      "note": "자동화(무적)"
+    },
+    {
+      "name": "늘어나는 팔",
+      "icon": "imgs/augments/icons/33-extendoarm.png",
+      "core": false,
+      "note": "자동화(CC)"
+    },
+    {
+      "name": "불여우",
+      "icon": "imgs/augments/icons/308-firefox.png",
+      "core": false,
+      "note": "자동화(데미지)"
+    },
+    {
+      "name": "부메랑 투척",
+      "icon": "imgs/augments/icons/61-okboomerang.png",
+      "core": false,
+      "note": "자동화(데미지)"
+    },
+    {
+      "name": "서리 망령",
+      "icon": "imgs/augments/icons/39-frostwraith.png",
+      "core": false,
+      "note": "자동화(CC)"
+    },
+    {
+      "name": "도끼 받아라!",
+      "icon": "imgs/augments/icons/309-andmyaxe.png",
+      "core": false,
+      "note": "자동화(데미지&관통)"
+    },
+    {
+      "name": "빛의 파수꾼",
+      "icon": "imgs/augments/icons/231-lightwarden.png",
+      "core": false,
+      "note": "자동화(쉴드)"
+    }
+  ],
+  "champions": [
+    {
+      "name": "용기",
+      "icon": "imgs/champions/icons/bravery.png",
+      "note": ""
+    }
+  ],
+  "championNote": "",
+  "representative": {
+    "name": "양자 연산",
+    "icon": "imgs/augments/icons/66-quantumcomputing.png",
+    "core": true,
+    "note": "자동화(데미지)"
+  },
+  "equipmentDescription": "룬 조각기, 마공화살 동료는 반드시 필요합니다. \n번개 막대 역시 되도록이면 구매합니다. \n데미지를 줄 수 있는 자동화 증강인 양자 연산, 야생 불꽃 등으로 데미지를 충당하고, 신성한 중재, 늘어나는 팔 등 필요에 따라 자동화 계열 유틸리티 증강을 채택합니다. \n더불어 충전 속도를 높이는 에너지 충만 증강을 채용해 발동 수를 증가시킵니다.",
+  "cautions": "코어 아이템 3종류가 모두 프리즘 아이템이기 때문에, 빌드업 없이 시도할 경우 체력 관리가 힘들고 운에 크게 의존할 수 있습니다.",
+  "youtubeUrls": [
+    "https://youtu.be/N2Okrq45S58",
+    "https://youtu.be/QWFld5-Ppvc",
+    "https://youtu.be/LJ0nln0Smtk"
+  ],
+  "parameters": {
+    "carry": 5,
+    "luck": 5,
+    "burden": 5
+  }
+}

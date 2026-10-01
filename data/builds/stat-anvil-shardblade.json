@@ -3,7 +3,7 @@
   "title": "능력치 모루작",
   "description": "장비 아이템을 구매하지 않고 능력치 모루만 구매합니다. 파편 검을 얻어 능력치 모루의 수치를 높이고, 누적된 높은 능력치로 싸우는 빌드입니다.",
   "equipmentDescription": "프리즘 능력치 모루 선택지 중 행운 파편처럼 추가 골드를 얻는 선택지가 유효합니다. 능력치 더하기 능력치 더하기 능력치!, 감바 모루 등 모루 관련 증강과 용자 중의 용자 등 골드 관련 증강을 활용합니다. 먼지에서 다이아몬드로는 제거하거나 교체할 때 프리즘 능력치 모루를 얻는 방식으로 활용합니다.",
-  "cautions": "장비 구매를 피하고 능력치 모루에 골드를 투자하는 운영입니다. 증강과 모루 선택지에 따라 성장 속도가 달라집니다.",
+  "cautions": "장비 구매를 피하고 능력치 모루에 골드를 투자하는 운영입니다. 신발도 구매해선 안됩니다. \n프리즘 알 등 아이템을 강제로 획득하는 증강이 발동하는 경우에도 파편검을 구매할 수 없게 되니 주의해야합니다.",
   "items": [
     {
       "name": "파편 검",
@@ -22,13 +22,7 @@
     {
       "name": "능력치 더하기 능력치 더하기 능력치!",
       "icon": "imgs/augments/icons/228-statsonstatsonstats.png",
-      "core": false,
-      "note": ""
-    },
-    {
-      "name": "감바 모루",
-      "icon": "imgs/augments/icons/234-gambaanvil.png",
-      "core": false,
+      "core": true,
       "note": ""
     },
     {
@@ -42,13 +36,58 @@
       "icon": "imgs/augments/icons/wiki-dust-to-diamonds.png",
       "core": false,
       "note": ""
+    },
+    {
+      "name": "능력치 더하기 능력치!",
+      "icon": "imgs/augments/icons/227-statsonstats.png",
+      "core": true
+    },
+    {
+      "name": "능력치!",
+      "icon": "imgs/augments/icons/226-stats.png",
+      "core": true
+    },
+    {
+      "name": "감바 모루",
+      "icon": "imgs/augments/icons/234-gambaanvil.png",
+      "core": true
+    },
+    {
+      "name": "적응형 능력치",
+      "icon": "imgs/augments/icons/205-adapt.png",
+      "core": false
+    },
+    {
+      "name": "마법사 (물리)",
+      "icon": "imgs/augments/icons/206-escapade.png",
+      "core": false
+    },
+    {
+      "name": "재물 집착",
+      "icon": "imgs/augments/icons/371-gohcompulsionforwealth.png",
+      "core": false
+    },
+    {
+      "name": "프리즘 능력치 모루 획득",
+      "icon": "imgs/augments/icons/340-craftingprisstatanvil.png",
+      "core": false
+    },
+    {
+      "name": "증강 강화",
+      "icon": "imgs/augments/icons/342-craftingsellaugment.png",
+      "core": false
     }
   ],
   "champions": [
     {
       "name": "용기",
       "icon": "imgs/champions/icons/bravery.png",
-      "note": "챔피언 제한 없이 선택"
+      "note": ""
+    },
+    {
+      "name": "오른",
+      "icon": "imgs/champions/icons/ornn.png",
+      "note": "모루 구매 비용 할인"
     }
   ],
   "championNote": "챔피언에 구애받지 않는 능력치 중심 빌드",
@@ -57,5 +96,12 @@
     "icon": "imgs/items/anvil/Anvil_Shardblade_item.webp"
   },
   "createdAt": "2026-10-01T00:56:06.566Z",
-  "youtubeUrls": []
+  "youtubeUrls": [
+    "https://www.youtube.com/watch?v=HY9JLPZ_8CE", "https://youtu.be/qyWcldNJA3c", "https://youtu.be/XEcfu7fu1Zc"
+  ],
+  "parameters": {
+    "carry": 4,
+    "luck": 3,
+    "burden": 3
+  }
 }
