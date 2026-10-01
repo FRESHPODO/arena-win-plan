@@ -9982,7 +9982,7 @@
       "icon": "imgs/augments/icons/231-lightwarden.png",
       "rarity": 1,
       "stats": "",
-      "effects": "8초마다 아군 방향으로 럭스의 프리즘 보호막을 시전합니다. 빛에 닿으면 2.5초간 28~79 (챔피언 레벨에 따라) (+ 추가 공격력의 7.5%) (+ 주문력의 20%) 보호막. 돌아오는 빛도 같은 보호막을 부여하며 중첩·갱신합니다.",
+      "effects": "자동 사용: 8초마다 아군 방향으로 럭스의 프리즘 보호막을 시전합니다. 빛에 닿으면 2.5초간 28~79 (챔피언 레벨에 따라) (+ 추가 공격력의 7.5%) (+ 주문력의 20%) 보호막. 돌아오는 빛도 같은 보호막을 부여하며 중첩·갱신합니다.",
       "descriptionHtml": "몇 초마다 공격을 막는 빛을 <keywordMajor>자동 사용</keywordMajor>하여 빛을 통과하는 아군과 자신에게 <shield>보호막</shield>을 부여합니다. 이후 빛이 돌아오며 같은 효과를 반복합니다.",
       "tooltipHtml": "아군이 있는 방향으로 @Cooldown@초마다 공격을 막는 빛을 <keywordMajor>자동 사용</keywordMajor>하여 빛을 통과하는 아군과 자신에게 <shield>@TotalShield@의 보호막</shield>을 부여합니다. 이후 빛이 돌아오며 같은 효과를 반복합니다.",
       "dataValues": {
