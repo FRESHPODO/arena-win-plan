@@ -28,6 +28,7 @@ jobs:
         run: |
           mkdir _site
           cp index.html app.js style.css favicon.svg .nojekyll _site/
+          cp keyword-text.js augment-description.js overlay*.js overlay*.html overlay.css _site/
           cp -r data imgs _site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
