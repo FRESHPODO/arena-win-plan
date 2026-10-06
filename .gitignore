@@ -1,6 +1,16 @@
 node_modules/
+.tools/
+tools/ffmpeg/
+exports/
 _site/
 *.log
 .DS_Store
 Thumbs.db
 
+
+tools/node/
+# Local settings and disposable runtime files
+user_custom/
+.runtime-cache/
+**/user_custom/
+**/data/arena/auto-replays/

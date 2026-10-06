@@ -1,0 +1,1958 @@
+[
+  {
+    "id": 93,
+    "apiName": "WarmupRoutine",
+    "name": "Warmup Routine",
+    "nameKo": "준비 운동",
+    "rarity": 0
+  },
+  {
+    "id": 89,
+    "apiName": "Vanish",
+    "name": "Vanish",
+    "nameKo": "소멸",
+    "rarity": 1
+  },
+  {
+    "id": 347,
+    "apiName": "GoHChemtechPutrifier",
+    "name": "Chemtech Putrifier",
+    "nameKo": "화학공학 부패기",
+    "rarity": 4
+  },
+  {
+    "id": 359,
+    "apiName": "GoHLamb",
+    "name": "Lamb's Respite",
+    "nameKo": "양의 안식처",
+    "rarity": 4
+  },
+  {
+    "id": 323,
+    "apiName": "Cerberus",
+    "name": "Cerberus",
+    "nameKo": "케르베로스",
+    "rarity": 2
+  },
+  {
+    "id": 340,
+    "apiName": "CraftingPrisStatAnvil",
+    "name": "Gain a Prismatic Stat Anvil",
+    "nameKo": "프리즘 능력치 모루 획득",
+    "rarity": 4
+  },
+  {
+    "id": 87,
+    "apiName": "Typhoon",
+    "name": "Typhoon",
+    "nameKo": "태풍",
+    "rarity": 0
+  },
+  {
+    "id": 108,
+    "apiName": "SelfDestruct",
+    "name": "Self Destruct",
+    "nameKo": "자폭",
+    "rarity": 0
+  },
+  {
+    "id": 120,
+    "apiName": "ServeBeyondDeath",
+    "name": "Serve Beyond Death",
+    "nameKo": "기사회생",
+    "rarity": 0
+  },
+  {
+    "id": 327,
+    "apiName": "UndyingGuard",
+    "name": "Undying Guard",
+    "nameKo": "불멸의 경계",
+    "rarity": 1
+  },
+  {
+    "id": 66,
+    "apiName": "QuantumComputing",
+    "name": "Quantum Computing",
+    "nameKo": "양자 연산",
+    "rarity": 2
+  },
+  {
+    "id": 23,
+    "apiName": "DemonsDance",
+    "name": "Demon's Dance",
+    "nameKo": "악마의 춤",
+    "rarity": 1
+  },
+  {
+    "id": 21,
+    "apiName": "DefensiveManeuvers",
+    "name": "Defensive Maneuvers",
+    "nameKo": "방어 기동",
+    "rarity": 1
+  },
+  {
+    "id": 243,
+    "apiName": "TransmuteChaos",
+    "name": "Transmute: Chaos",
+    "nameKo": "전환: 혼돈",
+    "rarity": 2
+  },
+  {
+    "id": 14,
+    "apiName": "Chauffeur",
+    "name": "Chauffeur",
+    "nameKo": "운전기사",
+    "rarity": 2
+  },
+  {
+    "id": 129,
+    "apiName": "Marksmage",
+    "name": "Marksmage",
+    "nameKo": "마법 명사수",
+    "rarity": 1
+  },
+  {
+    "id": 231,
+    "apiName": "LightWarden",
+    "name": "Light Warden",
+    "nameKo": "빛의 파수꾼",
+    "rarity": 1
+  },
+  {
+    "id": 351,
+    "apiName": "GoHFrozenMallet",
+    "name": "Frozen Mallet",
+    "nameKo": "얼어붙은 망치",
+    "rarity": 4
+  },
+  {
+    "id": 318,
+    "apiName": "Quest_MadHatter",
+    "name": "Quest: Mad Hatter",
+    "nameKo": "퀘스트: 미치광이 모자장수",
+    "rarity": 1
+  },
+  {
+    "id": 6,
+    "apiName": "BladeWaltz",
+    "name": "Blade Waltz",
+    "nameKo": "검무",
+    "rarity": 2
+  },
+  {
+    "id": 94,
+    "apiName": "WillingSacrifice",
+    "name": "Willing Sacrifice",
+    "nameKo": "희생의 의지",
+    "rarity": 1
+  },
+  {
+    "id": 308,
+    "apiName": "Firefox",
+    "name": "Firefox",
+    "nameKo": "불여우",
+    "rarity": 0
+  },
+  {
+    "id": 223,
+    "apiName": "SummonerRevolution",
+    "name": "Summoner Revolution",
+    "nameKo": "소환사 혁명",
+    "rarity": 1
+  },
+  {
+    "id": 44,
+    "apiName": "IceCold",
+    "name": "Ice Cold",
+    "nameKo": "차가운 냉기",
+    "rarity": 0
+  },
+  {
+    "id": 214,
+    "apiName": "SpinToWin",
+    "name": "Spin To Win",
+    "nameKo": "승리를 위한 회전",
+    "rarity": 0
+  },
+  {
+    "id": 5,
+    "apiName": "BannerofCommand",
+    "name": "Banner of Command",
+    "nameKo": "지휘관의 깃발",
+    "rarity": 1
+  },
+  {
+    "id": 80,
+    "apiName": "TankItOrLeaveIt",
+    "name": "Tank It Or Leave It",
+    "nameKo": "확률적 방어",
+    "rarity": 0
+  },
+  {
+    "id": 342,
+    "apiName": "CraftingSellAugment",
+    "name": "Level Augments",
+    "nameKo": "증강 강화",
+    "rarity": 4
+  },
+  {
+    "id": 97,
+    "apiName": "WitchfulThinking",
+    "name": "Witchful Thinking",
+    "nameKo": "사악한 정신",
+    "rarity": 0
+  },
+  {
+    "id": 154,
+    "apiName": "Quest_UrfsChampion",
+    "name": "Quest: Urf's Champion",
+    "nameKo": "퀘스트: 우르프의 챔피언",
+    "rarity": 1
+  },
+  {
+    "id": 369,
+    "apiName": "GoHCravingForPower",
+    "name": "Craving For Power",
+    "nameKo": "힘 갈망",
+    "rarity": 4
+  },
+  {
+    "id": 90,
+    "apiName": "Vengeance",
+    "name": "Vengeance",
+    "nameKo": "복수",
+    "rarity": 1
+  },
+  {
+    "id": 348,
+    "apiName": "GoHBloodrazor",
+    "name": "Bloodrazor",
+    "nameKo": "피갈퀴손",
+    "rarity": 4
+  },
+  {
+    "id": 28,
+    "apiName": "Erosion",
+    "name": "Erosion",
+    "nameKo": "부식",
+    "rarity": 0
+  },
+  {
+    "id": 226,
+    "apiName": "Stats",
+    "name": "Stats!",
+    "nameKo": "능력치!",
+    "rarity": 0
+  },
+  {
+    "id": 54,
+    "apiName": "MasterofDuality",
+    "name": "Master of Duality",
+    "nameKo": "결투의 대가",
+    "rarity": 2
+  },
+  {
+    "id": 51,
+    "apiName": "LightemUp",
+    "name": "Light 'em Up!",
+    "nameKo": "불을 밝혀",
+    "rarity": 0
+  },
+  {
+    "id": 72,
+    "apiName": "SearingDawn",
+    "name": "Searing Dawn",
+    "nameKo": "타오르는 새벽",
+    "rarity": 1
+  },
+  {
+    "id": 136,
+    "apiName": "SlapAround",
+    "name": "Slap Around",
+    "nameKo": "우당탕탕",
+    "rarity": 0
+  },
+  {
+    "id": 133,
+    "apiName": "MagicMissile",
+    "name": "Magic Missile",
+    "nameKo": "마법 미사일",
+    "rarity": 1
+  },
+  {
+    "id": 135,
+    "apiName": "Spellwake",
+    "name": "Spellwake",
+    "nameKo": "주문 각성",
+    "rarity": 2
+  },
+  {
+    "id": 193,
+    "apiName": "CenterOfTheUniverse",
+    "name": "Center of the Universe",
+    "nameKo": "우주의 중심",
+    "rarity": 2
+  },
+  {
+    "id": 65,
+    "apiName": "PhenomenalEvil",
+    "name": "Phenomenal Evil",
+    "nameKo": "극악무도",
+    "rarity": 1
+  },
+  {
+    "id": 180,
+    "apiName": "BigBrain",
+    "name": "Big Brain",
+    "nameKo": "전술적 대비",
+    "rarity": 1
+  },
+  {
+    "id": 92,
+    "apiName": "Vulnerability",
+    "name": "Vulnerability",
+    "nameKo": "취약",
+    "rarity": 1
+  },
+  {
+    "id": 10,
+    "apiName": "CannonFodder",
+    "name": "Cannon Fodder",
+    "nameKo": "포탄",
+    "rarity": 0
+  },
+  {
+    "id": 233,
+    "apiName": "UltimateRoulette",
+    "name": "Ultimate Roulette",
+    "nameKo": "궁극의 룰렛",
+    "rarity": 2
+  },
+  {
+    "id": 310,
+    "apiName": "ClownCollege",
+    "name": "Clown College",
+    "nameKo": "광대 대학",
+    "rarity": 2
+  },
+  {
+    "id": 251,
+    "apiName": "NumbToPain",
+    "name": "Numb to Pain",
+    "nameKo": "무통각증",
+    "rarity": 0
+  },
+  {
+    "id": 362,
+    "apiName": "GoHVoteAllyHunter",
+    "name": "Ally Hunter",
+    "nameKo": "사냥꾼과 동맹",
+    "rarity": 4
+  },
+  {
+    "id": 322,
+    "apiName": "AugmentedPower",
+    "name": "Augmented Power",
+    "nameKo": "증강된 힘",
+    "rarity": 0
+  },
+  {
+    "id": 53,
+    "apiName": "MadScientist",
+    "name": "Mad Scientist",
+    "nameKo": "미친 과학자",
+    "rarity": 2
+  },
+  {
+    "id": 57,
+    "apiName": "MountainSoul",
+    "name": "Mountain Soul",
+    "nameKo": "대지의 영혼",
+    "rarity": 0
+  },
+  {
+    "id": 88,
+    "apiName": "UltimateRevolution",
+    "name": "Ultimate Revolution",
+    "nameKo": "궁극기 대변혁",
+    "rarity": 2
+  },
+  {
+    "id": 236,
+    "apiName": "TricksterDemon",
+    "name": "Trickster Demon",
+    "nameKo": "기만하는 악마",
+    "rarity": 1
+  },
+  {
+    "id": 171,
+    "apiName": "Dematerialize",
+    "name": "Dematerialize",
+    "nameKo": "해체분석",
+    "rarity": 0
+  },
+  {
+    "id": 39,
+    "apiName": "FrostWraith",
+    "name": "Frost Wraith",
+    "nameKo": "서리 망령",
+    "rarity": 0
+  },
+  {
+    "id": 79,
+    "apiName": "SymphonyofWar",
+    "name": "Symphony of War",
+    "nameKo": "전장의 교향곡",
+    "rarity": 2
+  },
+  {
+    "id": 86,
+    "apiName": "TrueshotProdigy",
+    "name": "Trueshot Prodigy",
+    "nameKo": "정조준 일격 신동",
+    "rarity": 2
+  },
+  {
+    "id": 30,
+    "apiName": "Eureka",
+    "name": "Eureka",
+    "nameKo": "유레카",
+    "rarity": 2
+  },
+  {
+    "id": 60,
+    "apiName": "OceanSoul",
+    "name": "Ocean Soul",
+    "nameKo": "바다의 영혼",
+    "rarity": 0
+  },
+  {
+    "id": 321,
+    "apiName": "Bodyguard",
+    "name": "Bodyguard",
+    "nameKo": "경호대",
+    "rarity": 1
+  },
+  {
+    "id": 15,
+    "apiName": "CircleofDeath",
+    "name": "Circle of Death",
+    "nameKo": "죽음의 순환",
+    "rarity": 2
+  },
+  {
+    "id": 156,
+    "apiName": "Quest_WoogletsWitchcap",
+    "name": "Quest: Wooglet's Witchcap",
+    "nameKo": "퀘스트: 우글렛의 마녀 모자",
+    "rarity": 2
+  },
+  {
+    "id": 27,
+    "apiName": "Earthwake",
+    "name": "Earthwake",
+    "nameKo": "대지의 각성",
+    "rarity": 2
+  },
+  {
+    "id": 103,
+    "apiName": "BreadAndButter",
+    "name": "Bread And Butter",
+    "nameKo": "빵과 버터",
+    "rarity": 1
+  },
+  {
+    "id": 82,
+    "apiName": "TheBrutalizer",
+    "name": "The Brutalizer",
+    "nameKo": "야수화",
+    "rarity": 0
+  },
+  {
+    "id": 76,
+    "apiName": "SonicBoom",
+    "name": "Sonic Boom",
+    "nameKo": "음속 폭발",
+    "rarity": 0
+  },
+  {
+    "id": 354,
+    "apiName": "GoHRemnantOfTheWatchers",
+    "name": "Remnant of the Watchers",
+    "nameKo": "수호자의 유물",
+    "rarity": 4
+  },
+  {
+    "id": 107,
+    "apiName": "TwiceThrice",
+    "name": "Twice Thrice",
+    "nameKo": "두 배 세 배",
+    "rarity": 1
+  },
+  {
+    "id": 239,
+    "apiName": "SymbioticMutation",
+    "name": "Symbiotic Mutation",
+    "nameKo": "공생 돌연변이",
+    "rarity": 1
+  },
+  {
+    "id": 13,
+    "apiName": "CelestialBody",
+    "name": "Celestial Body",
+    "nameKo": "천상의 신체",
+    "rarity": 1
+  },
+  {
+    "id": 324,
+    "apiName": "BravestoftheBrave",
+    "name": "Bravest of the Brave",
+    "nameKo": "용자 중의 용자",
+    "rarity": 0
+  },
+  {
+    "id": 150,
+    "apiName": "BreadAndJam",
+    "name": "Bread And Jam",
+    "nameKo": "빵과 잼",
+    "rarity": 1
+  },
+  {
+    "id": 98,
+    "apiName": "WithHaste",
+    "name": "With Haste",
+    "nameKo": "속행",
+    "rarity": 1
+  },
+  {
+    "id": 349,
+    "apiName": "GoHDematerializer",
+    "name": "Dematerializer",
+    "nameKo": "해체분석기",
+    "rarity": 4
+  },
+  {
+    "id": 34,
+    "apiName": "FallenAegis",
+    "name": "Fallen Aegis",
+    "nameKo": "부패한 방패",
+    "rarity": 0
+  },
+  {
+    "id": 198,
+    "apiName": "HolyFire",
+    "name": "Holy Fire",
+    "nameKo": "신성한 불길",
+    "rarity": 1
+  },
+  {
+    "id": 311,
+    "apiName": "Overflow",
+    "name": "Overflow",
+    "nameKo": "범람",
+    "rarity": 1
+  },
+  {
+    "id": 35,
+    "apiName": "FeeltheBurn",
+    "name": "Feel the Burn",
+    "nameKo": "저주의 화염",
+    "rarity": 2
+  },
+  {
+    "id": 42,
+    "apiName": "GuiltyPleasure",
+    "name": "Guilty Pleasure",
+    "nameKo": "죄책감의 쾌락",
+    "rarity": 0
+  },
+  {
+    "id": 9,
+    "apiName": "BuffBuddies",
+    "name": "Buff Buddies",
+    "nameKo": "쌍버프",
+    "rarity": 0
+  },
+  {
+    "id": 125,
+    "apiName": "RaidBoss",
+    "name": "Raid Boss",
+    "nameKo": "끝판왕",
+    "rarity": 2
+  },
+  {
+    "id": 63,
+    "apiName": "OutlawsGrit",
+    "name": "Outlaw's Grit",
+    "nameKo": "무법자의 투지",
+    "rarity": 1
+  },
+  {
+    "id": 26,
+    "apiName": "DontBlink",
+    "name": "Don't Blink",
+    "nameKo": "속전속결",
+    "rarity": 0
+  },
+  {
+    "id": 372,
+    "apiName": "GoHCompulsionForPower",
+    "name": "Compulsion For Power",
+    "nameKo": "힘 집착",
+    "rarity": 4
+  },
+  {
+    "id": 73,
+    "apiName": "ShadowRunner",
+    "name": "Shadow Runner",
+    "nameKo": "그림자 질주",
+    "rarity": 0
+  },
+  {
+    "id": 316,
+    "apiName": "GrievousVenom",
+    "name": "Grievous Venom",
+    "nameKo": "고통스러운 맹독",
+    "rarity": 0
+  },
+  {
+    "id": 45,
+    "apiName": "InfernalConduit",
+    "name": "Infernal Conduit",
+    "nameKo": "지옥의 전도체",
+    "rarity": 2
+  },
+  {
+    "id": 361,
+    "apiName": "GoHVoteAllyDemon",
+    "name": "Ally Demon",
+    "nameKo": "악마와 동맹",
+    "rarity": 4
+  },
+  {
+    "id": 205,
+    "apiName": "ADAPt",
+    "name": "ADAPt",
+    "nameKo": "적응형 능력치",
+    "rarity": 0
+  },
+  {
+    "id": 4,
+    "apiName": "BacktoBasics",
+    "name": "Back To Basics",
+    "nameKo": "기본으로 돌아가기",
+    "rarity": 2
+  },
+  {
+    "id": 224,
+    "apiName": "PrismaticEgg",
+    "name": "Prismatic Egg",
+    "nameKo": "프리즘 알",
+    "rarity": 2
+  },
+  {
+    "id": 110,
+    "apiName": "Clothesline",
+    "name": "Clothesline",
+    "nameKo": "빨랫줄",
+    "rarity": 0
+  },
+  {
+    "id": 102,
+    "apiName": "DontChase",
+    "name": "Don't Chase",
+    "nameKo": "따라올 테면 따라와 봐",
+    "rarity": 0
+  },
+  {
+    "id": 368,
+    "apiName": "GoHCravingForWealth",
+    "name": "Craving For Wealth",
+    "nameKo": "재물 갈망",
+    "rarity": 4
+  },
+  {
+    "id": 77,
+    "apiName": "SoulSiphon",
+    "name": "Soul Siphon",
+    "nameKo": "영혼 흡수",
+    "rarity": 1
+  },
+  {
+    "id": 234,
+    "apiName": "GambaAnvil",
+    "name": "Gamba Anvil",
+    "nameKo": "감바 모루",
+    "rarity": 2
+  },
+  {
+    "id": 301,
+    "apiName": "DivineIntervention",
+    "name": "Divine Intervention",
+    "nameKo": "신성한 중재",
+    "rarity": 1
+  },
+  {
+    "id": 84,
+    "apiName": "ThreadtheNeedle",
+    "name": "Thread the Needle",
+    "nameKo": "바늘에 실 끼우기",
+    "rarity": 1
+  },
+  {
+    "id": 151,
+    "apiName": "BreadAndCheese",
+    "name": "Bread And Cheese",
+    "nameKo": "빵과 치즈",
+    "rarity": 1
+  },
+  {
+    "id": 149,
+    "apiName": "Impassable",
+    "name": "Impassable",
+    "nameKo": "넘을 수 없는 벽",
+    "rarity": 1
+  },
+  {
+    "id": 317,
+    "apiName": "PandorasBox",
+    "name": "Pandora's Box",
+    "nameKo": "판도라의 상자",
+    "rarity": 2
+  },
+  {
+    "id": 33,
+    "apiName": "ExtendoArm",
+    "name": "Extendo-Arm",
+    "nameKo": "늘어나는 팔",
+    "rarity": 1
+  },
+  {
+    "id": 75,
+    "apiName": "SlowCooker",
+    "name": "Slow Cooker",
+    "nameKo": "찜솥",
+    "rarity": 2
+  },
+  {
+    "id": 24,
+    "apiName": "DieAnotherDay",
+    "name": "Die Another Day",
+    "nameKo": "불사의 날",
+    "rarity": 1
+  },
+  {
+    "id": 404,
+    "apiName": "Augment404",
+    "name": "404 Augment Not Found",
+    "nameKo": "404: 증강을 찾을 수 없습니다",
+    "rarity": 0
+  },
+  {
+    "id": 373,
+    "apiName": "GoHCompulsionForRisk",
+    "name": "Compulsion For Risk",
+    "nameKo": "위험 집착",
+    "rarity": 4
+  },
+  {
+    "id": 225,
+    "apiName": "DualWield",
+    "name": "Dual Wield",
+    "nameKo": "양손잡이",
+    "rarity": 2
+  },
+  {
+    "id": 405,
+    "apiName": "Augment405",
+    "name": "Augment 405",
+    "nameKo": "증강 405",
+    "rarity": 2
+  },
+  {
+    "id": 78,
+    "apiName": "SpiritLink",
+    "name": "Spirit Link",
+    "nameKo": "정신 결속",
+    "rarity": 2
+  },
+  {
+    "id": 350,
+    "apiName": "GoHEnchantedFlask",
+    "name": "Enchanted Flask",
+    "nameKo": "마법 플라스크",
+    "rarity": 4
+  },
+  {
+    "id": 217,
+    "apiName": "Deathtouch",
+    "name": "Deathtouch",
+    "nameKo": "죽음의 손길",
+    "rarity": 1
+  },
+  {
+    "id": 192,
+    "apiName": "Quest_AngelofRetribution",
+    "name": "Quest: Angel of Retribution",
+    "nameKo": "퀘스트: 응징의 천사",
+    "rarity": 1
+  },
+  {
+    "id": 17,
+    "apiName": "ContractKiller",
+    "name": "Contract Killer",
+    "nameKo": "청부 살인마",
+    "rarity": 0
+  },
+  {
+    "id": 138,
+    "apiName": "Goredrink",
+    "name": "Goredrink",
+    "nameKo": "선혈포식",
+    "rarity": 0
+  },
+  {
+    "id": 330,
+    "apiName": "Despoil",
+    "name": "Despoil",
+    "nameKo": "침탈",
+    "rarity": 0
+  },
+  {
+    "id": 312,
+    "apiName": "WellBeRightBack",
+    "name": "We'll Be Right Back",
+    "nameKo": "금방 돌아올게",
+    "rarity": 1
+  },
+  {
+    "id": 333,
+    "apiName": "Quest_RiteOfTheForgeGod",
+    "name": "Quest: Rite Of The Forge God",
+    "nameKo": "퀘스트: 대장장이 신의 의식",
+    "rarity": 2
+  },
+  {
+    "id": 37,
+    "apiName": "FirstAidKit",
+    "name": "First-Aid Kit",
+    "nameKo": "응급처치 키트",
+    "rarity": 0
+  },
+  {
+    "id": 61,
+    "apiName": "OkBoomerang",
+    "name": "OK Boomerang",
+    "nameKo": "부메랑 투척",
+    "rarity": 1
+  },
+  {
+    "id": 357,
+    "apiName": "Hybrid",
+    "name": "Hybrid",
+    "nameKo": "하이브리드",
+    "rarity": 1
+  },
+  {
+    "id": 338,
+    "apiName": "HiveMind",
+    "name": "Hive Mind",
+    "nameKo": "군체 의식",
+    "rarity": 2
+  },
+  {
+    "id": 319,
+    "apiName": "Quest_ThreeSacredTreasures",
+    "name": "Quest: Three Sacred Treasures",
+    "nameKo": "퀘스트: 삼종신기",
+    "rarity": 1
+  },
+  {
+    "id": 49,
+    "apiName": "JuiceBox",
+    "name": "Juice Box",
+    "nameKo": "주스 팩",
+    "rarity": 0
+  },
+  {
+    "id": 115,
+    "apiName": "ScopiestWeapons",
+    "name": "Scopiest Weapons",
+    "nameKo": "최상급 조준경 부착",
+    "rarity": 2
+  },
+  {
+    "id": 232,
+    "apiName": "SlimeTime",
+    "name": "Slime Time",
+    "nameKo": "점액 천지",
+    "rarity": 0
+  },
+  {
+    "id": 216,
+    "apiName": "Dreadbringer",
+    "name": "Dreadbringer",
+    "nameKo": "공포를 부르는 자",
+    "rarity": 2
+  },
+  {
+    "id": 204,
+    "apiName": "StackosaurusRex",
+    "name": "Stackosaurus Rex",
+    "nameKo": "다단 중첩",
+    "rarity": 0
+  },
+  {
+    "id": 206,
+    "apiName": "escAPADe",
+    "name": "escAPADe",
+    "nameKo": "마법사 (물리)",
+    "rarity": 0
+  },
+  {
+    "id": 194,
+    "apiName": "FeyMagic",
+    "name": "Fey Magic",
+    "nameKo": "요정 마법",
+    "rarity": 2
+  },
+  {
+    "id": 36,
+    "apiName": "Firebrand",
+    "name": "Firebrand",
+    "nameKo": "화염 낙인",
+    "rarity": 1
+  },
+  {
+    "id": 219,
+    "apiName": "Doomsayer",
+    "name": "Doomsayer",
+    "nameKo": "파멸의 예언자",
+    "rarity": 2
+  },
+  {
+    "id": 116,
+    "apiName": "Flashy",
+    "name": "Flashy",
+    "nameKo": "점멸 난사",
+    "rarity": 1
+  },
+  {
+    "id": 177,
+    "apiName": "NestingDoll",
+    "name": "Nesting Doll",
+    "nameKo": "마트료시카",
+    "rarity": 2
+  },
+  {
+    "id": 81,
+    "apiName": "TapDancer",
+    "name": "Tap Dancer",
+    "nameKo": "탭 댄서",
+    "rarity": 2
+  },
+  {
+    "id": 220,
+    "apiName": "FanTheHammer",
+    "name": "Fan the Hammer",
+    "nameKo": "탄환 세례",
+    "rarity": 2
+  },
+  {
+    "id": 364,
+    "apiName": "ReplaceAugment",
+    "name": "Replace Augment",
+    "nameKo": "증강 교체",
+    "rarity": 4
+  },
+  {
+    "id": 85,
+    "apiName": "Tormentor",
+    "name": "Tormentor",
+    "nameKo": "고문자",
+    "rarity": 0
+  },
+  {
+    "id": 104,
+    "apiName": "Minionmancer",
+    "name": "Minionmancer",
+    "nameKo": "소환술사",
+    "rarity": 1
+  },
+  {
+    "id": 392,
+    "apiName": "GoHSwindlersOrb",
+    "name": "Swindler's Orb",
+    "nameKo": "사기꾼의 보주",
+    "rarity": 4
+  },
+  {
+    "id": 313,
+    "apiName": "TankEngine",
+    "name": "Tank Engine",
+    "nameKo": "탱크 엔진",
+    "rarity": 1
+  },
+  {
+    "id": 341,
+    "apiName": "CraftingAugmentSlot",
+    "name": "Gain an Augment slot",
+    "nameKo": "증강 슬롯 획득",
+    "rarity": 4
+  },
+  {
+    "id": 29,
+    "apiName": "EtherealWeapon",
+    "name": "Ethereal Weapon",
+    "nameKo": "환영 무기",
+    "rarity": 1
+  },
+  {
+    "id": 62,
+    "apiName": "OmniSoul",
+    "name": "Omni Soul",
+    "nameKo": "전능의 영혼",
+    "rarity": 2
+  },
+  {
+    "id": 20,
+    "apiName": "DawnbringersResolve",
+    "name": "Dawnbringer's Resolve",
+    "nameKo": "빛의 인도자 결의",
+    "rarity": 1
+  },
+  {
+    "id": 356,
+    "apiName": "SilverSpoon",
+    "name": "Silver Spoon",
+    "nameKo": "은수저",
+    "rarity": 0
+  },
+  {
+    "id": 207,
+    "apiName": "HoldVeryStill",
+    "name": "Hold Very Still",
+    "nameKo": "미동 없이",
+    "rarity": 0
+  },
+  {
+    "id": 38,
+    "apiName": "FromBeginningToEnd",
+    "name": "From Beginning to End",
+    "nameKo": "시작부터 끝까지",
+    "rarity": 1
+  },
+  {
+    "id": 335,
+    "apiName": "PanicRoom",
+    "name": "Panic Room",
+    "nameKo": "대피소",
+    "rarity": 0
+  },
+  {
+    "id": 240,
+    "apiName": "ParasiticMutation",
+    "name": "Parasitic Mutation",
+    "nameKo": "기생 돌연변이",
+    "rarity": 0
+  },
+  {
+    "id": 11,
+    "apiName": "CantTouchThis",
+    "name": "Can't Touch This",
+    "nameKo": "난공불락",
+    "rarity": 2
+  },
+  {
+    "id": 47,
+    "apiName": "ItsCritical",
+    "name": "It's Critical",
+    "nameKo": "치명적인 공격",
+    "rarity": 1
+  },
+  {
+    "id": 200,
+    "apiName": "BloodBrother",
+    "name": "Blood Brother",
+    "nameKo": "피를 나눈 형제",
+    "rarity": 1
+  },
+  {
+    "id": 112,
+    "apiName": "UltimateUnstoppable",
+    "name": "Ultimate Unstoppable",
+    "nameKo": "궁극의 저지 불가",
+    "rarity": 0
+  },
+  {
+    "id": 68,
+    "apiName": "Recursion",
+    "name": "Recursion",
+    "nameKo": "되풀이",
+    "rarity": 1
+  },
+  {
+    "id": 228,
+    "apiName": "StatsOnStatsOnStats",
+    "name": "Stats on Stats on Stats!",
+    "nameKo": "능력치 더하기 능력치 더하기 능력치!",
+    "rarity": 2
+  },
+  {
+    "id": 22,
+    "apiName": "Deft",
+    "name": "Deft",
+    "nameKo": "능수능란",
+    "rarity": 0
+  },
+  {
+    "id": 41,
+    "apiName": "Goliath",
+    "name": "Goliath",
+    "nameKo": "거인",
+    "rarity": 2
+  },
+  {
+    "id": 367,
+    "apiName": "GoHAbstainFromRisk",
+    "name": "Abstain From Risk",
+    "nameKo": "위험 거부",
+    "rarity": 4
+  },
+  {
+    "id": 305,
+    "apiName": "LegDay",
+    "name": "Leg Day",
+    "nameKo": "하체 운동의 날",
+    "rarity": 0
+  },
+  {
+    "id": 221,
+    "apiName": "Trailblazer",
+    "name": "Trailblazer",
+    "nameKo": "개척자",
+    "rarity": 0
+  },
+  {
+    "id": 1,
+    "apiName": "AcceleratingSorcery",
+    "name": "Accelerating Sorcery",
+    "nameKo": "마법 가속",
+    "rarity": 2
+  },
+  {
+    "id": 343,
+    "apiName": "RighteousFury",
+    "name": "Righteous Fury",
+    "nameKo": "정의로운 분노",
+    "rarity": 2
+  },
+  {
+    "id": 208,
+    "apiName": "OrbitalLaser",
+    "name": "Orbital Laser",
+    "nameKo": "궤도형 레이저",
+    "rarity": 2
+  },
+  {
+    "id": 344,
+    "apiName": "Energetic",
+    "name": "Energetic",
+    "nameKo": "에너지 충만",
+    "rarity": 0
+  },
+  {
+    "id": 365,
+    "apiName": "GoHAbstainFromWealth",
+    "name": "Abstain From Wealth",
+    "nameKo": "재물 거부",
+    "rarity": 4
+  },
+  {
+    "id": 58,
+    "apiName": "MysticPunch",
+    "name": "Mystic Punch",
+    "nameKo": "신비한 주먹",
+    "rarity": 2
+  },
+  {
+    "id": 105,
+    "apiName": "Homeguard",
+    "name": "Homeguard",
+    "nameKo": "민병대",
+    "rarity": 0
+  },
+  {
+    "id": 3,
+    "apiName": "NullAugment",
+    "name": "Null Augment",
+    "nameKo": "증강 없음",
+    "rarity": 0
+  },
+  {
+    "id": 241,
+    "apiName": "HatTrick",
+    "name": "Hat Trick",
+    "nameKo": "해트트릭",
+    "rarity": 1
+  },
+  {
+    "id": 181,
+    "apiName": "HeavyHitter",
+    "name": "Heavy Hitter",
+    "nameKo": "강타자",
+    "rarity": 0
+  },
+  {
+    "id": 67,
+    "apiName": "RabbleRousing",
+    "name": "Rabble Rousing",
+    "nameKo": "선동",
+    "rarity": 1
+  },
+  {
+    "id": 195,
+    "apiName": "GiantSlayer",
+    "name": "Giant Slayer",
+    "nameKo": "거인 학살자",
+    "rarity": 2
+  },
+  {
+    "id": 238,
+    "apiName": "TransmutePrismatic",
+    "name": "Transmute: Prismatic",
+    "nameKo": "전환: 프리즘",
+    "rarity": 1
+  },
+  {
+    "id": 370,
+    "apiName": "GoHCravingForRisk",
+    "name": "Craving For Risk",
+    "nameKo": "위험 갈망",
+    "rarity": 4
+  },
+  {
+    "id": 371,
+    "apiName": "GoHCompulsionForWealth",
+    "name": "Compulsion For Wealth",
+    "nameKo": "재물 집착",
+    "rarity": 4
+  },
+  {
+    "id": 118,
+    "apiName": "CriticalHealing",
+    "name": "Critical Healing",
+    "nameKo": "치명적 치유",
+    "rarity": 1
+  },
+  {
+    "id": 237,
+    "apiName": "TransmuteGold",
+    "name": "Transmute: Gold",
+    "nameKo": "전환: 골드",
+    "rarity": 0
+  },
+  {
+    "id": 2,
+    "apiName": "ApexInventor",
+    "name": "Apex Inventor",
+    "nameKo": "최첨단 발명가",
+    "rarity": 1
+  },
+  {
+    "id": 172,
+    "apiName": "MirrorImage",
+    "name": "Mirror Image",
+    "nameKo": "거울 환영",
+    "rarity": 0
+  },
+  {
+    "id": 345,
+    "apiName": "MagicalGirl",
+    "name": "Magical Girl",
+    "nameKo": "마법 소녀",
+    "rarity": 2
+  },
+  {
+    "id": 218,
+    "apiName": "Desecrator",
+    "name": "Desecrator",
+    "nameKo": "신성 모독자",
+    "rarity": 0
+  },
+  {
+    "id": 141,
+    "apiName": "AllForYou",
+    "name": "All For You",
+    "nameKo": "너만을 위해",
+    "rarity": 1
+  },
+  {
+    "id": 50,
+    "apiName": "KeystoneConjurer",
+    "name": "Keystone Conjurer",
+    "nameKo": "핵심 룬 요술사",
+    "rarity": 1
+  },
+  {
+    "id": 174,
+    "apiName": "LaserEyes",
+    "name": "Laser Eyes",
+    "nameKo": "눈알 광선",
+    "rarity": 2
+  },
+  {
+    "id": 227,
+    "apiName": "StatsOnStats",
+    "name": "Stats on Stats!",
+    "nameKo": "능력치 더하기 능력치!",
+    "rarity": 1
+  },
+  {
+    "id": 19,
+    "apiName": "Dashing",
+    "name": "Dashing",
+    "nameKo": "돌진",
+    "rarity": 2
+  },
+  {
+    "id": 229,
+    "apiName": "FireSale",
+    "name": "Fire Sale",
+    "nameKo": "폭탄 세일",
+    "rarity": 0
+  },
+  {
+    "id": 52,
+    "apiName": "LightningStrikes",
+    "name": "Lightning Strikes",
+    "nameKo": "벼락",
+    "rarity": 1
+  },
+  {
+    "id": 314,
+    "apiName": "Unshackled",
+    "name": "Unshackled",
+    "nameKo": "해방",
+    "rarity": 1
+  },
+  {
+    "id": 69,
+    "apiName": "Repulsor",
+    "name": "Repulsor",
+    "nameKo": "반발",
+    "rarity": 0
+  },
+  {
+    "id": 113,
+    "apiName": "SkilledSniper",
+    "name": "Skilled Sniper",
+    "nameKo": "노련한 저격수",
+    "rarity": 1
+  },
+  {
+    "id": 175,
+    "apiName": "ParasiticRelationship",
+    "name": "Parasitic Relationship",
+    "nameKo": "기생 관계",
+    "rarity": 1
+  },
+  {
+    "id": 165,
+    "apiName": "Restart",
+    "name": "Restart",
+    "nameKo": "재시작",
+    "rarity": 1
+  },
+  {
+    "id": 134,
+    "apiName": "DrawYourSword",
+    "name": "Draw Your Sword",
+    "nameKo": "검을 뽑아라",
+    "rarity": 2
+  },
+  {
+    "id": 70,
+    "apiName": "RestlessRestoration",
+    "name": "Restless Restoration",
+    "nameKo": "끊임없는 회복",
+    "rarity": 1
+  },
+  {
+    "id": 25,
+    "apiName": "DiveBomber",
+    "name": "Dive Bomber",
+    "nameKo": "폭격기",
+    "rarity": 0
+  },
+  {
+    "id": 303,
+    "apiName": "GoHSacrificeForGold",
+    "name": "Sacrifice: For Gold",
+    "nameKo": "희생: 골드",
+    "rarity": 1
+  },
+  {
+    "id": 7,
+    "apiName": "BluntForce",
+    "name": "Blunt Force",
+    "nameKo": "육중한 힘",
+    "rarity": 0
+  },
+  {
+    "id": 346,
+    "apiName": "BreadSandwich",
+    "name": "Bread Sandwich",
+    "nameKo": "샌드위치 빵",
+    "rarity": 2
+  },
+  {
+    "id": 109,
+    "apiName": "Oathsworn",
+    "name": "Oathsworn",
+    "nameKo": "계약",
+    "rarity": 1
+  },
+  {
+    "id": 336,
+    "apiName": "AimForTheHead",
+    "name": "Aim for the Head",
+    "nameKo": "머리를 노려라",
+    "rarity": 1
+  },
+  {
+    "id": 355,
+    "apiName": "GainStatAnvil",
+    "name": "Gain Stat Anvil",
+    "nameKo": "능력치 모루 획득",
+    "rarity": 4
+  },
+  {
+    "id": 358,
+    "apiName": "GoHWolf",
+    "name": "Wolf's Frenzy",
+    "nameKo": "늑대의 광기",
+    "rarity": 4
+  },
+  {
+    "id": 366,
+    "apiName": "GoHAbstainFromPower",
+    "name": "Abstain From Power",
+    "nameKo": "힘 거부",
+    "rarity": 4
+  },
+  {
+    "id": 123,
+    "apiName": "SummonersRoulette",
+    "name": "Summoner's Roulette",
+    "nameKo": "소환사의 룰렛",
+    "rarity": 2
+  },
+  {
+    "id": 302,
+    "apiName": "GoHSacrificeForSilver",
+    "name": "Sacrifice: For Silver",
+    "nameKo": "희생: 실버",
+    "rarity": 0
+  },
+  {
+    "id": 74,
+    "apiName": "ShrinkRay",
+    "name": "Shrink Ray",
+    "nameKo": "감쇠 광선",
+    "rarity": 1
+  },
+  {
+    "id": 12,
+    "apiName": "Castle",
+    "name": "Castle",
+    "nameKo": "위치 변경",
+    "rarity": 0
+  },
+  {
+    "id": 152,
+    "apiName": "Quest_SteelYourHeart",
+    "name": "Quest: Steel Your Heart",
+    "nameKo": "퀘스트: 강철 같은 심장",
+    "rarity": 1
+  },
+  {
+    "id": 32,
+    "apiName": "Executioner",
+    "name": "Executioner",
+    "nameKo": "처형자",
+    "rarity": 0
+  },
+  {
+    "id": 18,
+    "apiName": "CourageoftheColossus",
+    "name": "Courage of the Colossus",
+    "nameKo": "거석상의 용기",
+    "rarity": 2
+  },
+  {
+    "id": 222,
+    "apiName": "FruitsOfYourLabor",
+    "name": "Fruits of Your Labor",
+    "nameKo": "노력의 결실",
+    "rarity": 0
+  },
+  {
+    "id": 46,
+    "apiName": "InfernalSoul",
+    "name": "Infernal Soul",
+    "nameKo": "지옥불 영혼",
+    "rarity": 0
+  },
+  {
+    "id": 16,
+    "apiName": "ComboMaster",
+    "name": "Combo Master",
+    "nameKo": "연계의 대가",
+    "rarity": 1
+  },
+  {
+    "id": 215,
+    "apiName": "DarkBlessing",
+    "name": "Dark Blessing",
+    "nameKo": "어둠의 축복",
+    "rarity": 1
+  },
+  {
+    "id": 56,
+    "apiName": "MindtoMatter",
+    "name": "Mind to Matter",
+    "nameKo": "정신 변환",
+    "rarity": 0
+  },
+  {
+    "id": 211,
+    "apiName": "ItsKillingTime",
+    "name": "It's Killing Time",
+    "nameKo": "처형 시간",
+    "rarity": 1
+  },
+  {
+    "id": 96,
+    "apiName": "WisdomofAges",
+    "name": "Wisdom of Ages",
+    "nameKo": "세월의 지혜",
+    "rarity": 2
+  },
+  {
+    "id": 304,
+    "apiName": "GoHSacrificeForPrismatic",
+    "name": "Sacrifice: For Prismatic",
+    "nameKo": "희생: 프리즘",
+    "rarity": 2
+  },
+  {
+    "id": 43,
+    "apiName": "NowYouSeeMe",
+    "name": "Now You See Me",
+    "nameKo": "불의의 습격",
+    "rarity": 0
+  },
+  {
+    "id": 64,
+    "apiName": "Perseverance",
+    "name": "Perseverance",
+    "nameKo": "인내심",
+    "rarity": 1
+  },
+  {
+    "id": 48,
+    "apiName": "JeweledGauntlet",
+    "name": "Jeweled Gauntlet",
+    "nameKo": "보석 건틀릿",
+    "rarity": 2
+  },
+  {
+    "id": 309,
+    "apiName": "AndMyAxe",
+    "name": "And My Axe!",
+    "nameKo": "도끼 받아라!",
+    "rarity": 1
+  },
+  {
+    "id": 1420,
+    "apiName": "Sonata",
+    "name": "Sonata",
+    "nameKo": "소나타",
+    "rarity": 1
+  },
+  {
+    "id": 2134,
+    "apiName": "SurgeField",
+    "name": "SurgeField",
+    "nameKo": "방출 역장",
+    "rarity": 2
+  },
+  {
+    "id": 1034,
+    "apiName": "VeilOfWarding",
+    "name": "VeilOfWarding",
+    "nameKo": "감시의 장막"
+  },
+  {
+    "id": 383,
+    "apiName": "DemonicClasp",
+    "name": "DemonicClasp",
+    "nameKo": "악마의 손아귀",
+    "rarity": 1
+  },
+  {
+    "id": 2099,
+    "apiName": "ARAM_DivineDomain",
+    "name": "ARAM_DivineDomain",
+    "nameKo": "초월 의식",
+    "rarity": 2
+  },
+  {
+    "id": 2032,
+    "apiName": "FishBait",
+    "name": "FishBait",
+    "nameKo": "상어 미끼",
+    "rarity": 1
+  },
+  {
+    "id": 1322,
+    "apiName": "ARAM_GetExcited",
+    "name": "ARAM_GetExcited",
+    "nameKo": "신난다!",
+    "rarity": 1
+  },
+  {
+    "id": 1344,
+    "apiName": "FinalForm",
+    "name": "FinalForm",
+    "nameKo": "최종 형태",
+    "rarity": 2
+  },
+  {
+    "id": 1001,
+    "apiName": "ARAM_ImTheJuggernaut",
+    "name": "ARAM_ImTheJuggernaut",
+    "nameKo": "거인의 결의",
+    "rarity": 2
+  },
+  {
+    "id": 393,
+    "apiName": "Quest_VoidImmolation",
+    "name": "Quest_VoidImmolation",
+    "nameKo": "이케시아의 몰락",
+    "rarity": 2
+  },
+  {
+    "id": 2132,
+    "apiName": "WarlockJuicebox",
+    "name": "WarlockJuicebox",
+    "nameKo": "마도사의 주스 상자",
+    "rarity": 1
+  },
+  {
+    "id": 1418,
+    "apiName": "ARAM_CrackOpenThatEgg",
+    "name": "ARAM_CrackOpenThatEgg",
+    "nameKo": "알 깨기"
+  },
+  {
+    "id": 1332,
+    "apiName": "OminousPact",
+    "name": "OminousPact",
+    "nameKo": "불길한 서약",
+    "rarity": 2
+  },
+  {
+    "id": 2016,
+    "apiName": "ARAM_Juiced",
+    "name": "ARAM_Juiced",
+    "nameKo": "도취"
+  },
+  {
+    "id": 384,
+    "apiName": "Spellcraft",
+    "name": "Spellcraft",
+    "nameKo": "마법 제작",
+    "rarity": 2
+  },
+  {
+    "id": 2007,
+    "apiName": "ARAM_LittleDevil",
+    "name": "ARAM_LittleDevil",
+    "nameKo": "어깨 위의 악마",
+    "rarity": 2
+  },
+  {
+    "id": 394,
+    "apiName": "DustToDiamonds",
+    "name": "DustToDiamonds",
+    "nameKo": "먼지에서 다이아몬드로"
+  },
+  {
+    "id": 1405,
+    "apiName": "ARAM_SpeedDemon",
+    "name": "ARAM_SpeedDemon",
+    "nameKo": "질주하는 악마"
+  },
+  {
+    "id": 378,
+    "apiName": "TransmuteSilver",
+    "name": "TransmuteSilver",
+    "nameKo": "전환: 실버",
+    "rarity": 2
+  },
+  {
+    "id": 1401,
+    "apiName": "GrowthSpurt",
+    "name": "GrowthSpurt",
+    "nameKo": "급속 성장",
+    "rarity": 1
+  },
+  {
+    "id": 1005,
+    "apiName": "ARAM_WeeWooWeeWoo",
+    "name": "ARAM_WeeWooWeeWoo",
+    "nameKo": "삐뽀삐뽀",
+    "rarity": 1
+  },
+  {
+    "id": 2107,
+    "apiName": "ARAM_Hellbent",
+    "name": "ARAM_Hellbent",
+    "nameKo": "열의",
+    "rarity": 2
+  },
+  {
+    "id": 2026,
+    "apiName": "KillSecured",
+    "name": "KillSecured",
+    "nameKo": "확보된 킬"
+  },
+  {
+    "id": 2018,
+    "apiName": "ARAM_Purist_Caster",
+    "name": "ARAM_Purist_Caster",
+    "nameKo": "순수주의자 - 마법사"
+  },
+  {
+    "id": 1386,
+    "apiName": "YouSpinMeRightRound",
+    "name": "YouSpinMeRightRound",
+    "nameKo": "빙글빙글"
+  },
+  {
+    "id": 2024,
+    "apiName": "CritNCast",
+    "name": "CritNCast",
+    "nameKo": "치명적 가속"
+  },
+  {
+    "id": 2009,
+    "apiName": "ARAM_Zealot",
+    "name": "ARAM_Zealot",
+    "nameKo": "광신자"
+  },
+  {
+    "id": 396,
+    "apiName": "DeathDealer",
+    "name": "DeathDealer",
+    "nameKo": "죽음의 사도",
+    "rarity": 2
+  },
+  {
+    "id": 1324,
+    "apiName": "ARAM_ProteinShake",
+    "name": "ARAM_ProteinShake",
+    "nameKo": "프로틴 음료",
+    "rarity": 2
+  },
+  {
+    "id": 1316,
+    "apiName": "WindBeneathBlade",
+    "name": "WindBeneathBlade",
+    "nameKo": "칼날 아래 바람"
+  },
+  {
+    "id": 377,
+    "apiName": "CombinationFriedRice",
+    "name": "CombinationFriedRice",
+    "nameKo": "모둠 볶음밥",
+    "rarity": 2
+  },
+  {
+    "id": 2008,
+    "apiName": "ARAM_WeightedPopoffs",
+    "name": "ARAM_WeightedPopoffs",
+    "nameKo": "중량 폭주"
+  },
+  {
+    "id": 1373,
+    "apiName": "ShrinkEngine",
+    "name": "ShrinkEngine",
+    "nameKo": "축소 엔진",
+    "rarity": 1
+  },
+  {
+    "id": 2087,
+    "apiName": "ARAM_Archmage",
+    "name": "ARAM_Archmage",
+    "nameKo": "대마법사",
+    "rarity": 2
+  },
+  {
+    "id": 375,
+    "apiName": "RiceAndFish",
+    "name": "RiceAndFish",
+    "nameKo": "밥과 생선",
+    "rarity": 1
+  },
+  {
+    "id": 1413,
+    "apiName": "ARAM_StuckInHereWithMe",
+    "name": "ARAM_StuckInHereWithMe",
+    "nameKo": "도망갈 수 없어",
+    "rarity": 2
+  },
+  {
+    "id": 397,
+    "apiName": "GotThatDogInEm",
+    "name": "GotThatDogInEm",
+    "nameKo": "불맛 핫도그",
+    "rarity": 2
+  },
+  {
+    "id": 381,
+    "apiName": "Scavenger",
+    "name": "Scavenger",
+    "nameKo": "쓰레기 청소부",
+    "rarity": 1
+  },
+  {
+    "id": 388,
+    "apiName": "ChromaFlux",
+    "name": "ChromaFlux",
+    "nameKo": "크로마 전이",
+    "rarity": 1
+  },
+  {
+    "id": 389,
+    "apiName": "TrashToTreasure",
+    "name": "TrashToTreasure",
+    "nameKo": "쓰레기에서 보석으로"
+  },
+  {
+    "id": 1333,
+    "apiName": "EscapePlan",
+    "name": "EscapePlan",
+    "nameKo": "도주 계획"
+  },
+  {
+    "id": 379,
+    "apiName": "WildFire",
+    "name": "WildFire",
+    "nameKo": "야생 불꽃",
+    "rarity": 2
+  },
+  {
+    "id": 390,
+    "apiName": "UnstableTransmutation",
+    "name": "UnstableTransmutation",
+    "nameKo": "불안정한 변형",
+    "rarity": 1
+  },
+  {
+    "id": 1328,
+    "apiName": "CriticalRhythm",
+    "name": "CriticalRhythm",
+    "nameKo": "치명적 리듬",
+    "rarity": 1
+  },
+  {
+    "id": 376,
+    "apiName": "RiceAndPork",
+    "name": "RiceAndPork",
+    "nameKo": "밥과 돼지고기",
+    "rarity": 1
+  },
+  {
+    "id": 1325,
+    "apiName": "GlassCannon",
+    "name": "GlassCannon",
+    "nameKo": "유리 대포",
+    "rarity": 2
+  },
+  {
+    "id": 374,
+    "apiName": "RiceAndChicken",
+    "name": "RiceAndChicken",
+    "nameKo": "밥과 닭고기",
+    "rarity": 1
+  },
+  {
+    "id": 391,
+    "apiName": "RagsToRiches",
+    "name": "RagsToRiches",
+    "nameKo": "무일푼에서 부자로"
+  },
+  {
+    "id": 1320,
+    "apiName": "ARAM_Upgrade_Collector",
+    "name": "ARAM_Upgrade_Collector",
+    "nameKo": "징수의 총 업그레이드"
+  },
+  {
+    "id": 2010,
+    "apiName": "ARAM_DoubleTap",
+    "name": "ARAM_DoubleTap",
+    "nameKo": "한 발에 두 놈",
+    "rarity": 2
+  },
+  {
+    "id": 1327,
+    "apiName": "Adamant",
+    "name": "Adamant",
+    "nameKo": "단호함"
+  },
+  {
+    "id": 2043,
+    "apiName": "NatureIsHealing",
+    "name": "NatureIsHealing",
+    "nameKo": "자연의 회복",
+    "rarity": 1
+  },
+  {
+    "id": 387,
+    "apiName": "BigDragonEnergy",
+    "name": "BigDragonEnergy",
+    "nameKo": "거대한 용의 기운",
+    "rarity": 1
+  },
+  {
+    "id": 1416,
+    "apiName": "HextechSoul",
+    "name": "HextechSoul",
+    "nameKo": "마법공학의 영혼"
+  },
+  {
+    "id": 1379,
+    "apiName": "Upgrade_SwordOfBlossom",
+    "name": "Upgrade_SwordOfBlossom",
+    "nameKo": "꽃피는 새벽의 검 업그레이드",
+    "rarity": 2
+  },
+  {
+    "id": 380,
+    "apiName": "Mercy",
+    "name": "Mercy",
+    "nameKo": "자비",
+    "rarity": 1
+  },
+  {
+    "id": 1358,
+    "apiName": "PinballSnowball",
+    "name": "PinballSnowball",
+    "nameKo": "핀볼",
+    "rarity": 1
+  }
+]

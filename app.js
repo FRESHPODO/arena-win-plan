@@ -1,5 +1,5 @@
 const app = document.querySelector('#app');
-const assetVersion = '20261001-editor-2';
+const assetVersion = '20261005-augment-2619';
 const versioned = path => `${path}${path.includes('?')?'&':'?'}v=${assetVersion}`;
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let builds = [], catalog = {}, draft, pickKind, pickCore=true;
@@ -20,40 +20,8 @@ function renderItemTabs() {
     button.onkeydown=event=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(event.key)){event.preventDefault();const all=[...tabs.querySelectorAll('button')];const next=event.key==='Home'?0:event.key==='End'?all.length-1:(index+(event.key==='ArrowLeft'?-1:1)+all.length)%all.length;all[next].click();}};
   });
 }
-const keywordStyles = {
-  '자동 사용':['autocast','autocast'], '자동사용':['autocast','autocast'], '자동 시전':['autocast','autocast'], '자동 발사':['autocast','autocast'], '자동으로 사용':['autocast','autocast'], '자동으로 시전':['autocast','autocast'], '자동으로 발사':['autocast','autocast'],
-  '충전 상태':['charge','charge'],
-  '마나':['mana','mana-placeholder'], '최대 마나':['mana','mana-placeholder'],
-  '생명력 흡수':['lifesteal','lifesteal-placeholder'], '모든 피해 흡혈':['omnivamp','omnivamp-placeholder'], '흡혈':['omnivamp','omnivamp-placeholder'],
-  '강인함':['tenacity','tenacity-placeholder'], '둔화 저항':['tenacity','tenacity-placeholder'],
-  '기본 체력 재생':['health','healthregen-placeholder'], '체력 재생':['health','healthregen-placeholder'],
-  '기본 마나 재생':['mana','manaregen-placeholder'], '마나 재생':['mana','manaregen-placeholder'],
-  '방어구 관통력':['armorpen','armorpen-placeholder'], '물리 관통력':['armorpen','armorpen-placeholder'], '마법 관통력':['ap','magicpen-placeholder'],
-  '치명타 확률':['crit','crit-placeholder'], '치명타 피해량':['crit','crit-placeholder'], '치명타 피해':['crit','crit-placeholder'],
-  '체력 회복 및 보호막':['healshield','healshield-placeholder'], '회복 및 보호막':['healshield','healshield-placeholder'],
-  '공격 사거리':['range','range-placeholder'], '크기':['range','size-placeholder'], '궁극기 가속':['haste','haste'], '아이템 가속':['haste','haste'],
-  '적응형 능력치':['adaptive','adaptive-placeholder'], '적응형':['adaptive','adaptive-placeholder'],
-  '주문력':['ap','ap'], '공격력':['ad','ad'], '최대 체력':['health','health'], '체력':['health','health'],
-  '방어력':['armor','armor'], '마법 저항력':['mr','mr'], '공격 속도':['speed','speed'], '스킬 가속':['haste','haste'], '이동 속도':['move','move'],
-  '적중 시 효과':['onhit','onhit-placeholder'], '적중시 효과':['onhit','onhit-placeholder'], '마법 피해':['ap','ap'], '물리 피해':['ad','ad'], '고정 피해':['true','true-placeholder']
-};
-const keywordPattern = new RegExp(Object.keys(keywordStyles).sort((a,b)=>b.length-a.length).join('|'),'g');
 let statIcons = {};
-function richItemText(text) {
-  const value=esc(text);
-  const protectedRanges=[];
-  for(const name of new Set([...itemDescriptions.values()].map(item=>item.name).filter(Boolean))){
-    const literal=esc(name);let index=value.indexOf(literal);
-    while(index!==-1){protectedRanges.push([index,index+literal.length]);index=value.indexOf(literal,index+literal.length);}
-  }
-  return value.replace(keywordPattern,(word,offset)=>{
-    if(protectedRanges.some(([start,end])=>offset>=start&&offset<end) || /[가-힣A-Za-z]/.test(value[offset-1]||''))return word;
-    const [color,icon]=keywordStyles[word];
-    const key=word.startsWith("치명타 피해")?"critdamage":(icon || color).replace("-placeholder","");
-    const filename=statIcons[key];
-    return `<span class="stat-keyword stat-${key}" style="--keyword-color:var(--stat-${key},var(--text));color:var(--keyword-color)">${filename?`<img src="imgs/stats/${esc(filename)}" alt="" aria-hidden="true">`:""}${word}</span>`;
-  });
-}
+function richItemText(text){return ArenaKeywordText.render(text,{escape:esc,icons:statIcons,names:[...itemDescriptions.values()].map(item=>item.name)});}
 function richItemEffects(item) {
   if(!item.descriptionHtml) return richItemText(item.effects || '별도 고유 효과가 없습니다.');
   const doc=new DOMParser().parseFromString(item.descriptionHtml,'text/html');
@@ -145,20 +113,7 @@ function renderHome() {
   document.querySelector('#reset-build-search').onclick=()=>{buildSearchState.keyword='';buildSearchState.champion='';document.querySelector('#build-keyword').value='';document.querySelector('#build-champion').value='';renderResults();};
   renderResults();
 }
-function matchesAssetSearch(asset,kind,query){
-  const compact=value=>String(value||'').normalize('NFKC').toLowerCase().replace(/\s+/g,'');
-  const q=compact(query);
-  if(!q)return true;
-  const names=compact([asset.name,asset.nameEn,asset.apiName,asset.id,asset.icon].join(' '));
-  if(names.includes(q))return true;
-  if(!['items','augments'].includes(kind))return false;
-  const description=itemDescriptions.get(asset.icon);
-  const text=compact([description?.stats,description?.effects,...(description?.levels||[])].join(' '));
-  if(['적중시','적중시효과','onhit','on-hit'].includes(q))return /적중시효과|on-?hit/.test(text)||/<onhit\b/i.test(description?.descriptionHtml||'');
-  if(['자동사용','자동시전','자동발사','autocast','auto-cast'].includes(q))return /자동(?:으로)?(?:사용|시전|발사)/.test(text);
-  if(q==='충전')return text.includes('충전');
-  return text.includes(q);
-}
+function matchesAssetSearch(asset,kind,query){return ArenaKeywordText.matchesSearch(asset,kind,query,itemDescriptions.get(asset.icon));}
 function renderEncyclopedia() {
   clearCarousels();
   document.title='아이템·증강 도감 · 아레나농가';
@@ -190,8 +145,7 @@ function gearCards(assets, augment=false) {
 const augmentLevels = new Map();
 function augmentMaxLevel(item) { return Math.max(1,item.levels?.length || 1); }
 function augmentTooltip(item) {
-  const max=augmentMaxLevel(item),level=Math.max(1,Math.min(max,augmentLevels.get(item.icon)||1));
-  return `<div class="augment-description-heading">${image(item)}<strong>${esc(item.name)}</strong><span>${augmentTabNames[item.rarity] || '증강'}${item.removed?' · 삭제된 증강':''}</span></div><div class="item-description-effects">${richItemText(item.effects)}</div>${item.levels?.length?`<div class="augment-level-controls" aria-label="증강 레벨 조절"><button type="button" data-level-step="-1" aria-label="증강 레벨 감소" ${level<=1?'disabled':''}>−</button><strong aria-live="polite">증강 레벨 ${level} / ${max}</strong><button type="button" data-level-step="1" aria-label="증강 레벨 증가" ${level>=max?'disabled':''}>＋</button></div><div class="augment-level-effect item-description-effects" aria-live="polite">${richItemText(item.levels[level-1])}</div>`:'<p class="augment-level-hint">레벨별 강화 정보 없음</p>'}${item.iconPlaceholder?'<p class="augment-level-hint">등급별 임시 아이콘</p>':''}${item.wikiSource?'<a class="augment-source" href="https://wiki.leagueoflegends.com/en-us/Arena/Augments" target="_blank" rel="noopener noreferrer">수치 출처: LoL Wiki · CC BY-SA 3.0 ↗</a>':''}`;
+  return ArenaAugmentDescription.render(item,augmentLevels.get(item.icon)||1,{escape:esc,image,richText:richItemText,grades:augmentTabNames});
 }
 function setupItemTooltips() {
   const box=document.createElement('div');

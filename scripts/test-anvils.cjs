@@ -1,0 +1,18 @@
+const assert=require('node:assert/strict');
+const model=require('../overlay-anvil-model.js');
+const rounds=[{combatTransition:'10',shardbladePercent:50},{combatTransition:'20',shardbladePercent:100}];
+const events=[{time:2,round:1,statReference:{baseStats:{attackDamage:10}}},{time:4,round:1,statReference:{baseStats:{attackDamage:20}}},{time:12,round:2,statReference:{baseStatsByRange:{melee:{omnivampPercent:25},ranged:{omnivampPercent:15}}}}];
+const state=t=>model.state(events,rounds,t,{seconds:Number,start:3,end:15,range:'ranged'});
+assert.equal(state(2.5).current.attackDamage,15);
+assert.equal(state(3.3).pending.attackDamage,15);
+assert.equal(state(9).pending.attackDamage,45);
+assert.equal(state(10).total.attackDamage,45);
+assert.deepEqual(state(10).pending,{});
+assert.equal(state(20).total.omnivampPercent,30);
+assert.equal(state(20).interval.attackDamage,30);
+events[0].excluded=true;assert.equal(state(10).total.attackDamage,30);
+events[1].overrideStats={attackDamage:5};assert.equal(state(10).total.attackDamage,7.5);
+const random={time:1,round:1,statReference:{grantedShards:[{baseStats:{attackDamage:10}},{baseStats:{attackDamage:10}}]}};
+assert.equal(model.base(random,'melee').attackDamage,20);
+assert.deepEqual(model.state([random],[{}],100,{seconds:Number}).total,{});
+console.log('Anvil timing, range, amplification, interval, overrides, exclusions and duplicate rewards passed.');

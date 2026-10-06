@@ -1,0 +1,911 @@
+{
+  "patch": "26.19",
+  "retrievedAt": "2026-10-04T12:54:58.888Z",
+  "definitionSource": "https://raw.communitydragon.org/latest/game/maps/modespecificdata/cherry.bin.json",
+  "nameSource": "https://raw.communitydragon.org/latest/game/ko_kr/data/menu/en_us/lol.stringtable.json",
+  "patchNotes": "https://www.leagueoflegends.com/ko-kr/news/game-updates/league-of-legends-patch-26-19-notes/",
+  "notes": "Supplements the legacy Arena export with shared augment definitions. Arena (cherry) mode overrides apply. Effects use patch notes; Fish Bait level 2 uses the announced 30% (raw mode override currently says 25%).",
+  "augments": [
+    {
+      "id": 1420,
+      "apiName": "Sonata",
+      "name": "소나타",
+      "nameKo": "소나타",
+      "nameEn": "Sonata",
+      "rarity": 1,
+      "icon": "icons/1420-sonata.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/sonata_large.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/sonata_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 1,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "자동 사용: 7.5초마다 소나의 인내의 아리아와 기민함의 노래를 번갈아 자동 사용하며, 인내의 아리아부터 시작합니다. 인내의 아리아는 자신과 1,000 거리 내 체력이 가장 적은 아군을 60 + 주문력의 60%만큼 회복시키고, 오라에 닿은 아군에게 1.5초 동안 80 + 주문력의 40% 보호막을 부여합니다. 기민함의 노래는 자신에게 7초 동안 추가 이동 속도 30%를, 오라에 닿은 아군에게 3초 동안 20%를 부여합니다. 자신의 이동 속도 효과는 발동 3초 이후 피해를 받으면 끝납니다.",
+      "levels": [
+        "자동 사용: 7.5초마다 소나의 인내의 아리아와 기민함의 노래를 번갈아 자동 사용하며, 인내의 아리아부터 시작합니다. 인내의 아리아는 자신과 1,000 거리 내 체력이 가장 적은 아군을 60 + 주문력의 60%만큼 회복시키고, 오라에 닿은 아군에게 1.5초 동안 80 + 주문력의 40% 보호막을 부여합니다. 기민함의 노래는 자신에게 7초 동안 추가 이동 속도 30%를, 오라에 닿은 아군에게 3초 동안 20%를 부여합니다. 자신의 이동 속도 효과는 발동 3초 이후 피해를 받으면 끝납니다."
+      ],
+      "dataValues": {
+        "Cooldown": [
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5
+        ],
+        "MaxLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "descriptionHtml": "@Cooldown@초마다 <spellName>인내의 아리아</spellName>와 <spellName>기민함의 노래</spellName>를 번갈아 <keywordMajor>자동 사용</keywordMajor>합니다.<br><br><rules><spellName>인내의 아리아</spellName>는 주변 아군의 <healing>체력을 회복</healing>시키고 일시적으로 <shield>보호막 오라</shield>를 부여합니다.</rules><br><br><rules><spellName>기민함의 노래</spellName>는 <speed>추가 이동 속도</speed>를 부여하는 오라를 잠시 동안 생성합니다.</rules>",
+      "tooltipHtml": "@Cooldown@초마다 <spellName>인내의 아리아</spellName>와 <spellName>기민함의 노래</spellName>를 번갈아 <keywordMajor>자동 사용</keywordMajor>합니다.<br><br><rules><spellName>인내의 아리아</spellName>는 주변 아군의 <healing>체력을 회복</healing>시키고 일시적으로 <shield>보호막 오라</shield>를 부여합니다.</rules><br><br><rules><spellName>기민함의 노래</spellName>는 <speed>추가 이동 속도</speed>를 부여하는 오라를 잠시 동안 생성합니다.</rules>"
+    },
+    {
+      "id": 2134,
+      "apiName": "SurgeField",
+      "name": "방출 역장",
+      "nameKo": "방출 역장",
+      "nameEn": "Surge Field",
+      "rarity": 2,
+      "icon": "icons/2134-surgefield.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/surgefield_large.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/surgefield_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 1,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "궁극기를 사용하면 반경 300의 영역을 생성합니다. 영역 안에서는 스킬 가속 50과 추가 이동 속도 40%를 얻으며, 적 챔피언에게 피해를 주면 감소 전 피해량의 20%에 해당하는 추가 마법 피해 투사체가 발사됩니다. 투사체는 다른 투사체를 발동시키지 않습니다. 영역 안에 머무르면 무한히 유지됩니다. 처음 밖으로 나가면 영역이 따라오고, 두 번째로 나간 뒤 1.25초 안에 돌아오지 않으면 사라집니다.",
+      "levels": [
+        "궁극기를 사용하면 반경 300의 영역을 생성합니다. 영역 안에서는 스킬 가속 50과 추가 이동 속도 40%를 얻으며, 적 챔피언에게 피해를 주면 감소 전 피해량의 20%에 해당하는 추가 마법 피해 투사체가 발사됩니다. 투사체는 다른 투사체를 발동시키지 않습니다. 영역 안에 머무르면 무한히 유지됩니다. 처음 밖으로 나가면 영역이 따라오고, 두 번째로 나간 뒤 1.25초 안에 돌아오지 않으면 사라집니다."
+      ],
+      "dataValues": {
+        "Buff_Duration": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "Radius": [
+          300,
+          300,
+          300,
+          300,
+          300,
+          300,
+          300
+        ],
+        "MissileDamagePercent": [
+          0.20000000298023224,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.20000000298023224
+        ],
+        "ZoneMovementSpeed": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645
+        ],
+        "ZoneAbilityHaste": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "MaxLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "descriptionHtml": "궁극기 사용 시 <scaleAbilityHaste>스킬 가속</scaleAbilityHaste>과 <speed>이동 속도</speed>를 부여하는 <keywordMajor>영역</keywordMajor>을 생성합니다. 영역 내부에 있는 동안 투사체를 발사해 <magicDamage>피해량의 @MissileDamagePercent*100@%</magicDamage>만큼 피해를 입힙니다.",
+      "tooltipHtml": "궁극기 사용 시, 주변에 <keywordMajor>영역</keywordMajor>을 생성합니다. 안에 있는 동안 <scaleAbilityHaste>스킬 가속이 @ZoneAbilityHaste@</scaleAbilityHaste>, <speed>이동 속도가 @ZoneMovementSpeed*100@%</speed> 증가하고 투사체를 발사해 적에게 <magicDamage>입힌 피해량의 @MissileDamagePercent*100@%</magicDamage>만큼 피해를 입힙니다.<br><br><keywordMajor>영역</keywordMajor>은 처음 밖으로 나가면 따라오지만, 두 번째로 나가면 잠시 후 사라집니다.<br><br>투사체 피해량: @f1@"
+    },
+    {
+      "id": 2099,
+      "apiName": "ARAM_DivineDomain",
+      "name": "초월 의식",
+      "nameKo": "초월 의식",
+      "nameEn": "Divine Domain",
+      "rarity": 2,
+      "icon": "icons/2099-aram-divinedomain.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/glasscannon_large.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/glasscannon_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 1,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "적 챔피언에게 피해를 준 뒤 3초 안에 처치에 관여하면 8초 동안 정수가 남습니다. 400 거리 내의 정수를 공격하면 소모하고 1.25초의 준비 후 해당 위치로 이동합니다. 이 동안 대상 지정 불가·이동 효과 면역·행동 불가 상태가 됩니다. 정수를 소모하면 기본 스킬의 재사용 대기시간이 초기화되고, 이동 속도가 100% 증가했다가 2초에 걸쳐 줄어듭니다. 체력을 75~300(챔피언 레벨에 비례) + 추가 공격력의 50% + 주문력의 25%만큼 회복하며, 잃은 체력에 비례해 회복량이 최대 2배가 됩니다.",
+      "levels": [
+        "적 챔피언에게 피해를 준 뒤 3초 안에 처치에 관여하면 8초 동안 정수가 남습니다. 400 거리 내의 정수를 공격하면 소모하고 1.25초의 준비 후 해당 위치로 이동합니다. 이 동안 대상 지정 불가·이동 효과 면역·행동 불가 상태가 됩니다. 정수를 소모하면 기본 스킬의 재사용 대기시간이 초기화되고, 이동 속도가 100% 증가했다가 2초에 걸쳐 줄어듭니다. 체력을 75~300(챔피언 레벨에 비례) + 추가 공격력의 50% + 주문력의 25%만큼 회복하며, 잃은 체력에 비례해 회복량이 최대 2배가 됩니다."
+      ],
+      "dataValues": {
+        "Soul_Duration": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "Windup_Duration": [
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25,
+          1.25
+        ],
+        "Radius": [
+          375,
+          375,
+          375,
+          375,
+          375,
+          375,
+          375
+        ],
+        "Move_Speed_Duration": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "Soul_Attack_Range": [
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "Kill_Track_Duration": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "MaxLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "descriptionHtml": "처치 관여 시 적 챔피언이 정수를 남깁니다. 정수를 공격하면 <speed>이동 속도</speed>가 증가하고 기본 스킬 재사용 대기시간이 초기화됩니다.",
+      "tooltipHtml": "적 챔피언에게 피해를 입힌 후 @Kill_Track_Duration@초 안에 해당 챔피언 처치에 관여하면 @Soul_Duration@초 동안 <keywordMajor>정수</keywordMajor>를 남깁니다. <keywordMajor>정수</keywordMajor>를 공격하면 소모됩니다.<br><br><keywordMajor>정수</keywordMajor>를 소모하면 해당 위치로 순간적으로 이동하며 <attention>대상 지정 불가</attention> 및 <attention>저지 불가</attention> 상태가 되고, <speed>이동 속도가 @Calc_Move_Speed@</speed> 증가했다가 @Move_Speed_Duration@초에 걸쳐 원래대로 돌아오며, <healing>잃은 체력에 비례해 @Calc_Heal_Min@~@Calc_Heal_Max@의 체력을 회복</healing>합니다. 또한 기본 스킬의 재사용 대기시간이 초기화됩니다. <br><br><rules>체력 회복량: @f1.0@<br>돌려받은 재사용 대기시간: @f3.0@</rules><br><br><flavorText>오늘, 경들은 초월의 힘을 목도하게 될 것이네! - 사막의 황제 아지르</flavorText>"
+    },
+    {
+      "id": 2032,
+      "apiName": "FishBait",
+      "name": "상어 미끼",
+      "nameKo": "상어 미끼",
+      "nameEn": "Fish Bait",
+      "rarity": 1,
+      "icon": "icons/2032-fishbait.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/fishbait_large.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/fishbait_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 2,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "치명적인 피해를 받으면 3.5초 동안 상어 미끼가 됩니다. 이동 속도가 400으로 고정되고 유체화 효과를 얻으며, 400 거리 안의 적을 40% 둔화시킵니다. 이 동안 이동할 수 있고 무적·대상 지정 불가·군중 제어 면역 상태가 되지만 공격, 스킬, 소환사 주문, 아이템을 사용할 수 없습니다. 종료 시 상어가 주변 적에게 마법 피해를 주고 1초 동안 공중에 띄웁니다.",
+      "levels": [
+        "상어 피해량: 120~350(챔피언 레벨에 비례) + 대상 잃은 체력의 10%.",
+        "상어 피해량: 120~350(챔피언 레벨에 비례) + 대상 잃은 체력의 30%. 아군도 사망 시 상어 미끼가 됩니다."
+      ],
+      "dataValues": {
+        "AOESize": [
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "Duration": [
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5
+        ],
+        "MoveSpeed": [
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "Slow": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645
+        ],
+        "MaxLevel": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "MissingHealthPercent": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.25,
+          0.3499999940395355,
+          0.3499999940395355,
+          0.3499999940395355,
+          0.3499999940395355
+        ]
+      },
+      "descriptionHtml": "사망 몇 초 후 상어가 주변 모든 적을 물어뜯습니다. 사망 후에도 이동하여 상어 공격의 대상을 정할 수 있습니다.",
+      "tooltipHtml": "사망 시 <keyword>상어 미끼</keyword> 상태가 됩니다. 이동 외에 다른 행동은 할 수 없으며 <status>주변 적을 @Slow*100@% 둔화</status>시킵니다. 몇 초 후 <keyword>상어</keyword>가 나타나 주변 모든 적을 <status>공중에 띄우고</status> 물어뜯어, <magicDamage>@BaseDamageToApply@+잃은 체력의 @MissingHealthPercentDamage@에 해당하는 마법 피해</magicDamage>를 입힙니다.<br><br>상어가 적 챔피언을 삼킨 횟수: <attention>@f2.0@</attention>"
+    },
+    {
+      "id": 1001,
+      "apiName": "ARAM_ImTheJuggernaut",
+      "name": "거인의 결의",
+      "nameKo": "거인의 결의",
+      "nameEn": "Titan's Resolve",
+      "rarity": 2,
+      "icon": "icons/1001-aram-imthejuggernaut.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/iamthejuggernaut_large.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/iamthejuggernaut_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 2,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "챔피언에게 피해를 주거나 받으면 6초 동안 전쟁기계 출동 중첩을 얻습니다. 10중첩마다 적응형 능력치 25~75, 방어력과 마법 저항력 5~10(챔피언 레벨에 비례), 강인함 8%를 얻고 크기가 커집니다. 중첩이 많을수록 더 빨리 사라집니다.",
+      "levels": [
+        "피해를 주거나 받을 때마다 1중첩을 얻습니다.",
+        "피해를 주거나 받을 때마다 2중첩을 얻습니다."
+      ],
+      "dataValues": {
+        "Stacks_Max": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "Stack_Duration": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "StacksPerHit": [
+          1,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "MaxLevel": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "descriptionHtml": "피해를 받거나 입히면 중첩을 얻습니다. @Stacks_Max@중첩마다 <scaleAF>적응형 능력치</scaleAF>, <scaleArmor>방어력</scaleArmor>, <scaleMR>마법 저항력</scaleMR>, <attention>크기</attention>, <status>강인함</status>을 얻습니다.",
+      "tooltipHtml": "챔피언에게 피해를 입히거나 받으면 @Stack_Duration@초 동안 <keyword>전쟁기계 출동</keyword> @StacksPerHit@중첩을 얻습니다. <keyword>전쟁기계 출동</keyword> @Stacks_Max@중첩마다 <attention>적응형 능력치를 @Calc_AF@</attention>, <scaleArmor>방어력을 @Calc_Defenses@</scaleArmor>, <scaleMR>마법 저항력을 @Calc_Defenses@</scaleMR>, <attention>크기를 @Calc_Size@</attention>, <status>강인함을 @Calc_Tenacity@</status> 얻습니다.<br><br><rules>중첩 수가 많을수록 중첩이 빠르게 사라집니다.<br>최대 전쟁기계 출동 레벨: @f1.0@</rules>"
+    },
+    {
+      "id": 2132,
+      "apiName": "WarlockJuicebox",
+      "name": "마도사의 주스 상자",
+      "nameKo": "마도사의 주스 상자",
+      "nameEn": "Warlock Juicebox",
+      "rarity": 1,
+      "icon": "icons/2132-warlockjuicebox.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/warlockjuicebox_large.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 1,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "주문력에 비례해 모든 피해 흡혈을 얻습니다. 모든 피해 흡혈: 10% + 주문력 100당 3.5%.",
+      "levels": [
+        "주문력에 비례해 모든 피해 흡혈을 얻습니다. 모든 피해 흡혈: 10% + 주문력 100당 3.5%."
+      ],
+      "dataValues": {
+        "MaxLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "descriptionHtml": "<lifeSteal>모든 피해 흡혈을 @Calc_Vamp@</lifeSteal> 얻습니다.",
+      "tooltipHtml": "<lifeSteal>모든 피해 흡혈을 @Calc_Vamp@</lifeSteal> 얻습니다."
+    },
+    {
+      "id": 1005,
+      "apiName": "ARAM_WeeWooWeeWoo",
+      "name": "삐뽀삐뽀",
+      "nameKo": "삐뽀삐뽀",
+      "nameEn": "Wee Woo Wee Woo",
+      "rarity": 1,
+      "icon": "icons/1005-aram-weewooweewoo.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/weewooweewoo_large.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/weewooweewoo_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 1,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "주변 아군을 향해 이동할 때 그 아군의 잃은 체력에 비례해 이동 속도가 최대 50% 증가합니다. 해당 아군에게 주는 체력 회복량과 보호막 흡수량도 잃은 체력에 비례해 최대 50% 증가합니다.",
+      "levels": [
+        "주변 아군을 향해 이동할 때 그 아군의 잃은 체력에 비례해 이동 속도가 최대 50% 증가합니다. 해당 아군에게 주는 체력 회복량과 보호막 흡수량도 잃은 체력에 비례해 최대 50% 증가합니다."
+      ],
+      "dataValues": {
+        "VFX_Health_Threshold": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "MS_Linger_Duration": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "MaxLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "descriptionHtml": "<scaleHealing>체력이 낮은</scaleHealing> 아군을 향해 이동할 때 <speed>이동 속도</speed>가 증가합니다. 대상의 체력이 낮을수록 <healing>체력 회복량</healing> 및 <shield>보호막 흡수량</shield>이 증가합니다.",
+      "tooltipHtml": "주변 아군을 향해 이동할 때 해당 아군의 <scaleHealth>잃은 체력</scaleHealth>에 비례해 <speed>이동 속도가 @Calc_Move_Speed_Max@</speed>까지 증가합니다. 또한 <scaleHealth>대상 잃은 체력</scaleHealth>에 비례해 <healing>체력 회복량</healing> 및 <shield>보호막 흡수량</shield>이 @Calc_HS_Amp_Max@까지 증가합니다.<br><br><rules>추가 체력 회복량: @f1.0@<br>추가 보호막 흡수량: @f2.0@</rules>"
+    },
+    {
+      "id": 2107,
+      "apiName": "ARAM_Hellbent",
+      "name": "열의",
+      "nameKo": "열의",
+      "nameEn": "Hellbent",
+      "rarity": 2,
+      "icon": "icons/2107-aram-hellbent.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/hellbent_large.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/hellbent_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 1,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "기본 공격이나 스킬로 적 챔피언을 맞히면 6초 동안 유지되는 중첩을 얻고, 다시 적중하면 지속시간이 갱신됩니다. 10중첩 상태에서 치명적인 피해를 받으면 4초 동안 무적·대상 지정 불가·행동 불가 상태가 된 뒤 최대 체력의 35~75%(챔피언 레벨에 비례)로 부활합니다. 재사용 대기시간은 90초입니다. 부활 후 15초 동안 추가 공격력 15~120 또는 주문력 25~200(적응형), 적을 향할 때 추가 이동 속도 20~40%, 모든 피해 흡혈 15~30%를 얻습니다.",
+      "levels": [
+        "기본 공격이나 스킬로 적 챔피언을 맞히면 6초 동안 유지되는 중첩을 얻고, 다시 적중하면 지속시간이 갱신됩니다. 10중첩 상태에서 치명적인 피해를 받으면 4초 동안 무적·대상 지정 불가·행동 불가 상태가 된 뒤 최대 체력의 35~75%(챔피언 레벨에 비례)로 부활합니다. 재사용 대기시간은 90초입니다. 부활 후 15초 동안 추가 공격력 15~120 또는 주문력 25~200(적응형), 적을 향할 때 추가 이동 속도 20~40%, 모든 피해 흡혈 15~30%를 얻습니다."
+      ],
+      "dataValues": {
+        "Revive_Duration": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "Cooldown": [
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90
+        ],
+        "Buff_Duration": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "Stacks_Duration": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "Stacks_Max": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "MaxLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "descriptionHtml": "적 챔피언에게 기본 공격 또는 스킬로 피해를 입히면 중첩을 얻습니다. 중첩이 최대치에 도달하면 사망 시 <attention>강화된 상태로 부활</attention>합니다. ",
+      "tooltipHtml": "기본 공격 또는 스킬로 적 챔피언을 타격하면 @Stacks_Duration@초 동안 <attention>부활 극대화</attention> 중첩을 얻습니다. 최대 @Stacks_Max@회 중첩되며, 최대 중첩 시 <danger>열의</danger> 상태가 됩니다.<br><br><danger>열의</danger>: 사망 시 @Revive_Duration@초에 걸쳐 <scaleHealth>@Calc_Revive_Max_Health@의 최대 체력</scaleHealth>으로 <attention>부활</attention>합니다. 이후 @Buff_Duration@초 동안 <attention>적응형 능력치를 @Calc_AdaptiveForce@</attention> 얻고 <speed>적 챔피언을 향해 이동 시 이동 속도가 @Calc_MoveSpeed@</speed> 증가하며 <lifeSteal>모든 피해 흡혈을 @Calc_Omnivamp@</lifeSteal> 얻습니다.<br><br>@Cooldown@초의 재사용 대기시간이 적용됩니다."
+    },
+    {
+      "id": 2024,
+      "apiName": "CritNCast",
+      "name": "치명적 가속",
+      "nameKo": "치명적 가속",
+      "nameEn": "Crit 'n Cast",
+      "rarity": 0,
+      "icon": "icons/2024-critncast.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/critncast_large.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/critncast_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 2,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "치명타 확률에 비례하여 스킬 가속을 얻습니다.",
+      "levels": [
+        "치명타 확률의 40%에 해당하는 스킬 가속을 얻습니다.",
+        "치명타 확률의 100%에 해당하는 스킬 가속을 얻습니다."
+      ],
+      "dataValues": {
+        "CritToHasteConversion": [
+          0.4000000059604645,
+          0.4000000059604645,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "MaxLevel": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "descriptionHtml": "<crit>%i:scaleCrit% 치명타 확률</crit>의 @CritToHasteConversion*100@%에 해당하는 스킬 가속을 얻습니다.<br>",
+      "tooltipHtml": "스킬 가속을 @f1@ 얻습니다. (@CritToHasteConversion*100@%%i:scaleCrit%)"
+    },
+    {
+      "id": 396,
+      "apiName": "DeathDealer",
+      "name": "죽음의 사도",
+      "nameKo": "죽음의 사도",
+      "nameEn": "Death Dealer",
+      "rarity": 2,
+      "icon": "icons/396-deathdealer.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/death_dealer_small.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/death_dealer_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 2,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "소환사 주문 도주를 교체합니다. 사용하면 자신과 대상 챔피언이 죽음의 세계로 들어가며, 진입 후 첫 2초 동안 투명 상태가 됩니다.",
+      "levels": [
+        "죽음의 세계 지속시간: 4초.",
+        "죽음의 세계 지속시간: 8초. 대상 처치 시 아군이 추가 부활 1회를 얻고, 처치된 플레이어의 부활 시간이 1초 증가합니다."
+      ],
+      "dataValues": {
+        "DeathRealmDuration": [
+          4,
+          4,
+          8,
+          12,
+          16,
+          8,
+          8
+        ],
+        "InvisDuration": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "MaxLevel": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "MaxLevelRevivesGained": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "BaseReviveDelay": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ARPenRatio": [
+          0.029999999329447746,
+          0.029999999329447746,
+          0.029999999329447746,
+          0.029999999329447746,
+          0.029999999329447746,
+          0.029999999329447746,
+          0.029999999329447746
+        ],
+        "MPenRatio": [
+          0.05000000074505806,
+          0.05000000074505806,
+          0.05000000074505806,
+          0.05000000074505806,
+          0.05000000074505806,
+          0.05000000074505806,
+          0.05000000074505806
+        ]
+      },
+      "descriptionHtml": "<spellName>도주</spellName>를 <spellName>죽음의 사도</spellName>로 교체합니다.<br><br>사용 시: 자신과 대상 챔피언이 @DeathRealmDuration@초 동안 <keywordMajor>죽음의 세계</keywordMajor>로 들어갑니다. <br><br><keywordMajor>죽음의 세계</keywordMajor>에 진입하면 최대 @InvisDuration@초 동안 <keywordStealth>투명</keywordStealth> 상태가 됩니다.",
+      "tooltipHtml": "<spellName>도주</spellName>를 <spellName>죽음의 사도</spellName>로 교체합니다.<br><br>사용 시: 자신과 대상 챔피언이 @DeathRealmDuration@초 동안 <keywordMajor>죽음의 세계</keywordMajor>로 들어갑니다. <br><br><keywordMajor>죽음의 세계</keywordMajor>에 진입하면 최대 @InvisDuration@초 동안 <keywordStealth>투명</keywordStealth> 상태가 됩니다."
+    },
+    {
+      "id": 2087,
+      "apiName": "ARAM_Archmage",
+      "name": "대마법사",
+      "nameKo": "대마법사",
+      "nameEn": "Archmage",
+      "rarity": 2,
+      "icon": "icons/2087-aram-archmage.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/eureka_large.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/eureka_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 1,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "스킬 사용 시 사용한 스킬 재사용 대기시간의 30%만큼 다른 무작위 스킬의 재사용 대기시간을 줄입니다.",
+      "levels": [
+        "스킬 사용 시 사용한 스킬 재사용 대기시간의 30%만큼 다른 무작위 스킬의 재사용 대기시간을 줄입니다."
+      ],
+      "dataValues": {
+        "RefundPercent": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896
+        ],
+        "MaxLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "descriptionHtml": "스킬을 사용하면 사용한 스킬 재사용 대기시간의 @RefundPercent*100@%만큼 다른 무작위 스킬의 재사용 대기시간을 반환합니다.",
+      "tooltipHtml": "스킬을 사용하면 사용한 스킬 재사용 대기시간의 @RefundPercent*100@%만큼 다른 무작위 스킬의 재사용 대기시간을 반환합니다."
+    },
+    {
+      "id": 397,
+      "apiName": "GotThatDogInEm",
+      "name": "불맛 핫도그",
+      "nameKo": "불맛 핫도그",
+      "nameEn": "Got That Dog In Em",
+      "rarity": 2,
+      "icon": "icons/397-gotthatdoginem.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/got_that_dog_small.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/got_that_dog_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 1,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "3초마다 주변에 핫도그가 나타납니다. 누구나 주울 수 있으며, 주우면 6초 동안 불을 내뿜습니다. 적이 주운 핫도그의 불은 피해량이 50%로 감소하고 자신의 아군도 피해를 받습니다. 불을 내뿜는 도중 사망하면 중첩에 비례한 마법 피해를 주는 폭발이 발생합니다.",
+      "levels": [
+        "3초마다 주변에 핫도그가 나타납니다. 누구나 주울 수 있으며, 주우면 6초 동안 불을 내뿜습니다. 적이 주운 핫도그의 불은 피해량이 50%로 감소하고 자신의 아군도 피해를 받습니다. 불을 내뿜는 도중 사망하면 중첩에 비례한 마법 피해를 주는 폭발이 발생합니다."
+      ],
+      "dataValues": {
+        "SpawnInterval": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "ExplosionRadius": [
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "HotDogDuration": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ],
+        "PickUpRadius": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120
+        ],
+        "StackDuration": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "FireBreathInterval": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "ConeLength": [
+          600,
+          600,
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "ConeAngle": [
+          45,
+          45,
+          45,
+          45,
+          45,
+          45,
+          45
+        ],
+        "FireBreathAPRatio": [
+          0.15000000596046448,
+          0.15000000596046448,
+          0.15000000596046448,
+          0.15000000596046448,
+          0.15000000596046448,
+          0.15000000596046448,
+          0.15000000596046448
+        ],
+        "SpawnRadius": [
+          1500,
+          1500,
+          1500,
+          1500,
+          1500,
+          1500,
+          1500
+        ],
+        "MaxStacks": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "ExplosionAPRatio": [
+          0.20000000298023224,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.20000000298023224
+        ],
+        "DogToDogDistance": [
+          300,
+          300,
+          300,
+          300,
+          300,
+          300,
+          300
+        ],
+        "MinRadius": [
+          300,
+          300,
+          300,
+          300,
+          300,
+          300,
+          300
+        ],
+        "EnemyDamageDown": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "FireBreathAPRatioTooltip": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896
+        ]
+      },
+      "descriptionHtml": "@SpawnInterval@초마다 주변에 핫도그를 생성합니다. 핫도그는 누구나 주울 수 있으며, 주우면 불을 내뿜습니다.<br><br>불을 내뿜는 도중에 사망하면 폭발하여 중첩당 <magicDamage>@ExplosionDamagePerStack@의 마법 피해</magicDamage>를 입힙니다. ",
+      "tooltipHtml": "@SpawnInterval@초마다 주변에 핫도그를 생성합니다. 핫도그는 누구나 주울 수 있으며, 주우면 @StackDuration@초 동안 불을 내뿜어 매초 <magicDamage>@FireBreathDamageTooltip@의 마법 피해</magicDamage>를 입힙니다.<br><br>불을 내뿜는 도중에 사망하면 폭발하여 중첩당 <magicDamage>@ExplosionDamagePerStack@의 마법 피해</magicDamage>를 입힙니다. <br><br><rules>적 챔피언이 핫도그를 주우면 해당 챔피언이 내뿜는 불이 @EnemyDamageDown*100@%의 피해를 입히고 <attention>자신의 아군에게도 피해를 입힙니다.</attention></rules>"
+    },
+    {
+      "id": 2043,
+      "apiName": "NatureIsHealing",
+      "name": "자연의 회복",
+      "nameKo": "자연의 회복",
+      "nameEn": "Nature Is Healing",
+      "rarity": 1,
+      "icon": "icons/2043-natureishealing.png",
+      "iconUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/natureishealing_large.png",
+      "iconSmallUrl": "https://raw.communitydragon.org/latest/game/assets/ux/kiwi/augments/icons/natureishealing_small.png",
+      "removed": false,
+      "patch": "26.19",
+      "maxLevel": 1,
+      "sourceDataset": "augment-custom-source.json",
+      "effects": "수풀에 들어가면 1.5초에 걸쳐 체력을 40~300(챔피언 레벨에 비례) + 잃은 체력의 15%만큼 회복합니다. 각 수풀에 10초의 재사용 대기시간이 적용됩니다.",
+      "levels": [
+        "수풀에 들어가면 1.5초에 걸쳐 체력을 40~300(챔피언 레벨에 비례) + 잃은 체력의 15%만큼 회복합니다. 각 수풀에 10초의 재사용 대기시간이 적용됩니다."
+      ],
+      "dataValues": {
+        "BrushCooldown": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "MaxLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "descriptionHtml": "<keyword>수풀</keyword>에 들어가면 <healing>대량의 체력</healing>을 회복합니다.",
+      "tooltipHtml": "<keyword>수풀</keyword>에 들어가면 <healing>@FlatHeal@+잃은 체력의 @MissingHealthHeal@</healing>만큼 체력을 회복합니다. 수풀마다 @BrushCooldown@초의 재사용 대기시간이 적용됩니다.<br><br>체력 회복량: 총 @f1.0@"
+    }
+  ],
+  "overrides": [
+    {
+      "id": "wiki-chroma-flux",
+      "rarity": 1
+    },
+    {
+      "id": "wiki-scavenger",
+      "effects": "증강 칸이 6개가 됩니다. 적 팀을 이기면 다음 쇼핑 단계에 그 팀의 증강 선택창이 열립니다. 적용 가능한 증강이 없으면 1,000골드를 얻습니다. 이후 일반 증강 선택에서는 레벨업만 제공됩니다."
+    },
+    {
+      "id": "wiki-spellcraft",
+      "effects": "도주를 주문 제작으로 교체합니다. 0.75초 후 전방 650 거리·35도 부채꼴에 150 (+ 추가 공격력의 10%) (+ 주문력의 15%) 마법 피해. 바깥쪽은 200% 피해 및 2초간 10% 둔화, 챔피언 적중 시 잃은 체력의 5% 회복. 빨간 스티커마다 피해 75 (+ 추가 공격력의 20%) (+ 주문력의 30%) 추가 (바깥쪽 두 배), 파란 스티커마다 둔화 45% 추가, 초록 스티커마다 회복 20% 추가. 각 색상은 최대 3개 적용됩니다. 재사용 대기시간 10초."
+    },
+    {
+      "id": 195,
+      "levels": [
+        "크기 20% 감소, 추가 이동 속도 25%. 대상 크기에 따라 추가 피해 5/10/20/25%.",
+        "크기 25% 감소, 추가 이동 속도 30%. 대상 크기에 따라 추가 피해 10/15/25/30%.",
+        "크기 30% 감소, 추가 이동 속도 35%. 대상 크기에 따라 추가 피해 15/20/30/35%."
+      ]
+    }
+  ]
+}

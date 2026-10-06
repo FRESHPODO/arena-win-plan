@@ -39,3 +39,30 @@ assert.equal(wildFire.name,'야생 불꽃');
 assert(wildFire.levels[0].includes('350')&&wildFire.levels[1].includes('450')&&wildFire.levels[2].includes('550'),'Wild Fire scaling regression');
 assert(augmentDescriptions.find(a=>a.wikiName==='Mystic Punch').effects.includes('1.25'),'Mystic Punch coefficient regression');
 console.log(`Validated ${wikiAugments.length} wiki entries, level bounds, and Korean level descriptions.`);
+const supplemental=JSON.parse(fs.readFileSync(path.join(root,'data/augment-custom-source.json'),'utf8')).augments;
+for(const source of supplemental){
+  const asset=augmentCatalog.find(a=>a.id===source.id);
+  const description=augmentDescriptions.find(a=>a.id===source.id);
+  assert.equal(asset?.name,source.name,`Missing supplemental augment: ${source.name}`);
+  assert.equal(asset.rarity,source.rarity);
+  assert.equal(description.maxLevel,source.maxLevel);
+  assert.equal(description.levels.length,source.maxLevel,`Missing supplemental levels: ${source.name}`);
+  assert.deepEqual(description.levels,source.levels);
+  assert.equal(description.effects,source.effects);
+  assert.equal(description.icon,`imgs/augments/${asset.icon}`);
+  assert.equal(asset.removed,false);
+}
+console.log(`Validated ${supplemental.length} supplemental Arena augments and levels.`);
+const patchSource=JSON.parse(fs.readFileSync(path.join(root,'data/augment-custom-source.json'),'utf8'));
+for(const override of patchSource.overrides||[]){
+  const asset=augmentCatalog.find(a=>a.id===override.id);
+  const description=augmentDescriptions.find(a=>a.id===override.id);
+  if(override.rarity!==undefined)assert.equal(asset.rarity,override.rarity);
+  for(const key of ['rarity','effects','levels'])if(override[key]!==undefined)assert.deepEqual(description[key],override[key]);
+}
+const keywordWindow={};
+require('node:vm').runInNewContext(fs.readFileSync(path.join(root,'keyword-text.js'),'utf8'),{window:keywordWindow});
+const sonata=augmentDescriptions.find(a=>a.id===1420);
+for(const query of ['자동사용','자동 사용','autocast'])assert(keywordWindow.ArenaKeywordText.matchesSearch(sonata,'augments',query,sonata));
+assert(keywordWindow.ArenaKeywordText.render(sonata.effects,{escape:String}).includes('stat-autocast'));
+console.log('Validated patch overrides and Sonata autocast search/formatting.');

@@ -7,7 +7,7 @@ foreach ($augment in $remote) { $byId[[string]$augment.id] = $augment }
 $manifest = Get-Content (Join-Path $root 'imgs/augments/manifest.json') -Raw | ConvertFrom-Json
 $previous = Get-Content (Join-Path $root 'data/augment-descriptions.ko.json') -Raw | ConvertFrom-Json
 $rows = foreach ($entry in $manifest) {
-    if ([string]$entry.id -like 'wiki-*') {
+    if ([string]$entry.id -like 'wiki-*' -or $entry.sourceDataset -eq 'augment-custom-source.json') {
         $previous.augments | Where-Object { $_.id -eq $entry.id }
         continue
     }
@@ -38,3 +38,5 @@ $db | ConvertTo-Json -Depth 15 | Set-Content (Join-Path $root 'data/augment-desc
 Write-Host "Saved $(@($rows).Count) Korean augment descriptions."
 node (Join-Path $PSScriptRoot 'apply-augment-wiki.cjs')
 if ($LASTEXITCODE -ne 0) { throw 'Failed to apply wiki augment overlay.' }
+node (Join-Path $PSScriptRoot 'apply-augment-custom.cjs')
+if ($LASTEXITCODE -ne 0) { throw 'Failed to apply supplemental Arena augments.' }

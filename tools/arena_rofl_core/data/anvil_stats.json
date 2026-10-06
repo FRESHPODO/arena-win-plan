@@ -1,0 +1,38 @@
+{
+  "source": "User supplied stat table, 2026-10-07; manually maintained, no patch dispatch",
+  "percentageConvention": "Percentage-point numbers: 25 means 25%, not 0.25",
+  "silver": {
+    "AS": {"attackSpeedPercent": 15}, "AD": {"attackDamage": 15},
+    "MPen": {"flatMagicPenetration": 15}, "MR": {"magicResistance": 15},
+    "Hybrid2": {"attackDamage": 10, "abilityPower": 15},
+    "Lethality": {"lethality": 15}, "AR": {"armor": 15},
+    "Hybrid3": {"armor": 12, "magicResistance": 12}, "AH": {"abilityHaste": 15},
+    "Hybrid1": {"attackSpeedPercent": 10, "abilityHaste": 10},
+    "AP": {"abilityPower": 25}, "HP": {"health": 150}, "CritChance": {"criticalStrikeChancePercent": 12.5}
+  },
+  "gold": {
+    "AS": {"attackSpeedPercent": 35}, "AD": {"attackDamage": 35},
+    "MPen": {"flatMagicPenetration": 18}, "MR": {"magicResistance": 45},
+    "Hybrid2": {"attackDamage": 25, "abilityPower": 25},
+    "Lethality": {"lethality": 20}, "AR": {"armor": 45},
+    "Hybrid3": {"armor": 30, "magicResistance": 30}, "AH": {"abilityHaste": 35},
+    "Hybrid1": {"attackSpeedPercent": 25, "abilityHaste": 20},
+    "AP": {"abilityPower": 50}, "HP": {"health": 375}, "CritChance": {"criticalStrikeChancePercent": 25}
+  },
+  "prismatic": {
+    "Tenacity": {"tenacityPercent": 30}, "MPen": {"magicPenetrationPercent": 17.5},
+    "Omnivamp": {"melee": {"omnivampPercent": 25}, "ranged": {"omnivampPercent": 15}},
+    "Lethality": {"armorPenetrationPercent": 17.5},
+    "MS": {"movementSpeedPercent": 18, "sizePercent": -10},
+    "HP": {"maxHealthPercent": 15, "sizePercent": 10},
+    "HS": {"healShieldPowerPercent": 25}, "CritDamage": {"criticalStrikeDamagePercent": 25}
+  },
+  "countOnly": {
+    "GoldRoundLoss": {"goldPerLostRound": 500, "rule": "Count selections only; do not include gold in stat totals"},
+    "Gold": {"goldPerRound": 500, "rule": "Count selections only; do not include gold in stat totals"}
+  },
+  "random": {"rewardCount": 2, "rule": "Use decoded granted shards at the parent Random shard tier; preserve two identical rewards; do not count the Random parent as a third stat grant"},
+  "shardholder": {"base": {"min": 40, "max": 100}, "additional": {"min": 5, "max": 25}, "rule": "Do not record numeric gains or infer a rolled value from the range"},
+  "ignoredStats": ["sizePercent"],
+  "specialPrismaticSuffixes": ["Tenacity", "Omnivamp", "MS", "HS"]
+}
